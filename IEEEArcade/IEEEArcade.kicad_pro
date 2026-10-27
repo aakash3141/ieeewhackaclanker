@@ -520,8 +520,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -685,16 +685,16 @@
         "uuid": "f9722433-0b0e-460c-8cfa-943ab4ee58bc"
       }
     ],
-    "used_designators": "A1,C1,R1,U1-6",
+    "used_designators": "U1-6,R1,C1,A1",
     "variants": []
   },
   "sheets": [
     [
-      "033e3a4b-8178-40cd-b469-d1162cf80eb1",
+      "f9722433-0b0e-460c-8cfa-943ab4ee58bc",
       "IEEEArcade"
     ],
     [
-      "caebd39c-3961-4ff0-8468-618c1200624c",
+      "033e3a4b-8178-40cd-b469-d1162cf80eb1",
       "IEEEArcade"
     ],
     [
@@ -706,7 +706,7 @@
       "Buck Converter"
     ],
     [
-      "f9722433-0b0e-460c-8cfa-943ab4ee58bc",
+      "caebd39c-3961-4ff0-8468-618c1200624c",
       "IEEEArcade"
     ]
   ],
