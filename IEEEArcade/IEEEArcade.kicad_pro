@@ -662,11 +662,6 @@
       {
         "filename": "IEEEArcade.kicad_sch",
         "name": "IEEEArcade",
-        "uuid": "caebd39c-3961-4ff0-8468-618c1200624c"
-      },
-      {
-        "filename": "IEEEArcade.kicad_sch",
-        "name": "IEEEArcade",
         "uuid": "033e3a4b-8178-40cd-b469-d1162cf80eb1"
       },
       {
@@ -678,21 +673,12 @@
         "filename": "buck_converter.kicad_sch",
         "name": "Buck Converter",
         "uuid": "d4ec680a-5771-4d46-bb36-6996680ff547"
-      },
-      {
-        "filename": "IEEEArcade.kicad_sch",
-        "name": "IEEEArcade",
-        "uuid": "f9722433-0b0e-460c-8cfa-943ab4ee58bc"
       }
     ],
     "used_designators": "U1-6,R1,C1,A1",
     "variants": []
   },
   "sheets": [
-    [
-      "f9722433-0b0e-460c-8cfa-943ab4ee58bc",
-      "IEEEArcade"
-    ],
     [
       "033e3a4b-8178-40cd-b469-d1162cf80eb1",
       "IEEEArcade"
@@ -704,10 +690,6 @@
     [
       "d4ec680a-5771-4d46-bb36-6996680ff547",
       "Buck Converter"
-    ],
-    [
-      "caebd39c-3961-4ff0-8468-618c1200624c",
-      "IEEEArcade"
     ]
   ],
   "text_variables": {},

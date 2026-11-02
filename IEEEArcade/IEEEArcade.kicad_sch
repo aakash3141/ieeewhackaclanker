@@ -1229,7 +1229,7 @@
 		)
 		(instances
 			(project "IEEEArcade"
-				(path "/f9722433-0b0e-460c-8cfa-943ab4ee58bc"
+				(path "/033e3a4b-8178-40cd-b469-d1162cf80eb1"
 					(reference "A1")
 					(unit 1)
 				)
@@ -1241,4 +1241,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

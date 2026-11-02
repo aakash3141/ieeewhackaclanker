@@ -584,6 +584,12 @@
 			(uuid "d05cb339-3216-4a41-b78a-c21b71ff825a")
 		)
 		(instances
+			(project "buck_converter_max"
+				(path "/aa0fa469-32c3-4051-bec7-d271d49354a3"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "IEEEArcade"
 				(path "/d4ec680a-5771-4d46-bb36-6996680ff547"
 					(reference "C1")
@@ -666,6 +672,12 @@
 			(uuid "8db7ad32-0fa7-485d-a26e-205e8b3fde7e")
 		)
 		(instances
+			(project "buck_converter_max"
+				(path "/aa0fa469-32c3-4051-bec7-d271d49354a3"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "IEEEArcade"
 				(path "/d4ec680a-5771-4d46-bb36-6996680ff547"
 					(reference "R1")
@@ -759,6 +771,12 @@
 			(uuid "1c4f3ad9-0789-411c-a5ec-daa454c1b91b")
 		)
 		(instances
+			(project "buck_converter_max"
+				(path "/aa0fa469-32c3-4051-bec7-d271d49354a3"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "IEEEArcade"
 				(path "/d4ec680a-5771-4d46-bb36-6996680ff547"
 					(reference "U4")
@@ -772,4 +790,5 @@
 			(page "4")
 		)
 	)
+	(embedded_fonts no)
 )
