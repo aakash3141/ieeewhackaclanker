@@ -673,6 +673,11 @@
         "filename": "buck_converter.kicad_sch",
         "name": "Buck Converter",
         "uuid": "d4ec680a-5771-4d46-bb36-6996680ff547"
+      },
+      {
+        "filename": "mosfet_connector_lineup.kicad_sch",
+        "name": "MOSFET Connector Lineup",
+        "uuid": "94ea5b93-7ea2-4c88-88b8-e58396894791"
       }
     ],
     "used_designators": "U1-6,R1,C1,A1",
@@ -682,6 +687,10 @@
     [
       "033e3a4b-8178-40cd-b469-d1162cf80eb1",
       "IEEEArcade"
+    ],
+    [
+      "94ea5b93-7ea2-4c88-88b8-e58396894791",
+      "MOSFET Connector Lineup"
     ],
     [
       "037f72ba-c0a9-4a2c-a343-a8d5840669b8",
