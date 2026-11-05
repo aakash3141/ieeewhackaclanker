@@ -660,21 +660,6 @@
         "filename": "IEEEArcade.kicad_sch",
         "name": "IEEEArcade",
         "uuid": "033e3a4b-8178-40cd-b469-d1162cf80eb1"
-      },
-      {
-        "filename": "eeprom.kicad_sch",
-        "name": "EEPROM",
-        "uuid": "037f72ba-c0a9-4a2c-a343-a8d5840669b8"
-      },
-      {
-        "filename": "buck_converter.kicad_sch",
-        "name": "Buck Converter",
-        "uuid": "d4ec680a-5771-4d46-bb36-6996680ff547"
-      },
-      {
-        "filename": "mosfet_connector_lineup.kicad_sch",
-        "name": "MOSFET Connector Lineup",
-        "uuid": "94ea5b93-7ea2-4c88-88b8-e58396894791"
       }
     ],
     "used_designators": "U1-6,R1,R8-9,C1,C12-13,C16,C19-21,A1,L1,#PWR17,#PWR19,#PWR21,#PWR23,#PWR27-29",
@@ -686,16 +671,32 @@
       "IEEEArcade"
     ],
     [
-      "94ea5b93-7ea2-4c88-88b8-e58396894791",
-      "MOSFET Connector Lineup"
+      "7043c964-e891-4ef9-88d7-10d78cd85a24",
+      "Scoreboard (PROVISIONAL)"
     ],
     [
-      "037f72ba-c0a9-4a2c-a343-a8d5840669b8",
-      "EEPROM"
+      "872c8854-662f-4e6e-86b4-62bfe582b92b",
+      "Button circuits 3"
     ],
     [
-      "d4ec680a-5771-4d46-bb36-6996680ff547",
-      "Buck Converter"
+      "8a6d2dfa-76cf-4e30-b31c-c48d1b667a0f",
+      "Panel-mounted buttons 2"
+    ],
+    [
+      "6d15a44d-ce84-46a4-8153-762cc9495361",
+      "Button circuits 1"
+    ],
+    [
+      "3d36cb38-a2b1-4e47-bc91-19ced88eef6c",
+      "Button circuits 4"
+    ],
+    [
+      "aacbf394-ce94-42f3-a0d6-9efacc7c0c18",
+      "Button circuits 2"
+    ],
+    [
+      "f9cb59b2-2e6c-44c0-b900-fc12d2cd0963",
+      "Panel-mounted buttons 1"
     ]
   ],
   "text_variables": {},
