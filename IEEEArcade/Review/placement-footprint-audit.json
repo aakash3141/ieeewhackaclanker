@@ -1,0 +1,1462 @@
+[
+  {
+    "reference": "A1",
+    "footprint": "Module:RaspberryPi_Pico_W_SMD_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Module.pretty\\RaspberryPi_Pico_W_SMD_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C1",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C2",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C3",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C4",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C5",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C6",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C7",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C10",
+    "footprint": "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_THT.pretty\\CP_Radial_D10.0mm_P5.00mm.kicad_mod"
+  },
+  {
+    "reference": "C12",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C13",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C14",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C18",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C19",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C20",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C21",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C22",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C23",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "D1",
+    "footprint": "Diode_SMD:D_SMA",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Diode_SMD.pretty\\D_SMA.kicad_mod"
+  },
+  {
+    "reference": "F1",
+    "footprint": "Fuse:Fuseholder_Littelfuse_Nano2_154x",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Fuse.pretty\\Fuseholder_Littelfuse_Nano2_154x.kicad_mod"
+  },
+  {
+    "reference": "J1",
+    "footprint": "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_BarrelJack.pretty\\BarrelJack_CUI_PJ-063AH_Horizontal.kicad_mod"
+  },
+  {
+    "reference": "L1",
+    "footprint": "Arcade:L_Wurth_7447714150",
+    "library_file": "C:\\Users\\Patron\\Documents\\GitHub\\ieeewhackaclanker\\IEEEArcade\\Arcade.pretty\\L_Wurth_7447714150.kicad_mod"
+  },
+  {
+    "reference": "R1",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R2",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R3",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R9",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R10",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R11",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "U1",
+    "footprint": "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SO.pretty\\SOIC-28W_7.5x17.9mm_P1.27mm.kicad_mod"
+  },
+  {
+    "reference": "U2",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6_Handsoldering",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23-6_Handsoldering.kicad_mod"
+  },
+  {
+    "reference": "U3",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SO.pretty\\SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod"
+  },
+  {
+    "reference": "U4",
+    "footprint": "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SO.pretty\\SOIC-28W_7.5x17.9mm_P1.27mm.kicad_mod"
+  },
+  {
+    "reference": "U5",
+    "footprint": "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SO.pretty\\SOIC-28W_7.5x17.9mm_P1.27mm.kicad_mod"
+  },
+  {
+    "reference": "U6",
+    "footprint": "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_SO.pretty\\SOIC-28W_7.5x17.9mm_P1.27mm.kicad_mod"
+  },
+  {
+    "reference": "C109",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C110",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C111",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C112",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C113",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C114",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C115",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C116",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "J19",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J20",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J21",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J22",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J23",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J24",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J25",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J26",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "Q9",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q10",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q11",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q12",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q13",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q14",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q15",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q16",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "R109",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R110",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R111",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R112",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R113",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R114",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R115",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R116",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R209",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R210",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R211",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R212",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R213",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R214",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R215",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R216",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R309",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R310",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R311",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R312",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R313",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R314",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R315",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R316",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R409",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R410",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R411",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R412",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R413",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R414",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R415",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R416",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C30",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C31",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "J3",
+    "footprint": "Arcade:IDC_3M_N2516_2x08",
+    "library_file": "C:\\Users\\Patron\\Documents\\GitHub\\ieeewhackaclanker\\IEEEArcade\\Arcade.pretty\\IDC_3M_N2516_2x08.kicad_mod"
+  },
+  {
+    "reference": "J4",
+    "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "Q34",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "R4",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R501",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R502",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R503",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R504",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R505",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R506",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R507",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R508",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R509",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R510",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R511",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R512",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R513",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R514",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R601",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R602",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R603",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R604",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R605",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R606",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R607",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R608",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R609",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R610",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R611",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R612",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "U7",
+    "footprint": "Package_DIP:DIP-20_W7.62mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_DIP.pretty\\DIP-20_W7.62mm.kicad_mod"
+  },
+  {
+    "reference": "U8",
+    "footprint": "Package_DIP:DIP-20_W7.62mm",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_DIP.pretty\\DIP-20_W7.62mm.kicad_mod"
+  },
+  {
+    "reference": "C101",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C102",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C103",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C104",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C105",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C106",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C107",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C108",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "J11",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J12",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J13",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J14",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J15",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J16",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J17",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J18",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "Q1",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q2",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q3",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q4",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q5",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q6",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q7",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q8",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "R101",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R102",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R103",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R104",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R105",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R106",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R107",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R108",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R201",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R202",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R203",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R204",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R205",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R206",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R207",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R208",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R301",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R302",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R303",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R304",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R305",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R306",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R307",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R308",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R401",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R402",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R403",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R404",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R405",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R406",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R407",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R408",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C117",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C118",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C119",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C120",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C121",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C122",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C123",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C124",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "J27",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J28",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J29",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J30",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J31",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J32",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J33",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J34",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "Q17",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q18",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q19",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q20",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q21",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q22",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q23",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q24",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "R117",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R118",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R119",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R120",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R121",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R122",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R123",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R124",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R217",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R218",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R219",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R220",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R221",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R222",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R223",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R224",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R317",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R318",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R319",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R320",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R321",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R322",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R323",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R324",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R417",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R418",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R419",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R420",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R421",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R422",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R423",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R424",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C125",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C126",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C127",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C128",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C129",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C130",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C131",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "C132",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Capacitor_SMD.pretty\\C_1206_3216Metric_Pad1.33x1.80mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "J35",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J36",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J37",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J38",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J39",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J40",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J41",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "J42",
+    "footprint": "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Connector_JST.pretty\\JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.kicad_mod"
+  },
+  {
+    "reference": "Q25",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q26",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q27",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q28",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q29",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q30",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q31",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "Q32",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Package_TO_SOT_SMD.pretty\\SOT-23.kicad_mod"
+  },
+  {
+    "reference": "R125",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R126",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R127",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R128",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R129",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R130",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R131",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R132",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R225",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R226",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R227",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R228",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R229",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R230",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R231",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R232",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R325",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R326",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R327",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R328",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R329",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R330",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R331",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R332",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R425",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R426",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R427",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R428",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R429",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R430",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R431",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  },
+  {
+    "reference": "R432",
+    "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",
+    "library_file": "C:\\Program Files\\KiCad\\10.0\\share\\kicad\\footprints\\Resistor_SMD.pretty\\R_1206_3216Metric_Pad1.30x1.75mm_HandSolder.kicad_mod"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "schematic_components": 292,
+  "pcb_footprints": 299,
+  "schematic_pad_net_assignments": 883,
+  "tracks": 0,
+  "board_copper_zones": 0,
+  "copper_layers": 4,
+  "reference_placement_needs_review": [],
+  "schematic_hashes": {
+    "button_bank_1.kicad_sch": "06bc3dc513584b0997ba8386d33b41863f4eec4d9a72a5560e144767dd4e598f",
+    "button_bank_2.kicad_sch": "c2f84ebca706e33331ead86e2f63eeb6d9f9c8be3ee92e33dab3d4386c5ea4f5",
+    "button_bank_3.kicad_sch": "b6c2ee6b534840839aee6d9791cb69785f9c334365c1443d7f5380c4b26cb815",
+    "button_bank_4.kicad_sch": "cf6d0209018f1f8e87f5300612e0c0a9e9bb5422598379d85df0f77f40634550",
+    "IEEEArcade.kicad_sch": "3cd1cbb3bd05edbe0acc5aaf2803352aed6b9a4d02f71e87e94c58c1ddf2c642",
+    "scoreboard.kicad_sch": "12618a16e8c0a0a32c4548fbf8657348e050742660ff2f6d91a3878afbded287"
+  },
+  "drc": {
+    "violations": {
+      "items_not_allowed": 2,
+      "lib_footprint_mismatch": 1
+    },
+    "unconnected_items": 499,
+    "schematic_parity_warnings": 199,
+    "parity_identical_to_baseline": true
+  }
+}

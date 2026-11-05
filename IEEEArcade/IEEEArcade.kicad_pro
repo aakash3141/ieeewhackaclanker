@@ -140,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -149,13 +149,13 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -505,11 +505,144 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Buck_SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Display",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Lamp",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.0,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power_5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Switch",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -519,7 +652,308 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_12V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power_12V",
+        "pattern": "Net-(F1-Pad1)"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "+5V_DISPLAY"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "Net-(A1-VSYS)"
+      },
+      {
+        "netclass": "Power_3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power_5V",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "SW_*"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "LAMP_*"
+      },
+      {
+        "netclass": "Display",
+        "pattern": "DISP_*"
+      },
+      {
+        "netclass": "Buck_SW",
+        "pattern": "Net-(U2-SW)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J11-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J12-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J13-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J14-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J15-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J16-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J17-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J18-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J19-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J20-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J21-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J22-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J23-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J24-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J25-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J26-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J27-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J28-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J29-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J30-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J31-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J32-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J33-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J34-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J35-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J36-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J37-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J38-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J39-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J40-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J41-Pin_2)"
+      },
+      {
+        "netclass": "Lamp",
+        "pattern": "Net-(J42-Pin_2)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J11-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J12-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J13-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J14-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J15-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J16-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J17-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J18-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J19-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J20-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J21-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J22-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J23-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J24-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J25-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J26-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J27-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J28-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J29-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J30-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J31-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J32-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J33-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J34-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J35-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J36-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J37-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J38-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J39-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J40-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J41-Pin_3)"
+      },
+      {
+        "netclass": "Switch",
+        "pattern": "Net-(J42-Pin_3)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -679,10 +1113,6 @@
       "Button circuits 3"
     ],
     [
-      "8a6d2dfa-76cf-4e30-b31c-c48d1b667a0f",
-      "Panel-mounted buttons 2"
-    ],
-    [
       "6d15a44d-ce84-46a4-8153-762cc9495361",
       "Button circuits 1"
     ],
@@ -693,10 +1123,6 @@
     [
       "aacbf394-ce94-42f3-a0d6-9efacc7c0c18",
       "Button circuits 2"
-    ],
-    [
-      "f9cb59b2-2e6c-44c0-b900-fc12d2cd0963",
-      "Panel-mounted buttons 1"
     ]
   ],
   "text_variables": {},
