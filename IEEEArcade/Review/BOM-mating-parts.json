@@ -15,7 +15,7 @@
   {
     "Reference": "H33",
     "Quantity": "1",
-    "Value": "2-way display-power housing",
+    "Value": "2-way external display-supply branch housing",
     "Manufacturer": "JST",
     "MPN": "XHP-2",
     "DigiKey": "455-2266-ND",
@@ -23,7 +23,7 @@
     "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
     "Footprint": "N/A - cable-side / cabinet assembly",
     "Assembly": "Cable-side / external assembly",
-    "Verification": "Verified board-side mate for J4. Display-end power connector still unknown; terminate to actual panel only after checking polarity/current."
+    "Verification": "Verified XH mate for J4, the low-current external 5V INPUT for AHCT buffers. Does not mate to the panel power header; direct panel power harness is separate."
   },
   {
     "Reference": "T1-T130",
@@ -36,7 +36,7 @@
     "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
     "Footprint": "N/A - cable-side / cabinet assembly",
     "Assembly": "Cable-side / external assembly",
-    "Verification": "128 button wires + 2 display-power wires minimum. Order extras (e.g. 150-200) for crimp rejects. 22-28 AWG, insulation OD 0.9-1.9 mm. Use proper crimp tool and pull-test; contacts single-use."
+    "Verification": "128 button wires + 2 buffer-supply branch wires minimum. Order extras (e.g. 150-200) for crimp rejects. 22-28 AWG, insulation OD 0.9-1.9 mm. Use proper crimp tool and pull-test; contacts single-use."
   },
   {
     "Reference": "WH-SW1-WH-SW3",
@@ -127,6 +127,19 @@
     "Datasheet": "https://www.amazon.com/dp/B0G35QMCXN",
     "Footprint": "N/A - cable-side / cabinet assembly",
     "Assembly": "Existing/source-BOM external equipment; verify before purchase/use",
-    "Verification": "Retained source-BOM item, NOT a verified HUB75 match. Interface, pinout, scan ratio, current and panel-side connectors unknown. Seller page is not a manufacturer datasheet. Provisional J3/J4 supplied at user request; do not buy/connect a panel based solely on this assumed pinout."
+    "Verification": "User photos identify HUB75 ABC signal interface; pin12 GND, STB=LAT, active-low OE. Separate VCC/GND power header shown. Rated voltage/current, exact mate, dimensions and scan mapping still unverified. See DISPLAY_WIRING.md."
+  },
+  {
+    "Reference": "PS2",
+    "Quantity": "1",
+    "Value": "External regulated display supply / nominal 5V",
+    "Manufacturer": "To be selected after panel rating confirmation",
+    "MPN": "Not selected",
+    "DigiKey": "Not selected",
+    "DigiKey URL": "",
+    "Datasheet": "",
+    "Footprint": "N/A - external equipment",
+    "Assembly": "Direct high-current harness to panel VCC/GND; low-current branch to J4 pins 1/2; common ground",
+    "Verification": "Voltage/current not proven by photos. Confirm panel rating and worst-case current before selecting supply and harness. Do not power panel through J4, J3 or controller buck."
   }
 ]

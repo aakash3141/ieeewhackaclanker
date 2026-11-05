@@ -1,0 +1,2433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Patron\Documents\GitHub\ieeewhackaclanker\IEEEArcade\button_bank_3.kicad_sch</source>
+    <date>2026-11-05T11:43:22</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Button harness / channels 17..24</title>
+        <company>UW-Madison IEEE</company>
+        <rev>Schematic review</rev>
+        <date>2026-11-05</date>
+        <source>button_bank_3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C117">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc21751a-69be-4a07-8e90-05205cb23285</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C118">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f262832-7178-4d14-af55-8da7db0c6fd2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C119">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abea8738-da39-4858-afae-bbc7481837b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C120">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b45e3273-0561-4368-97a5-2f24ac5b5647</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C121">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>477f1420-ea7c-4a09-83f3-e3c41bc78f5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C122">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4d0432d-fa2b-4725-b5a5-f39a85227446</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C123">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90a71d86-25c0-4af3-944a-0af70e44efb8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C124">
+      <value>10n / 50V</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MPN">C1206C103K5RACTU</field>
+        <field name="DigiKey">399-C1206C103K5RACTUCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">https://search.kemet.com/component-documentation/download/specsheet/C1206C103K5RACTU</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MPN" value="C1206C103K5RACTU"/>
+      <property name="DigiKey" value="399-C1206C103K5RACTUCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/kemet/C1206C103K5RACTU/411509"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b99d3cc6-26fc-495f-ae96-8ad30e7f0b06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J27">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5997f566-0cbb-4f64-ac2d-241ba733ca17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J28">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5c25b10-ca57-4ff0-a48d-aa9cf1bbfc54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J29">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ecee828-3fbb-4595-90e3-1dc2241ad1a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J30">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff537ba0-b3cc-4d0d-a896-38692ce7fa74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J31">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3164a1ae-1a75-484f-9d2f-7286ce3eb007</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J32">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2bce107-a0b7-4cc8-a704-6d235ddd7e76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J33">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d77abbfe-cb4c-49c8-b0cc-3b035c650cdc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J34">
+      <value>JST XH 4-pin</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <datasheet>https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JST Sales America</field>
+        <field name="MPN">B4B-XH-A</field>
+        <field name="DigiKey">455-B4B-XH-A-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">PCB header; mating XHP-4 + 4 SXH-001T-P0.6</field>
+        <field name="Footprint">Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</field>
+        <field name="Datasheet">https://www.jst-mfg.com/product/pdf/eng/eXH.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Manufacturer" value="JST Sales America"/>
+      <property name="MPN" value="B4B-XH-A"/>
+      <property name="DigiKey" value="455-B4B-XH-A-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-XH-A/1651047"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="PCB header; mating XHP-4 + 4 SXH-001T-P0.6"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c94343b0-223f-4fdd-9b56-305d2dafdf85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q17">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e03add6-aebd-4c0d-b70f-6d33548763ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q18">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1c05ac4-b4c9-49ca-bac9-8c558b945c07</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q19">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b097eef-a56a-4299-b909-055a247388da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q20">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74998347-39ab-4359-8a61-7189cf7083e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q21">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7032d120-6e13-4262-b317-7558d8138ae6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q22">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>897be14a-af19-4c7e-aa56-0b0937451080</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q23">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9597c4d0-ca4f-4a25-a985-69b5b84cda22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q24">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Alpha &amp; Omega Semiconductor</field>
+        <field name="MPN">AO3400A</field>
+        <field name="DigiKey">785-1000-1-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega Semiconductor"/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="DigiKey" value="785-1000-1-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855942"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64a66746-c2a2-4c3a-b003-b4e521e41eb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R117">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fc9a0c3-c9de-40b2-976e-1a1bfe9dbb23</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R118">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83e7f647-c3cc-4908-9439-83eec7479a54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R119">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1f5532d-9b00-40c5-afe2-09a91dfeed0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R120">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dca57bfc-f52b-4096-aa88-c8a42976338a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R121">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd83733e-177f-4804-810e-361f0cf54bf8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R122">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdf10107-540f-453a-ac4b-fd55dc5b4dd4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R123">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75c3669e-8205-4082-87a8-97e1be167c9f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R124">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2b5c74a-9c37-480f-b3bb-3dcff1981005</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R217">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6638b391-ac71-42ad-a083-029203f56fa6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R218">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b88d885-105d-4fe2-8041-c80672f228af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R219">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01fbe77f-409e-4e13-b15f-621179625216</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R220">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8924090-b965-42d3-bc49-8ef69861888b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R221">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9633304c-2eb1-47ad-9920-2de290a0daf6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R222">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba7d4335-efd5-4933-bae5-d1ca2c96a1b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R223">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20504057-1521-4a7f-9c93-c328c3121e37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R224">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-07100KL</field>
+        <field name="DigiKey">311-100KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-07100KL"/>
+      <property name="DigiKey" value="311-100KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91ca5b77-83b5-4263-8173-5f8fc100b406</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R317">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf477d60-adb7-4acc-b589-8c58bbc251f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R318">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bc4a297-5505-4133-ab5b-6e89cee21ba2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R319">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3ab9fb3-a758-462d-8483-fb3f4d00ddc0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R320">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>364ef05d-9e9a-4846-b3ee-10122e95207a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R321">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a1d867d-1089-4083-979f-a7cb3703c869</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R322">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e63e19c0-9d1b-4cb1-974f-3e7a95ae016c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R323">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70428cbf-e995-4277-9b30-eeeff34634da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R324">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-074K7L</field>
+        <field name="DigiKey">311-4.70KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-074K7L"/>
+      <property name="DigiKey" value="311-4.70KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-074K7L/728887"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9fc9cdeb-64ca-4839-a10f-0429897d5e63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R417">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5268bbf-f6bd-4d02-84f7-8956229df8a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R418">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fc9e24e-58fa-4be7-abb9-8cca6dddba98</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R419">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52887f85-2d01-45bd-8f6a-c6bf99e3f0db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R420">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5d8738f-4ba1-4a06-87a4-190f25174a03</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R421">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3a1975f-e554-4ee8-ad13-56c8cb3bab50</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R422">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd970585-749a-4bb2-85aa-34c9ab23b0f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R423">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0719067-8664-4ce2-b252-d8fb499872a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R424">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <datasheet>https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</datasheet>
+      <fields>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="DigiKey">311-1.00KFRCT-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387</field>
+        <field name="Verification">Datasheet pinout/package checked; DigiKey stock seen 2026-11-04</field>
+        <field name="Assembly">On PCB</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="DigiKey" value="311-1.00KFRCT-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/yageo/RC1206FR-071KL/728387"/>
+      <property name="Verification" value="Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"/>
+      <property name="Assembly" value="On PCB"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="button_bank_3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73d619a8-3ae5-4da5-9483-bfa080a954a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="R317" pin="1" pintype="passive"/>
+      <node ref="R318" pin="1" pintype="passive"/>
+      <node ref="R319" pin="1" pintype="passive"/>
+      <node ref="R320" pin="1" pintype="passive"/>
+      <node ref="R321" pin="1" pintype="passive"/>
+      <node ref="R322" pin="1" pintype="passive"/>
+      <node ref="R323" pin="1" pintype="passive"/>
+      <node ref="R324" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V" class="Default">
+      <node ref="J27" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J28" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J29" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J30" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J31" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J32" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J33" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J34" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="C117" pin="2" pintype="passive"/>
+      <node ref="C118" pin="2" pintype="passive"/>
+      <node ref="C119" pin="2" pintype="passive"/>
+      <node ref="C120" pin="2" pintype="passive"/>
+      <node ref="C121" pin="2" pintype="passive"/>
+      <node ref="C122" pin="2" pintype="passive"/>
+      <node ref="C123" pin="2" pintype="passive"/>
+      <node ref="C124" pin="2" pintype="passive"/>
+      <node ref="J27" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J28" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J29" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J30" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J31" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J32" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J33" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J34" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="Q17" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q18" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q19" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q20" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q21" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q22" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q23" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q24" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R217" pin="2" pintype="passive"/>
+      <node ref="R218" pin="2" pintype="passive"/>
+      <node ref="R219" pin="2" pintype="passive"/>
+      <node ref="R220" pin="2" pintype="passive"/>
+      <node ref="R221" pin="2" pintype="passive"/>
+      <node ref="R222" pin="2" pintype="passive"/>
+      <node ref="R223" pin="2" pintype="passive"/>
+      <node ref="R224" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="LAMP_17_EN" class="Default">
+      <node ref="R117" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="LAMP_17_K" class="Default">
+      <node ref="J27" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q17" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="6" name="LAMP_18_EN" class="Default">
+      <node ref="R118" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="LAMP_18_K" class="Default">
+      <node ref="J28" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q18" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="8" name="LAMP_19_EN" class="Default">
+      <node ref="R119" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="LAMP_19_K" class="Default">
+      <node ref="J29" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q19" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="10" name="LAMP_20_EN" class="Default">
+      <node ref="R120" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="LAMP_20_K" class="Default">
+      <node ref="J30" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q20" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="12" name="LAMP_21_EN" class="Default">
+      <node ref="R121" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="LAMP_21_K" class="Default">
+      <node ref="J31" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q21" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="14" name="LAMP_22_EN" class="Default">
+      <node ref="R122" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="LAMP_22_K" class="Default">
+      <node ref="J32" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q22" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="16" name="LAMP_23_EN" class="Default">
+      <node ref="R123" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="LAMP_23_K" class="Default">
+      <node ref="J33" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q23" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="18" name="LAMP_24_EN" class="Default">
+      <node ref="R124" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="LAMP_24_K" class="Default">
+      <node ref="J34" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q24" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q17-G)" class="Default">
+      <node ref="Q17" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R117" pin="2" pintype="passive"/>
+      <node ref="R217" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q18-G)" class="Default">
+      <node ref="Q18" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R118" pin="2" pintype="passive"/>
+      <node ref="R218" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q19-G)" class="Default">
+      <node ref="Q19" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R119" pin="2" pintype="passive"/>
+      <node ref="R219" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q20-G)" class="Default">
+      <node ref="Q20" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R120" pin="2" pintype="passive"/>
+      <node ref="R220" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q21-G)" class="Default">
+      <node ref="Q21" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R121" pin="2" pintype="passive"/>
+      <node ref="R221" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q22-G)" class="Default">
+      <node ref="Q22" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R122" pin="2" pintype="passive"/>
+      <node ref="R222" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q23-G)" class="Default">
+      <node ref="Q23" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R123" pin="2" pintype="passive"/>
+      <node ref="R223" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q24-G)" class="Default">
+      <node ref="Q24" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R124" pin="2" pintype="passive"/>
+      <node ref="R224" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="SW_17_FILT" class="Default">
+      <node ref="C117" pin="1" pintype="passive"/>
+      <node ref="R417" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="SW_17_RAW" class="Default">
+      <node ref="J27" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R317" pin="2" pintype="passive"/>
+      <node ref="R417" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="SW_18_FILT" class="Default">
+      <node ref="C118" pin="1" pintype="passive"/>
+      <node ref="R418" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="SW_18_RAW" class="Default">
+      <node ref="J28" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R318" pin="2" pintype="passive"/>
+      <node ref="R418" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="SW_19_FILT" class="Default">
+      <node ref="C119" pin="1" pintype="passive"/>
+      <node ref="R419" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="SW_19_RAW" class="Default">
+      <node ref="J29" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R319" pin="2" pintype="passive"/>
+      <node ref="R419" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="SW_20_FILT" class="Default">
+      <node ref="C120" pin="1" pintype="passive"/>
+      <node ref="R420" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="SW_20_RAW" class="Default">
+      <node ref="J30" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R320" pin="2" pintype="passive"/>
+      <node ref="R420" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="SW_21_FILT" class="Default">
+      <node ref="C121" pin="1" pintype="passive"/>
+      <node ref="R421" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="SW_21_RAW" class="Default">
+      <node ref="J31" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R321" pin="2" pintype="passive"/>
+      <node ref="R421" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="SW_22_FILT" class="Default">
+      <node ref="C122" pin="1" pintype="passive"/>
+      <node ref="R422" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="SW_22_RAW" class="Default">
+      <node ref="J32" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R322" pin="2" pintype="passive"/>
+      <node ref="R422" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="SW_23_FILT" class="Default">
+      <node ref="C123" pin="1" pintype="passive"/>
+      <node ref="R423" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="SW_23_RAW" class="Default">
+      <node ref="J33" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R323" pin="2" pintype="passive"/>
+      <node ref="R423" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="SW_24_FILT" class="Default">
+      <node ref="C124" pin="1" pintype="passive"/>
+      <node ref="R424" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="SW_24_RAW" class="Default">
+      <node ref="J34" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R324" pin="2" pintype="passive"/>
+      <node ref="R424" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

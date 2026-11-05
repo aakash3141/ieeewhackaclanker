@@ -1,10 +1,10 @@
 # IEEE Arcade — schematic review, 2026-11-05
 
-The saved design is a schematic for the 6-column by 5-row reaction arcade game described in Project Information. A Pico 2 W reads 30 playfield switches plus START/BACK, controls their individual 12 V lamps, drives a provisional external scoreboard connector and stores high scores in EEPROM. Firmware implements timing/scoring/idle high score. Audio and battery operation are deferred as requested. No PCB placement, routing, outline changes or manufacturing files were made.
+The saved design is a schematic for the 6-column by 5-row reaction arcade game described in Project Information. A Pico 2 W reads 30 playfield switches plus START/BACK, controls their individual 12 V lamps, drives a photo-matched HUB75 ABC scoreboard interface and stores high scores in EEPROM. Firmware implements timing/scoring/idle high score. Audio and battery operation are deferred as requested. No PCB placement, routing, outline changes or manufacturing files were made.
 
 ## Open the authoritative project
 
-Open IEEEArcade.kicad_pro, then its root IEEEArcade.kicad_sch. The main A2 sheet contains the Pico 2 W, EEPROM, four I/O expanders, input protection and TPS54202H buck. Shared I2C/reset and the local power circuitry use direct wires. Four separate button-circuit sheets contain eight channels each. Two panel-button sheets document off-board parts and functional wire assignments. One scoreboard sheet contains level translation, termination and the provisional external connector. Total: eight sheets.
+Open IEEEArcade.kicad_pro, then its root IEEEArcade.kicad_sch. The main A2 sheet contains the Pico 2 W, EEPROM, four I/O expanders, input protection and TPS54202H buck. Shared I2C/reset and the local power circuitry use direct wires. Four separate button-circuit sheets contain eight channels each. Two panel-button sheets document off-board parts and functional wire assignments. One scoreboard sheet contains level translation, termination and the photo-matched external connector. Total: eight sheets.
 
 Original draft buck_converter.kicad_sch, buck_converter_max.kicad_sch and eeprom.kicad_sch are retained as user source material and are NOT linked into the active hierarchy. Do not add them as extra sheets or fit both converter designs. Superseded generated power/input/lamp sheets are archived under Review. There is only one active converter. The user selected the BOM TPS54202 design on November 5, rather than the older LMR36510 draft.
 
@@ -18,7 +18,7 @@ Original draft buck_converter.kicad_sch, buck_converter_max.kicad_sch and eeprom
 * J11..J42 are genuine JST XH 4-way PCB headers: pin1 +12V lamp, pin2 lamp cathode (MOSFET drain), pin3 normally-open switch, pin4 switch COM/GND. The cable-side housing is XHP-4 with four SXH-001T-P0.6 contacts. XH pitch is 2.50 mm, not 2.54 mm. Each lamp has AO3400A gate1/source2/drain3, 1k gate resistor and 100k gate pull-down. RDS(on) is specified at 2.5 V gate drive; a 3.3 V GPIO can drive this part for the allocated 100 mA lamps. It is not selected solely from threshold voltage.
 * Each switch has a 4.7k external pull-up, 1k series resistor and 10nF to ground. Approximate RC rise/fall time constants are 57us/10us. These suppress edges/noise; firmware must still debounce (1–2 ms polling, require about 10 ms stable state). Never apply 12 V to a switch-input terminal.
 * At initialization, hold expander RESET low at least 10us, release, write lamp OLAT=0, THEN set IODIR to outputs. Gate pull-downs hold lamps off during reset. Use ordinary on/off updates, not high-frequency PWM over I2C.
-* U7/U8 SN74AHCT245N, 5 V supply, accept 3.3 V logic (TTL VIH minimum 2 V) and translate display outputs to 5 V. DIR is high for A-to-B, /OE low. R501..R513 are 33-ohm source damping resistors; their values are hidden in the dense schematic rows but retained in fields/BOM and noted on-sheet. Inputs default low through 100k pull-downs, except active-low display OE_N has a 10k pull-up to blank at reset. Unused inputs are grounded; unused outputs are intentionally open.
+* U7/U8 SN74AHCT245N translate 3.3 V Pico outputs to 5 V HUB75 signals. They now use the separate external +5V_DISPLAY supply. Twelve signal paths retain 33-ohm damping resistors; pin12 is grounded. GP9 controls the buffer enables through Q34; R510 is now a 10k disable pull-up and new R514 keeps panel OE inactive during reset. See [DISPLAY_WIRING.md](DISPLAY_WIRING.md).
 
 ### Power path and budget
 
@@ -35,28 +35,17 @@ D1 SS14 has anode pin2 on +5V, cathode pin1 on Pico VSYS. This permits USB progr
 | 32 lamps | 32 x 100mA = 3.2 A at 12 V |
 | Pico including wireless activity | 0.5 A reserved at 5 V |
 | Other logic allowance | 0.1 A reserved at 5 V |
-| Display | up to 1.2 A at 5 V |
-| Total 5 V load | <=1.8 A (2 A regulator) |
-| Total adapter current at 85% buck efficiency | 3.2 + 9/(12*0.85) = 4.08 A (~49 W) |
+| Display | Separate external supply; rating/current to be confirmed. No panel load on controller buck. |
+| Controller 5 V load | <=0.6 A reserved (2 A regulator); display supply separate |
+| 12 V adapter current at 85% buck efficiency | 3.2 + 3/(12*0.85) = 3.49 A (~42 W), excluding separate display supply |
 
-The stated BOM adapter is 12 V / 60 W (nominal 5 A), so this allocation fits nominally. Lamp current, display demand and actual adapter ratings remain to be confirmed. The 1.2 A display allowance is NOT an active current limiter. A higher-current panel needs a separate regulated 5 V supply/common GND and revised total budget.
+The stated BOM adapter is 12 V / 60 W (nominal 5 A). Lamp current and actual adapter ratings still require confirmation. The display is now powered by a separate external regulated supply, with a direct panel harness and common GND; the prior 1.2 A controller-buck display allowance is retired. Its supply capacity must be selected from the actual panel rating and measured load.
 
-### Provisional scoreboard interface
+### Photo-matched scoreboard interface
 
-The user requested an expected connector after the BOM P10 panel interface could not be documented. This is an assumed 16-pin HUB75-style interface, NOT a verified match to the Amazon panel and NOT I2C. P10 describes pixel pitch. J3 pin assignment:
+The user-supplied rear photos show a HUB75 RGB header with A/B/C addressing, **pin12 GND**, STB/LAT and active-low OE, plus a separate VCC/GND power header. The signal wiring is now matched to this evidence. Voltage/current, exact power mate, input pin-1 orientation and pixel/scan mapping still need confirmation. Full pin table, power harness and firmware sequence: [DISPLAY_WIRING.md](DISPLAY_WIRING.md).
 
-| Pin | Signal | Pin | Signal |
-|---:|---|---:|---|
-|1|R1|2|G1|
-|3|B1|4|GND|
-|5|R2|6|G2|
-|7|B2|8|GND (some panels use E here)|
-|9|A|10|B|
-|11|C|12|D|
-|13|CLK|14|LAT|
-|15|OE_N|16|GND|
-
-GPIO0..12 map in order to R1,G1,B1,R2,G2,B2,A,B,C,D,CLK,LAT,OE_N. J4 separately supplies 5 V on pin1/GND pin2. Start with a short ribbon (<=30 cm) and verify electrical signal quality; this is a starting recommendation, not a tested cable limit. The supplied cabinet panel remains the BOM item at https://www.amazon.com/dp/B0G35QMCXN; no exact manufacturer datasheet/verified mating connector or current budget could be established for that panel.
+No additional I2C expander or separate display-driver IC is needed. Retained AHCT buffers and the Pico PIO provide twelve signals; GP9 enables buffers after setup. J4 is now an external +5V_DISPLAY INPUT for the buffers only, isolated from the board +5V buck. Power the panel directly from the same external display supply and share GND.
 
 ## Footprints, source limitations and outstanding review
 
@@ -75,15 +64,15 @@ GPIO0..12 map in order to R1,G1,B1,R2,G2,B2,A,B,C,D,CLK,LAT,OE_N. J4 separately 
 | J1 | Exact-MPN native PJ-063AH footprint selected; electrical/contact specification confirmed, but manufacturer mechanical PDF requests were blocked. Independent dimensional/pin-position drawing comparison remains OPEN before layout |
 | Adafruit1194 | Manufacturer confirms 5–12V resistor-equipped LED and NO switch. 3835 fits switch tabs; 3838 fits lamp tabs. Manufacturer product pages are provided because no usable manufacturer PDF was available. Actual lamp current not documented/confirmed |
 | Menu buttons | BOM Amazon EG STARTS12V item retained. Exact MPN, manufacturer datasheet, LED current/internal resistor and terminal widths remain UNVERIFIED. No DigiKey part number or claimed-compatible spade terminal invented |
-| Display and adapter | Existing/source BOM items retained. Panel protocol/power/connectors and adapter model/plug/polarity require actual hardware check. Do not assume a center-positive5.5x2.1mm adapter fits until checked |
+| Display and adapter | Existing/source BOM items retained. Photos identify the HUB75 ABC protocol and signal pinout. Panel voltage/current, physical mating orientation, power connector, scan mapping and adapter model/plug/polarity require hardware checks. Do not assume a center-positive5.5x2.1mm adapter fits until checked |
 
 J1 is explicitly marked with its open dimensional check in its component Verification field. Panel-mounted buttons and cable-side parts intentionally have no PCB footprint; their BOM says N/A, not an approximate footprint. All board-mounted parts have assigned footprints. Direct manufacturer datasheet links are included for the electrical components; manufacturer product pages replace unavailable PDFs for Adafruit consumer assemblies. The menu-button seller page is clearly identified as a seller source, not a manufacturer datasheet.
 
-See BOM.html for minimum cable-side quantities. Thirty switches and lamps need three 10-pair packs each of 3835 and3838; their factory2-pin ends do NOT plug directly into the4-way board connector. Cut/reterminate using new genuine XH contacts/housings. Cabinet dimensions determine extensions/strain relief. Menu-button connector selection cannot be confirmed until its tabs are identified. The display-end connector and IDC panel mate remain conditional on the actual panel.
+See BOM.html for minimum cable-side quantities. Thirty switches and lamps need three 10-pair packs each of 3835 and3838; their factory2-pin ends do NOT plug directly into the4-way board connector. Cut/reterminate using new genuine XH contacts/housings. Cabinet dimensions determine extensions/strain relief. Menu-button connector selection cannot be confirmed until its tabs are identified. The display power mate remains unidentified; J3 signal mapping follows the photos, with physical pin-1 orientation still to be checked.
 
 ## Validation and ERC interpretation
 
-Final native KiCad10.0.6 ERC: see ERC-final.rpt and ERC-final.json. A separate exported-netlist check verifies all32 input filters and lamp drivers, port ordering/address wiring, PicoI2C/EEPROM, power switch/diode polarity, all13 scoreboard paths and footprint pad numbering. Every one of324 schematic BOM references has populated sourcing/assembly/verification fields. This automated pad check complements, rather than substitutes for, datasheet/package review.
+The display revision was checked against the current saved project before editing: both runs have 317 ERC findings (1 existing A1 VSYS power-pin error, 4 junction warnings and 312 library-symbol mismatch warnings). No additional findings were introduced. The earlier zero-message ERC-final files are historical. Current report: ERC-display.rpt. Netlist assertions and unchanged non-display connectivity: display-connectivity-verification.txt. The native BOM and PDF have been regenerated for the display revision; the earlier 324-reference claim no longer describes this revision.
 
 No ERC exclusions were added. Footprint-filter, single-global-label and four-way-junction checks that were ignored in the original project are enabled as warnings. Original SPICE-model checks remain ignored because this is not a simulation project. Three power flags are justified after passive power paths: protected external12V, buck5V after L1, and VSYS after D1. Unused device pins and module ADC/AGND pins are intentionally no-connect; module AGND is internally grounded and unused externally because no ADC is used. The AHCT local symbol models A pins as inputs because DIR is permanently tied A-to-B; B pins remain tri-state outputs. This is a fixed-direction use model, not a disabled ERC check.
 

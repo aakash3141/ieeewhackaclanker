@@ -1,3 +1,5 @@
+Historical verification from the earlier schematic revision. Current display revision: see display-connectivity-verification.txt, ERC-display.rpt and DISPLAY_WIRING.md.
+
 PASS: All 32 button connectors, MOSFET G/S/D pins, gate resistors, pull-downs and input filters match channel numbers.
 PASS: Four expanders have unique addresses 0x20/0x27/0x21/0x22 and complete, ordered 32-input / 32-output mapping.
 PASS: Pico I2C1 GPIO14/15, EEPROM 0x50, write-enable and shared active-low reset verified from exported netlist.

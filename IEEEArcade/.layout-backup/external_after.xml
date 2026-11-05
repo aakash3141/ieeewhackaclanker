@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Patron\Documents\GitHub\ieeewhackaclanker\IEEEArcade\external_buttons_2.kicad_sch</source>
+    <date>2026-11-05T12:08:04</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Off-board buttons 17..32</title>
+        <company>UW-Madison IEEE</company>
+        <rev>Schematic review</rev>
+        <date>2026-11-05</date>
+        <source>external_buttons_2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW17">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dde52cb4-a3d2-415e-bb7c-fd1b84936e67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW18">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4d2b89c-bbdf-4347-a984-9bf310e92eb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW19">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4e2791d-eb85-4ebe-a453-8fb806eaa51a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW20">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>209ee3a6-dbbf-4702-abcd-e36d17a35460</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW21">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>520a2f31-4906-4daa-935b-85b6d96d8b59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW22">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d502614-bb40-4942-b1a8-b9ae9c250e0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW23">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d2cbff7-fcb1-4138-8397-ff4b4d2f9837</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW24">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07c36cb5-1db9-47b0-a64f-e8018d2a4b61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW25">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5880dd3-b4ae-41b7-a0fd-981e9634c107</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW26">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d30bff3d-d8b9-41f8-9beb-4d62e77fe753</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW27">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c472571-ee03-4f60-825d-9cf3ca86de36</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW28">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b6f2961-3d4a-4034-ba0d-641f75da2777</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW29">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a117e0-2385-4dbb-963f-406f6966f6e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW30">
+      <value>1194 / 60mm blue</value>
+      <datasheet>https://www.adafruit.com/product/1194</datasheet>
+      <fields>
+        <field name="Manufacturer">Adafruit Industries</field>
+        <field name="MPN">1194</field>
+        <field name="DigiKey">1528-1914-ND</field>
+        <field name="DigiKey URL">https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199</field>
+        <field name="Verification">5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.adafruit.com/product/1194</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="Adafruit Industries"/>
+      <property name="MPN" value="1194"/>
+      <property name="DigiKey" value="1528-1914-ND"/>
+      <property name="DigiKey URL" value="https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"/>
+      <property name="Verification" value="5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42faf51a-38d7-46c6-aac8-038fb4195732</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW31">
+      <value>EG STARTS / 12V</value>
+      <datasheet>https://www.amazon.com/dp/B01M0XPWGG</datasheet>
+      <fields>
+        <field name="Manufacturer">EG STARTS</field>
+        <field name="MPN">Not published; source ASIN B01M0XPWGG</field>
+        <field name="DigiKey">Not sold on DigiKey</field>
+        <field name="DigiKey URL">https://www.amazon.com/dp/B01M0XPWGG</field>
+        <field name="Verification">BOM-selected item; seller listing only. No manufacturer datasheet, lamp current or terminal dimensions confirmed.</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.amazon.com/dp/B01M0XPWGG</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="EG STARTS"/>
+      <property name="MPN" value="Not published; source ASIN B01M0XPWGG"/>
+      <property name="DigiKey" value="Not sold on DigiKey"/>
+      <property name="DigiKey URL" value="https://www.amazon.com/dp/B01M0XPWGG"/>
+      <property name="Verification" value="BOM-selected item; seller listing only. No manufacturer datasheet, lamp current or terminal dimensions confirmed."/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82da2ace-d318-4b01-927e-ae02ebffbc70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW32">
+      <value>EG STARTS / 12V</value>
+      <datasheet>https://www.amazon.com/dp/B01M0XPWGG</datasheet>
+      <fields>
+        <field name="Manufacturer">EG STARTS</field>
+        <field name="MPN">Not published; source ASIN B01M0XPWGG</field>
+        <field name="DigiKey">Not sold on DigiKey</field>
+        <field name="DigiKey URL">https://www.amazon.com/dp/B01M0XPWGG</field>
+        <field name="Verification">BOM-selected item; seller listing only. No manufacturer datasheet, lamp current or terminal dimensions confirmed.</field>
+        <field name="Assembly">OFF BOARD / panel-mounted; PCB footprint not applicable</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.amazon.com/dp/B01M0XPWGG</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Arcade" part="Illuminated_Button" description=""/>
+      <property name="Manufacturer" value="EG STARTS"/>
+      <property name="MPN" value="Not published; source ASIN B01M0XPWGG"/>
+      <property name="DigiKey" value="Not sold on DigiKey"/>
+      <property name="DigiKey URL" value="https://www.amazon.com/dp/B01M0XPWGG"/>
+      <property name="Verification" value="BOM-selected item; seller listing only. No manufacturer datasheet, lamp current or terminal dimensions confirmed."/>
+      <property name="Assembly" value="OFF BOARD / panel-mounted; PCB footprint not applicable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="external_buttons_2.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f5b4e54-3801-49e8-8704-b272781b34cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="NO"/>
+            <pin num="COM"/>
+            <pin num="L+"/>
+            <pin num="L-"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Arcade" part="Illuminated_Button">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Illuminated_Button</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="L+" name="LED+" type="passive"/>
+        <pin num="L-" name="LED-" type="passive"/>
+        <pin num="NO" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+12V" class="Default">
+      <node ref="SW17" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW18" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW19" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW20" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW21" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW22" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW23" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW24" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW25" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW26" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW27" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW28" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW29" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW30" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW31" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+      <node ref="SW32" pin="L+" pinfunction="LED+_L+" pintype="passive"/>
+    </net>
+    <net code="2" name="GND" class="Default">
+      <node ref="SW17" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW18" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW19" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW20" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW21" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW22" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW23" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW24" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW25" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW26" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW27" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW28" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW29" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW30" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW31" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+      <node ref="SW32" pin="COM" pinfunction="COM_COM" pintype="passive"/>
+    </net>
+    <net code="3" name="LAMP_17_K" class="Default">
+      <node ref="SW17" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="4" name="LAMP_18_K" class="Default">
+      <node ref="SW18" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="5" name="LAMP_19_K" class="Default">
+      <node ref="SW19" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="6" name="LAMP_20_K" class="Default">
+      <node ref="SW20" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="7" name="LAMP_21_K" class="Default">
+      <node ref="SW21" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="8" name="LAMP_22_K" class="Default">
+      <node ref="SW22" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="9" name="LAMP_23_K" class="Default">
+      <node ref="SW23" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="10" name="LAMP_24_K" class="Default">
+      <node ref="SW24" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="11" name="LAMP_25_K" class="Default">
+      <node ref="SW25" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="12" name="LAMP_26_K" class="Default">
+      <node ref="SW26" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="13" name="LAMP_27_K" class="Default">
+      <node ref="SW27" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="14" name="LAMP_28_K" class="Default">
+      <node ref="SW28" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="15" name="LAMP_29_K" class="Default">
+      <node ref="SW29" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="16" name="LAMP_30_K" class="Default">
+      <node ref="SW30" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="17" name="LAMP_31_K" class="Default">
+      <node ref="SW31" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="18" name="LAMP_32_K" class="Default">
+      <node ref="SW32" pin="L-" pinfunction="LED-_L-" pintype="passive"/>
+    </net>
+    <net code="19" name="SW_17_RAW" class="Default">
+      <node ref="SW17" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="20" name="SW_18_RAW" class="Default">
+      <node ref="SW18" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="21" name="SW_19_RAW" class="Default">
+      <node ref="SW19" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="22" name="SW_20_RAW" class="Default">
+      <node ref="SW20" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="23" name="SW_21_RAW" class="Default">
+      <node ref="SW21" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="24" name="SW_22_RAW" class="Default">
+      <node ref="SW22" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="25" name="SW_23_RAW" class="Default">
+      <node ref="SW23" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="26" name="SW_24_RAW" class="Default">
+      <node ref="SW24" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="27" name="SW_25_RAW" class="Default">
+      <node ref="SW25" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="28" name="SW_26_RAW" class="Default">
+      <node ref="SW26" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="29" name="SW_27_RAW" class="Default">
+      <node ref="SW27" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="30" name="SW_28_RAW" class="Default">
+      <node ref="SW28" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="31" name="SW_29_RAW" class="Default">
+      <node ref="SW29" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="32" name="SW_30_RAW" class="Default">
+      <node ref="SW30" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="33" name="SW_31_RAW" class="Default">
+      <node ref="SW31" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+    <net code="34" name="SW_32_RAW" class="Default">
+      <node ref="SW32" pin="NO" pinfunction="NO_NO" pintype="passive"/>
+    </net>
+  </nets>
+</export>

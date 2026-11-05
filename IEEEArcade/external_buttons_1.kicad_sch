@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "6ba62cfc-eb66-4348-b58b-2900af27f9b6")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "Off-board buttons 01..16")
 		(date "2026-11-05")
@@ -434,42 +434,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "PCB harnesses are J11..J42. SW1..SW30 playfield; SW31 START; SW32 BACK.\nNo PCB footprints are assigned to cabinet buttons. Board-side headers and mating housings are specified in BOM."
-		(exclude_from_sim no)
-		(at 20 258 0)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify left)
-		)
-		(uuid "5e18cc8c-84c4-4e79-bf6c-1a2a4d3b432a")
-	)
-	(text "Functional pin names identify the wires; they are NOT manufacturer terminal numbers.\nMicroswitch COM/NO closes when pressed. Lamp has two separate terminals; observe LED polarity.\nThe light and switch circuits must remain separate. Insulate unused NC contacts, if present.\nAdafruit 1194 includes a series LED resistor. Verify EG STARTS 12 V lamp module and current before use."
-		(exclude_from_sim no)
-		(at 20 30 0)
-		(effects
-			(font
-				(size 1.15 1.15)
-			)
-			(justify left)
-		)
-		(uuid "b35739ff-317a-4241-95b2-1466230fda8e")
-	)
-	(text "OFF-BOARD BUTTONS | parts mounted in cabinet, not on PCB"
-		(exclude_from_sim no)
-		(at 20 16 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left)
-		)
-		(uuid "f68c69cf-d3c9-4b99-9df4-1131df368839")
-	)
 	(wire
 		(pts
-			(xy 86.36 68.58) (xy 90.17 68.58)
+			(xy 69.85 35.56) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +446,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 78.74) (xy 375.92 78.74)
+			(xy 265.43 45.72) (xy 266.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -489,17 +456,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 78.74) (xy 185.42 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ec66d0-d89e-466f-9bf7-1a9728ca00e4")
-	)
-	(wire
-		(pts
-			(xy 140.97 129.54) (xy 137.16 129.54)
+			(xy 93.98 78.74) (xy 90.17 78.74)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +466,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 170.18) (xy 280.67 170.18)
+			(xy 198.12 104.14) (xy 201.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +476,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 231.14) (xy 185.42 231.14)
+			(xy 135.89 148.59) (xy 137.16 148.59)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +486,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 78.74) (xy 137.16 78.74)
+			(xy 93.98 45.72) (xy 90.17 45.72)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +496,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 119.38) (xy 375.92 119.38)
+			(xy 265.43 68.58) (xy 269.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +506,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 231.14) (xy 375.92 231.14)
+			(xy 266.7 148.59) (xy 267.97 148.59)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +516,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 220.98) (xy 327.66 220.98)
+			(xy 226.06 138.43) (xy 223.52 138.43)
 		)
 		(stroke
 			(width 0)
@@ -569,17 +526,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 119.38) (xy 41.91 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3077fccc-d331-43e2-a0eb-ce6af0482cea")
-	)
-	(wire
-		(pts
-			(xy 45.72 129.54) (xy 41.91 129.54)
+			(xy 29.21 78.74) (xy 25.4 78.74)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 78.74) (xy 327.66 78.74)
+			(xy 224.79 45.72) (xy 220.98 45.72)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +546,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 119.38) (xy 137.16 119.38)
+			(xy 93.98 68.58) (xy 92.71 68.58)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +556,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 119.38) (xy 232.41 119.38)
+			(xy 156.21 68.58) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +566,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 231.14) (xy 327.66 231.14)
+			(xy 226.06 148.59) (xy 222.25 148.59)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +576,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 220.98) (xy 90.17 220.98)
+			(xy 71.12 138.43) (xy 74.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +586,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 129.54) (xy 185.42 129.54)
+			(xy 134.62 78.74) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 180.34) (xy 232.41 180.34)
+			(xy 157.48 114.3) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 185.42 68.58)
+			(xy 134.62 35.56) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 68.58) (xy 375.92 68.58)
+			(xy 265.43 35.56) (xy 269.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 119.38) (xy 280.67 119.38)
+			(xy 196.85 68.58) (xy 200.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +636,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 180.34) (xy 137.16 180.34)
+			(xy 95.25 114.3) (xy 91.44 114.3)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +646,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 231.14) (xy 41.91 231.14)
+			(xy 30.48 148.59) (xy 26.67 148.59)
 		)
 		(stroke
 			(width 0)
@@ -709,17 +656,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 180.34) (xy 90.17 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76cb38a3-5a0c-41ee-b397-0041e1340762")
-	)
-	(wire
-		(pts
-			(xy 331.47 170.18) (xy 327.66 170.18)
+			(xy 226.06 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 180.34) (xy 280.67 180.34)
+			(xy 198.12 114.3) (xy 201.93 114.3)
 		)
 		(stroke
 			(width 0)
@@ -739,17 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 170.18) (xy 41.91 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7daa1c56-f307-4bc1-b648-0ed024cc8b45")
-	)
-	(wire
-		(pts
-			(xy 372.11 180.34) (xy 375.92 180.34)
+			(xy 266.7 114.3) (xy 267.97 114.3)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 220.98) (xy 137.16 220.98)
+			(xy 95.25 138.43) (xy 93.98 138.43)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 68.58) (xy 327.66 68.58)
+			(xy 224.79 35.56) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 119.38) (xy 185.42 119.38)
+			(xy 134.62 68.58) (xy 138.43 68.58)
 		)
 		(stroke
 			(width 0)
@@ -789,17 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 90.17 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "885a8190-a6fa-46ce-b4b0-131e659a8a56")
-	)
-	(wire
-		(pts
-			(xy 276.86 220.98) (xy 280.67 220.98)
+			(xy 198.12 138.43) (xy 201.93 138.43)
 		)
 		(stroke
 			(width 0)
@@ -809,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 180.34) (xy 185.42 180.34)
+			(xy 135.89 114.3) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +736,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 232.41 78.74)
+			(xy 156.21 45.72) (xy 152.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +746,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 90.17 78.74)
+			(xy 69.85 45.72) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -839,27 +756,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 137.16 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cded1e1-1575-47c7-9d80-57983520d6f5")
-	)
-	(wire
-		(pts
-			(xy 86.36 231.14) (xy 90.17 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f1fcf1a-a395-40d9-acad-54d6f82d9384")
-	)
-	(wire
-		(pts
-			(xy 331.47 180.34) (xy 327.66 180.34)
+			(xy 226.06 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +766,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 78.74) (xy 41.91 78.74)
+			(xy 29.21 45.72) (xy 25.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +776,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 78.74) (xy 280.67 78.74)
+			(xy 196.85 45.72) (xy 200.66 45.72)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +786,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 231.14) (xy 280.67 231.14)
+			(xy 198.12 148.59) (xy 201.93 148.59)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 220.98) (xy 185.42 220.98)
+			(xy 135.89 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +806,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 220.98) (xy 375.92 220.98)
+			(xy 266.7 138.43) (xy 270.51 138.43)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +816,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 170.18) (xy 375.92 170.18)
+			(xy 266.7 104.14) (xy 270.51 104.14)
 		)
 		(stroke
 			(width 0)
@@ -929,17 +826,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 41.91 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bde68fb1-3f77-4c7c-9cc0-4601fc22b232")
-	)
-	(wire
-		(pts
-			(xy 331.47 129.54) (xy 327.66 129.54)
+			(xy 224.79 78.74) (xy 220.98 78.74)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 231.14) (xy 232.41 231.14)
+			(xy 157.48 148.59) (xy 153.67 148.59)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 129.54) (xy 280.67 129.54)
+			(xy 196.85 78.74) (xy 200.66 78.74)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 90.17 119.38)
+			(xy 69.85 68.58) (xy 73.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 220.98) (xy 232.41 220.98)
+			(xy 157.48 138.43) (xy 156.21 138.43)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +876,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 129.54) (xy 375.92 129.54)
+			(xy 265.43 78.74) (xy 266.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +886,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 180.34) (xy 41.91 180.34)
+			(xy 30.48 114.3) (xy 26.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 68.58) (xy 232.41 68.58)
+			(xy 156.21 35.56) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +906,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 129.54) (xy 232.41 129.54)
+			(xy 156.21 78.74) (xy 152.4 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1029,17 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 220.98) (xy 41.91 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f11897f6-af8c-4b62-b143-9c03d3190d7e")
-	)
-	(wire
-		(pts
-			(xy 140.97 231.14) (xy 137.16 231.14)
+			(xy 95.25 148.59) (xy 91.44 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 170.18) (xy 90.17 170.18)
+			(xy 71.12 104.14) (xy 74.93 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 170.18) (xy 232.41 170.18)
+			(xy 157.48 104.14) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +946,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 170.18) (xy 185.42 170.18)
+			(xy 135.89 104.14) (xy 139.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 119.38) (xy 327.66 119.38)
+			(xy 224.79 68.58) (xy 222.25 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 170.18) (xy 137.16 170.18)
+			(xy 95.25 104.14) (xy 93.98 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 68.58) (xy 280.67 68.58)
+			(xy 196.85 35.56) (xy 200.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +986,7 @@
 	)
 	(global_label "SW_13_RAW"
 		(shape bidirectional)
-		(at 41.91 220.98 180)
+		(at 30.48 138.43 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1118,7 +995,7 @@
 		)
 		(uuid "007f3ed8-6a06-4661-9fb1-2159a75d9907")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 220.98 0)
+			(at 30.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,7 +1008,7 @@
 	)
 	(global_label "LAMP_01_K"
 		(shape bidirectional)
-		(at 90.17 78.74 0)
+		(at 71.12 45.72 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1140,7 +1017,7 @@
 		)
 		(uuid "21889f1c-10df-4bf9-9173-3e1bcdabbf8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 78.74 180)
+			(at 71.12 45.72 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,7 +1030,7 @@
 	)
 	(global_label "SW_02_RAW"
 		(shape bidirectional)
-		(at 137.16 68.58 180)
+		(at 93.98 35.56 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1162,7 +1039,7 @@
 		)
 		(uuid "229fcccc-2ba9-4866-a64e-e42829f0442f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 68.58 0)
+			(at 93.98 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,7 +1052,7 @@
 	)
 	(global_label "LAMP_05_K"
 		(shape bidirectional)
-		(at 90.17 129.54 0)
+		(at 69.85 78.74 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1184,7 +1061,7 @@
 		)
 		(uuid "23d0cb48-433c-49e1-869e-3b14bb922ff5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 129.54 180)
+			(at 69.85 78.74 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1197,7 +1074,7 @@
 	)
 	(global_label "LAMP_08_K"
 		(shape bidirectional)
-		(at 375.92 129.54 0)
+		(at 266.7 78.74 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1206,7 +1083,7 @@
 		)
 		(uuid "25ecf15e-cae5-4a68-b9fb-8387757c270b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 129.54 180)
+			(at 266.7 78.74 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1219,7 +1096,7 @@
 	)
 	(global_label "LAMP_02_K"
 		(shape bidirectional)
-		(at 185.42 78.74 0)
+		(at 134.62 45.72 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1228,7 +1105,7 @@
 		)
 		(uuid "3338cc03-68c1-45c6-964f-8631be204cc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 78.74 180)
+			(at 134.62 45.72 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1241,7 +1118,7 @@
 	)
 	(global_label "SW_04_RAW"
 		(shape bidirectional)
-		(at 327.66 68.58 180)
+		(at 222.25 35.56 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1250,7 +1127,7 @@
 		)
 		(uuid "3d597b92-a101-4641-b3de-33f9658bf612")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 68.58 0)
+			(at 222.25 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1263,7 +1140,7 @@
 	)
 	(global_label "LAMP_09_K"
 		(shape bidirectional)
-		(at 90.17 180.34 0)
+		(at 71.12 114.3 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1272,7 +1149,7 @@
 		)
 		(uuid "3f69b7a3-2887-4f7c-988a-e30a4e6fec0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 180.34 180)
+			(at 71.12 114.3 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1285,7 +1162,7 @@
 	)
 	(global_label "LAMP_12_K"
 		(shape bidirectional)
-		(at 375.92 180.34 0)
+		(at 267.97 114.3 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1294,7 +1171,7 @@
 		)
 		(uuid "4c1f9445-fe38-4740-af4d-2576028611ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 180.34 180)
+			(at 267.97 114.3 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1307,7 +1184,7 @@
 	)
 	(global_label "LAMP_11_K"
 		(shape bidirectional)
-		(at 280.67 180.34 0)
+		(at 201.93 114.3 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1316,7 +1193,7 @@
 		)
 		(uuid "52a4d189-8517-4599-88f4-c0c20b9722c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 180.34 180)
+			(at 201.93 114.3 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1329,7 +1206,7 @@
 	)
 	(global_label "SW_06_RAW"
 		(shape bidirectional)
-		(at 137.16 119.38 180)
+		(at 92.71 68.58 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1338,7 +1215,7 @@
 		)
 		(uuid "55704534-de6a-4c8b-9d51-73590c461400")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 119.38 0)
+			(at 92.71 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1351,7 +1228,7 @@
 	)
 	(global_label "LAMP_04_K"
 		(shape bidirectional)
-		(at 375.92 78.74 0)
+		(at 266.7 45.72 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1360,7 +1237,7 @@
 		)
 		(uuid "5a78421b-ec3e-4213-b187-1b485e2424f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 78.74 180)
+			(at 266.7 45.72 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1250,7 @@
 	)
 	(global_label "SW_11_RAW"
 		(shape bidirectional)
-		(at 232.41 170.18 180)
+		(at 156.21 104.14 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1382,7 +1259,7 @@
 		)
 		(uuid "60bdd5df-05be-422f-b896-705a628106a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 170.18 0)
+			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1272,7 @@
 	)
 	(global_label "LAMP_10_K"
 		(shape bidirectional)
-		(at 185.42 180.34 0)
+		(at 137.16 114.3 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1404,7 +1281,7 @@
 		)
 		(uuid "67f46e7b-ca6c-4abf-a850-2f920bd1a5e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 180.34 180)
+			(at 137.16 114.3 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1294,7 @@
 	)
 	(global_label "SW_15_RAW"
 		(shape bidirectional)
-		(at 232.41 220.98 180)
+		(at 156.21 138.43 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1426,7 +1303,7 @@
 		)
 		(uuid "773c8333-f804-4afc-9d9a-628800158e5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 220.98 0)
+			(at 156.21 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1439,7 +1316,7 @@
 	)
 	(global_label "SW_12_RAW"
 		(shape bidirectional)
-		(at 327.66 170.18 180)
+		(at 223.52 104.14 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1448,7 +1325,7 @@
 		)
 		(uuid "776301f7-4724-45c0-abc1-ed11151dcb69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 170.18 0)
+			(at 223.52 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1461,7 +1338,7 @@
 	)
 	(global_label "SW_10_RAW"
 		(shape bidirectional)
-		(at 137.16 170.18 180)
+		(at 93.98 104.14 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1470,7 +1347,7 @@
 		)
 		(uuid "891063aa-dcac-44a4-8e99-7d8f72d475f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 170.18 0)
+			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1483,7 +1360,7 @@
 	)
 	(global_label "LAMP_16_K"
 		(shape bidirectional)
-		(at 375.92 231.14 0)
+		(at 267.97 148.59 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1492,7 +1369,7 @@
 		)
 		(uuid "945888ec-4840-4ab9-a479-18b435e4e32b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.92 231.14 180)
+			(at 267.97 148.59 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1382,7 @@
 	)
 	(global_label "LAMP_13_K"
 		(shape bidirectional)
-		(at 90.17 231.14 0)
+		(at 71.12 148.59 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1514,7 +1391,7 @@
 		)
 		(uuid "9459cbc7-751c-4803-8f63-9719bf9e89a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.17 231.14 180)
+			(at 71.12 148.59 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +1404,7 @@
 	)
 	(global_label "SW_07_RAW"
 		(shape bidirectional)
-		(at 232.41 119.38 180)
+		(at 154.94 68.58 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1536,7 +1413,7 @@
 		)
 		(uuid "98806c7a-56bf-422e-a206-67d21e081352")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 119.38 0)
+			(at 154.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1426,7 @@
 	)
 	(global_label "SW_01_RAW"
 		(shape bidirectional)
-		(at 41.91 68.58 180)
+		(at 29.21 35.56 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1558,7 +1435,7 @@
 		)
 		(uuid "a09a8760-46f6-4af0-b662-317cebd74b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 68.58 0)
+			(at 29.21 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,7 +1448,7 @@
 	)
 	(global_label "SW_09_RAW"
 		(shape bidirectional)
-		(at 41.91 170.18 180)
+		(at 30.48 104.14 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1580,7 +1457,7 @@
 		)
 		(uuid "abddbd9f-48a3-4212-a83c-7e3a00fe38cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 170.18 0)
+			(at 30.48 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1593,7 +1470,7 @@
 	)
 	(global_label "LAMP_14_K"
 		(shape bidirectional)
-		(at 185.42 231.14 0)
+		(at 137.16 148.59 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1602,7 +1479,7 @@
 		)
 		(uuid "b1dd7a87-373b-423b-96b1-4a224d129715")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 231.14 180)
+			(at 137.16 148.59 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1615,7 +1492,7 @@
 	)
 	(global_label "SW_08_RAW"
 		(shape bidirectional)
-		(at 327.66 119.38 180)
+		(at 222.25 68.58 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1624,7 +1501,7 @@
 		)
 		(uuid "b444c30c-4995-4c50-acc4-4f23930eca5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 119.38 0)
+			(at 222.25 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1637,7 +1514,7 @@
 	)
 	(global_label "SW_05_RAW"
 		(shape bidirectional)
-		(at 41.91 119.38 180)
+		(at 29.21 68.58 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1646,7 +1523,7 @@
 		)
 		(uuid "c10e174c-d433-4db6-920a-22511de2e37f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 119.38 0)
+			(at 29.21 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1659,7 +1536,7 @@
 	)
 	(global_label "LAMP_06_K"
 		(shape bidirectional)
-		(at 185.42 129.54 0)
+		(at 135.89 78.74 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1668,7 +1545,7 @@
 		)
 		(uuid "d74d8259-06ff-4b06-a787-87f2153c4048")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 129.54 180)
+			(at 135.89 78.74 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1681,7 +1558,7 @@
 	)
 	(global_label "SW_03_RAW"
 		(shape bidirectional)
-		(at 232.41 68.58 180)
+		(at 154.94 35.56 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1690,7 +1567,7 @@
 		)
 		(uuid "dde5f333-054f-456c-956c-751b518e11a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.41 68.58 0)
+			(at 154.94 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1703,7 +1580,7 @@
 	)
 	(global_label "LAMP_07_K"
 		(shape bidirectional)
-		(at 280.67 129.54 0)
+		(at 200.66 78.74 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1712,7 +1589,7 @@
 		)
 		(uuid "e0f8b3aa-5daf-4b8f-a8e2-3685da701260")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 129.54 180)
+			(at 200.66 78.74 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1725,7 +1602,7 @@
 	)
 	(global_label "LAMP_03_K"
 		(shape bidirectional)
-		(at 280.67 78.74 0)
+		(at 200.66 45.72 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1734,7 +1611,7 @@
 		)
 		(uuid "ed660c23-3244-4cd4-aadb-d3bac2b543f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 78.74 180)
+			(at 200.66 45.72 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1747,7 +1624,7 @@
 	)
 	(global_label "SW_14_RAW"
 		(shape bidirectional)
-		(at 137.16 220.98 180)
+		(at 93.98 138.43 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1756,7 +1633,7 @@
 		)
 		(uuid "f3f55f4a-013d-4035-b298-9f3dd70d513c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 220.98 0)
+			(at 93.98 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1646,7 @@
 	)
 	(global_label "LAMP_15_K"
 		(shape bidirectional)
-		(at 280.67 231.14 0)
+		(at 201.93 148.59 0)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1778,7 +1655,7 @@
 		)
 		(uuid "f9115648-5e79-4285-ac78-8d0ec3ab17d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.67 231.14 180)
+			(at 201.93 148.59 180)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1668,7 @@
 	)
 	(global_label "SW_16_RAW"
 		(shape bidirectional)
-		(at 327.66 220.98 180)
+		(at 223.52 138.43 180)
 		(effects
 			(font
 				(size 1.05 1.05)
@@ -1800,7 +1677,7 @@
 		)
 		(uuid "fb8dcb95-702c-4b04-a249-4bd1dbcfa3ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.66 220.98 0)
+			(at 223.52 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 280.67 170.18 0)
+		(at 201.93 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1823,7 +1700,7 @@
 		(dnp no)
 		(uuid "086797d3-0ee3-4ae7-a3fe-380018f62537")
 		(property "Reference" "#PWR0295"
-			(at 280.67 173.99 0)
+			(at 201.93 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1834,7 +1711,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 280.67 166.624 0)
+			(at 201.93 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1844,7 +1721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.67 171.26 0)
+			(at 205.93 105.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.67 173.8 0)
+			(at 205.93 107.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1868,7 +1745,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 170.18 0)
+			(at 201.93 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1887,11 +1764,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0295")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 185.42 220.98 0)
+		(at 139.7 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1901,7 +1784,7 @@
 		(dnp no)
 		(uuid "08ae5dfa-4895-441b-b448-4bd244aca1e7")
 		(property "Reference" "#PWR0301"
-			(at 185.42 224.79 0)
+			(at 139.7 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1912,7 +1795,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 185.42 217.424 0)
+			(at 139.7 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1922,7 +1805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.42 222.06 0)
+			(at 143.7 139.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1934,7 +1817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.42 224.6 0)
+			(at 143.7 142.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1946,7 +1829,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 220.98 0)
+			(at 139.7 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1965,11 +1848,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 90.17 220.98 0)
+		(at 74.93 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1979,7 +1868,7 @@
 		(dnp no)
 		(uuid "0ab00cd3-1ebc-4b17-b1a4-8370c3e1d84d")
 		(property "Reference" "#PWR0299"
-			(at 90.17 224.79 0)
+			(at 74.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +1879,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 90.17 217.424 0)
+			(at 74.93 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2000,7 +1889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.17 222.06 0)
+			(at 78.93 139.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2012,7 +1901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.17 224.6 0)
+			(at 78.93 142.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2024,7 +1913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 220.98 0)
+			(at 74.93 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2043,11 +1932,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0299")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 129.54 0)
+		(at 90.17 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2057,7 +1952,7 @@
 		(dnp no)
 		(uuid "1229a2a5-9e04-4e54-9c66-d0f18d8a403b")
 		(property "Reference" "#PWR0284"
-			(at 137.16 135.89 0)
+			(at 90.17 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2068,7 +1963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 133.35 0)
+			(at 90.17 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2078,7 +1973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.16 130.62 0)
+			(at 94.17 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +1985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.16 133.16 0)
+			(at 94.17 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +1997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 129.54 0)
+			(at 90.17 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2121,11 +2016,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0284")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 185.42 170.18 0)
+		(at 139.7 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2135,7 +2036,7 @@
 		(dnp no)
 		(uuid "1f5c81b8-0df3-4e9f-9a89-c45c740c5040")
 		(property "Reference" "#PWR0293"
-			(at 185.42 173.99 0)
+			(at 139.7 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,7 +2047,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 185.42 166.624 0)
+			(at 139.7 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2156,7 +2057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.42 171.26 0)
+			(at 143.7 105.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.42 173.8 0)
+			(at 143.7 107.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 170.18 0)
+			(at 139.7 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2199,11 +2100,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0293")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 161.29 124.46 0)
+		(at 114.3 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2213,7 +2120,7 @@
 		(dnp no)
 		(uuid "318dd95f-0f38-4e68-9b0e-9d31cd59e0fc")
 		(property "Reference" "SW6"
-			(at 146.29 109.46 0)
+			(at 99.3 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2224,7 +2131,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 161.29 139.46 0)
+			(at 114.3 88.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2234,7 +2141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.29 125.54 0)
+			(at 118.3 74.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 165.29 128.08 0)
+			(at 118.3 77.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 124.46 0)
+			(at 114.3 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2268,7 +2175,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 165.29 130.62 0)
+			(at 118.3 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2280,7 +2187,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 165.29 133.16 0)
+			(at 118.3 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2199,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 165.29 135.7 0)
+			(at 118.3 84.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2304,7 +2211,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 165.29 138.24 0)
+			(at 118.3 87.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2316,7 +2223,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 165.29 140.78 0)
+			(at 118.3 89.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2328,7 +2235,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 165.29 143.32 0)
+			(at 118.3 92.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2358,11 +2265,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 66.04 175.26 0)
+		(at 50.8 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2372,7 +2285,7 @@
 		(dnp no)
 		(uuid "33d69751-305c-4cf8-928d-99cd298658cc")
 		(property "Reference" "SW9"
-			(at 51.04 160.26 0)
+			(at 35.8 94.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2383,7 +2296,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 66.04 190.26 0)
+			(at 50.8 124.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2393,7 +2306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.04 176.34 0)
+			(at 54.8 110.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2405,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 70.04 178.88 0)
+			(at 54.8 112.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2330,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 175.26 0)
+			(at 50.8 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2427,7 +2340,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 70.04 181.42 0)
+			(at 54.8 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2439,7 +2352,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 70.04 183.96 0)
+			(at 54.8 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +2364,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 70.04 186.5 0)
+			(at 54.8 120.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2463,7 +2376,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 70.04 189.04 0)
+			(at 54.8 123 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2475,7 +2388,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 70.04 191.58 0)
+			(at 54.8 125.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2400,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 70.04 194.12 0)
+			(at 54.8 128.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,11 +2430,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 78.74 0)
+		(at 25.4 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2531,7 +2450,7 @@
 		(dnp no)
 		(uuid "3645a7af-cc0c-490d-9b71-f22a3920ff0a")
 		(property "Reference" "#PWR0274"
-			(at 41.91 85.09 0)
+			(at 25.4 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2542,7 +2461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 82.55 0)
+			(at 25.4 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2552,7 +2471,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.91 79.82 0)
+			(at 29.4 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2564,7 +2483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.91 82.36 0)
+			(at 29.4 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2576,7 +2495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 78.74 0)
+			(at 25.4 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2595,11 +2514,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 351.79 226.06 0)
+		(at 246.38 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2609,7 +2534,7 @@
 		(dnp no)
 		(uuid "3bf19c09-0bcb-4c8f-a039-26bf54875bba")
 		(property "Reference" "SW16"
-			(at 336.79 211.06 0)
+			(at 231.38 128.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,7 +2545,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 351.79 241.06 0)
+			(at 246.38 158.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2630,7 +2555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.79 227.14 0)
+			(at 250.38 144.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2642,7 +2567,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 355.79 229.68 0)
+			(at 250.38 147.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2654,7 +2579,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 226.06 0)
+			(at 246.38 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +2589,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 355.79 232.22 0)
+			(at 250.38 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2601,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 355.79 234.76 0)
+			(at 250.38 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2688,7 +2613,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 355.79 237.3 0)
+			(at 250.38 154.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2700,7 +2625,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 355.79 239.84 0)
+			(at 250.38 157.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2637,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 355.79 242.38 0)
+			(at 250.38 159.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,7 +2649,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 355.79 244.92 0)
+			(at 250.38 162.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,11 +2679,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 66.04 226.06 0)
+		(at 50.8 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2768,7 +2699,7 @@
 		(dnp no)
 		(uuid "3dd73eda-dca8-4656-a486-845b37ada412")
 		(property "Reference" "SW13"
-			(at 51.04 211.06 0)
+			(at 35.8 128.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2779,7 +2710,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 66.04 241.06 0)
+			(at 50.8 158.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2789,7 +2720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.04 227.14 0)
+			(at 54.8 144.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2732,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 70.04 229.68 0)
+			(at 54.8 147.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 226.06 0)
+			(at 50.8 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2823,7 +2754,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 70.04 232.22 0)
+			(at 54.8 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,7 +2766,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 70.04 234.76 0)
+			(at 54.8 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +2778,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 70.04 237.3 0)
+			(at 54.8 154.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +2790,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 70.04 239.84 0)
+			(at 54.8 157.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +2802,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 70.04 242.38 0)
+			(at 54.8 159.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2814,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 70.04 244.92 0)
+			(at 54.8 162.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,11 +2844,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 180.34 0)
+		(at 91.44 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2927,7 +2864,7 @@
 		(dnp no)
 		(uuid "42755c9c-f69d-4166-9681-b35e5b73b518")
 		(property "Reference" "#PWR0292"
-			(at 137.16 186.69 0)
+			(at 91.44 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2938,7 +2875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 184.15 0)
+			(at 91.44 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2948,7 +2885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.16 181.42 0)
+			(at 95.44 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2960,7 +2897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.16 183.96 0)
+			(at 95.44 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 180.34 0)
+			(at 91.44 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2991,11 +2928,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0292")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 351.79 175.26 0)
+		(at 246.38 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3005,7 +2948,7 @@
 		(dnp no)
 		(uuid "44cd4875-37ce-4402-a22c-3e9c991ae7cf")
 		(property "Reference" "SW12"
-			(at 336.79 160.26 0)
+			(at 231.38 94.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3016,7 +2959,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 351.79 190.26 0)
+			(at 246.38 124.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3026,7 +2969,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.79 176.34 0)
+			(at 250.38 110.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +2981,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 355.79 178.88 0)
+			(at 250.38 112.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +2993,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 175.26 0)
+			(at 246.38 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3060,7 +3003,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 355.79 181.42 0)
+			(at 250.38 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3072,7 +3015,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 355.79 183.96 0)
+			(at 250.38 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3084,7 +3027,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 355.79 186.5 0)
+			(at 250.38 120.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3039,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 355.79 189.04 0)
+			(at 250.38 123 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3108,7 +3051,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 355.79 191.58 0)
+			(at 250.38 125.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3120,7 +3063,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 355.79 194.12 0)
+			(at 250.38 128.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3150,11 +3093,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 90.17 170.18 0)
+		(at 74.93 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3164,7 +3113,7 @@
 		(dnp no)
 		(uuid "4652b7f1-e06c-4de2-9cbd-70431e3fab04")
 		(property "Reference" "#PWR0291"
-			(at 90.17 173.99 0)
+			(at 74.93 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3124,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 90.17 166.624 0)
+			(at 74.93 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3185,7 +3134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.17 171.26 0)
+			(at 78.93 105.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3197,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.17 173.8 0)
+			(at 78.93 107.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 170.18 0)
+			(at 74.93 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3228,11 +3177,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0291")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 185.42 68.58 0)
+		(at 138.43 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3242,7 +3197,7 @@
 		(dnp no)
 		(uuid "4c04d3c2-19de-424e-8b20-8a61336dac96")
 		(property "Reference" "#PWR0277"
-			(at 185.42 72.39 0)
+			(at 138.43 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3253,7 +3208,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 185.42 65.024 0)
+			(at 138.43 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3263,7 +3218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.42 69.66 0)
+			(at 142.43 36.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3275,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.42 72.2 0)
+			(at 142.43 39.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +3242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 68.58 0)
+			(at 138.43 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3306,11 +3261,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0277")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 231.14 0)
+		(at 153.67 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3320,7 +3281,7 @@
 		(dnp no)
 		(uuid "52f40bcb-aa2d-4e15-a6db-194658456ac5")
 		(property "Reference" "#PWR0302"
-			(at 232.41 237.49 0)
+			(at 153.67 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +3292,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 234.95 0)
+			(at 153.67 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3341,7 +3302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.41 232.22 0)
+			(at 157.67 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3353,7 +3314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.41 234.76 0)
+			(at 157.67 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3365,7 +3326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 231.14 0)
+			(at 153.67 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3384,11 +3345,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 280.67 119.38 0)
+		(at 200.66 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3398,7 +3365,7 @@
 		(dnp no)
 		(uuid "57477ec0-b533-44db-bb7a-0f3e2ab54103")
 		(property "Reference" "#PWR0287"
-			(at 280.67 123.19 0)
+			(at 200.66 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3409,7 +3376,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 280.67 115.824 0)
+			(at 200.66 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3419,7 +3386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.67 120.46 0)
+			(at 204.66 69.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3398,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.67 123 0)
+			(at 204.66 72.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +3410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 119.38 0)
+			(at 200.66 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3462,11 +3429,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0287")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 256.54 73.66 0)
+		(at 176.53 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3476,7 +3449,7 @@
 		(dnp no)
 		(uuid "6f93bdfc-7aa8-4af5-9671-dac23a0b538a")
 		(property "Reference" "SW3"
-			(at 241.54 58.66 0)
+			(at 161.53 25.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3487,7 +3460,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 256.54 88.66 0)
+			(at 176.53 55.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3497,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.54 74.74 0)
+			(at 180.53 41.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3509,7 +3482,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 260.54 77.28 0)
+			(at 180.53 44.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 73.66 0)
+			(at 176.53 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3531,7 +3504,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 260.54 79.82 0)
+			(at 180.53 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +3516,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 260.54 82.36 0)
+			(at 180.53 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3555,7 +3528,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 260.54 84.9 0)
+			(at 180.53 51.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,7 +3540,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 260.54 87.44 0)
+			(at 180.53 54.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,7 +3552,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 260.54 89.98 0)
+			(at 180.53 56.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3564,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 260.54 92.52 0)
+			(at 180.53 59.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,11 +3594,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 129.54 0)
+		(at 152.4 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3635,7 +3614,7 @@
 		(dnp no)
 		(uuid "70697e8d-c3ff-416b-9727-e734dde33534")
 		(property "Reference" "#PWR0286"
-			(at 232.41 135.89 0)
+			(at 152.4 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3625,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 133.35 0)
+			(at 152.4 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,7 +3635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.41 130.62 0)
+			(at 156.4 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3668,7 +3647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.41 133.16 0)
+			(at 156.4 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3680,7 +3659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 129.54 0)
+			(at 152.4 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3699,11 +3678,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0286")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 66.04 124.46 0)
+		(at 49.53 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3713,7 +3698,7 @@
 		(dnp no)
 		(uuid "76fceccf-4b55-4201-ba55-cdf20377f150")
 		(property "Reference" "SW5"
-			(at 51.04 109.46 0)
+			(at 34.53 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3724,7 +3709,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 66.04 139.46 0)
+			(at 49.53 88.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +3719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.04 125.54 0)
+			(at 53.53 74.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3746,7 +3731,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 70.04 128.08 0)
+			(at 53.53 77.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +3743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 124.46 0)
+			(at 49.53 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3768,7 +3753,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 70.04 130.62 0)
+			(at 53.53 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +3765,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 70.04 133.16 0)
+			(at 53.53 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3792,7 +3777,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 70.04 135.7 0)
+			(at 53.53 84.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +3789,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 70.04 138.24 0)
+			(at 53.53 87.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3816,7 +3801,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 70.04 140.78 0)
+			(at 53.53 89.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3828,7 +3813,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 70.04 143.32 0)
+			(at 53.53 92.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,11 +3843,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 351.79 73.66 0)
+		(at 245.11 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3872,7 +3863,7 @@
 		(dnp no)
 		(uuid "7d07b69e-01fd-4a67-af27-d717bfd0d961")
 		(property "Reference" "SW4"
-			(at 336.79 58.66 0)
+			(at 230.11 25.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3883,7 +3874,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 351.79 88.66 0)
+			(at 245.11 55.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3893,7 +3884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.79 74.74 0)
+			(at 249.11 41.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3905,7 +3896,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 355.79 77.28 0)
+			(at 249.11 44.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3917,7 +3908,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 73.66 0)
+			(at 245.11 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3927,7 +3918,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 355.79 79.82 0)
+			(at 249.11 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3930,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 355.79 82.36 0)
+			(at 249.11 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +3942,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 355.79 84.9 0)
+			(at 249.11 51.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3963,7 +3954,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 355.79 87.44 0)
+			(at 249.11 54.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3975,7 +3966,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 355.79 89.98 0)
+			(at 249.11 56.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3987,7 +3978,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 355.79 92.52 0)
+			(at 249.11 59.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4017,11 +4008,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 78.74 0)
+		(at 152.4 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4031,7 +4028,7 @@
 		(dnp no)
 		(uuid "83c867b7-d87e-4655-b240-be5504983c2d")
 		(property "Reference" "#PWR0278"
-			(at 232.41 85.09 0)
+			(at 152.4 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 82.55 0)
+			(at 152.4 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4052,7 +4049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.41 79.82 0)
+			(at 156.4 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.41 82.36 0)
+			(at 156.4 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +4073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 78.74 0)
+			(at 152.4 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4095,11 +4092,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0278")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 161.29 73.66 0)
+		(at 114.3 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4109,7 +4112,7 @@
 		(dnp no)
 		(uuid "854e006c-b8cc-42f4-b7b5-2b77e8bb5dca")
 		(property "Reference" "SW2"
-			(at 146.29 58.66 0)
+			(at 99.3 25.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4120,7 +4123,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 161.29 88.66 0)
+			(at 114.3 55.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.29 74.74 0)
+			(at 118.3 41.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4145,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 165.29 77.28 0)
+			(at 118.3 44.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 73.66 0)
+			(at 114.3 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4164,7 +4167,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 165.29 79.82 0)
+			(at 118.3 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4179,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 165.29 82.36 0)
+			(at 118.3 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4191,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 165.29 84.9 0)
+			(at 118.3 51.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4203,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 165.29 87.44 0)
+			(at 118.3 54.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4215,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 165.29 89.98 0)
+			(at 118.3 56.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +4227,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 165.29 92.52 0)
+			(at 118.3 59.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,11 +4257,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 256.54 226.06 0)
+		(at 177.8 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4268,7 +4277,7 @@
 		(dnp no)
 		(uuid "90238c0c-6e93-499c-b688-73312b3c4942")
 		(property "Reference" "SW15"
-			(at 241.54 211.06 0)
+			(at 162.8 128.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4279,7 +4288,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 256.54 241.06 0)
+			(at 177.8 158.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4289,7 +4298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.54 227.14 0)
+			(at 181.8 144.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4310,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 260.54 229.68 0)
+			(at 181.8 147.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4313,7 +4322,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 226.06 0)
+			(at 177.8 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4323,7 +4332,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 260.54 232.22 0)
+			(at 181.8 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4335,7 +4344,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 260.54 234.76 0)
+			(at 181.8 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4347,7 +4356,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 260.54 237.3 0)
+			(at 181.8 154.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +4368,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 260.54 239.84 0)
+			(at 181.8 157.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +4380,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 260.54 242.38 0)
+			(at 181.8 159.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4383,7 +4392,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 260.54 244.92 0)
+			(at 181.8 162.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,11 +4422,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 180.34 0)
+		(at 153.67 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4427,7 +4442,7 @@
 		(dnp no)
 		(uuid "92fb51d9-a2a5-421c-85ee-b59ac9b6f642")
 		(property "Reference" "#PWR0294"
-			(at 232.41 186.69 0)
+			(at 153.67 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 184.15 0)
+			(at 153.67 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.41 181.42 0)
+			(at 157.67 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.41 183.96 0)
+			(at 157.67 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4472,7 +4487,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 232.41 180.34 0)
+			(at 153.67 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4491,11 +4506,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0294")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 256.54 124.46 0)
+		(at 176.53 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4505,7 +4526,7 @@
 		(dnp no)
 		(uuid "9927e073-8347-41b2-afdb-7d68a27a7cf0")
 		(property "Reference" "SW7"
-			(at 241.54 109.46 0)
+			(at 161.53 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4516,7 +4537,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 256.54 139.46 0)
+			(at 176.53 88.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4526,7 +4547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.54 125.54 0)
+			(at 180.53 74.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4538,7 +4559,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 260.54 128.08 0)
+			(at 180.53 77.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +4571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 124.46 0)
+			(at 176.53 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4560,7 +4581,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 260.54 130.62 0)
+			(at 180.53 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4572,7 +4593,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 260.54 133.16 0)
+			(at 180.53 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4584,7 +4605,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 260.54 135.7 0)
+			(at 180.53 84.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4596,7 +4617,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 260.54 138.24 0)
+			(at 180.53 87.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4608,7 +4629,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 260.54 140.78 0)
+			(at 180.53 89.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4620,7 +4641,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 260.54 143.32 0)
+			(at 180.53 92.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4650,11 +4671,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 180.34 0)
+		(at 222.25 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4664,7 +4691,7 @@
 		(dnp no)
 		(uuid "99b41e4a-7c63-4308-bfff-499da29db126")
 		(property "Reference" "#PWR0296"
-			(at 327.66 186.69 0)
+			(at 222.25 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4702,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 184.15 0)
+			(at 222.25 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4685,7 +4712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.66 181.42 0)
+			(at 226.25 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,7 +4724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.66 183.96 0)
+			(at 226.25 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4736,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 180.34 0)
+			(at 222.25 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4728,11 +4755,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0296")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 90.17 119.38 0)
+		(at 73.66 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4742,7 +4775,7 @@
 		(dnp no)
 		(uuid "a07842ac-35b4-4b1a-8d31-18511cdc4aaa")
 		(property "Reference" "#PWR0283"
-			(at 90.17 123.19 0)
+			(at 73.66 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4753,7 +4786,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 90.17 115.824 0)
+			(at 73.66 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4763,7 +4796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.17 120.46 0)
+			(at 77.66 69.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,7 +4808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.17 123 0)
+			(at 77.66 72.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4787,7 +4820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 119.38 0)
+			(at 73.66 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4806,11 +4839,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0283")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 375.92 170.18 0)
+		(at 270.51 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4820,7 +4859,7 @@
 		(dnp no)
 		(uuid "a0992d18-504a-49b3-90a8-bcc3292a23ba")
 		(property "Reference" "#PWR0297"
-			(at 375.92 173.99 0)
+			(at 270.51 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4831,7 +4870,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 375.92 166.624 0)
+			(at 270.51 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4841,7 +4880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.92 171.26 0)
+			(at 274.51 105.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.92 173.8 0)
+			(at 274.51 107.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4865,7 +4904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 170.18 0)
+			(at 270.51 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4884,11 +4923,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0297")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 256.54 175.26 0)
+		(at 177.8 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4898,7 +4943,7 @@
 		(dnp no)
 		(uuid "a2e0b921-6f18-46ba-adcd-92db5acd345f")
 		(property "Reference" "SW11"
-			(at 241.54 160.26 0)
+			(at 162.8 94.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4909,7 +4954,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 256.54 190.26 0)
+			(at 177.8 124.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4919,7 +4964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.54 176.34 0)
+			(at 181.8 110.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4931,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 260.54 178.88 0)
+			(at 181.8 112.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,7 +4988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 175.26 0)
+			(at 177.8 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4953,7 +4998,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 260.54 181.42 0)
+			(at 181.8 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +5010,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 260.54 183.96 0)
+			(at 181.8 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4977,7 +5022,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 260.54 186.5 0)
+			(at 181.8 120.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4989,7 +5034,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 260.54 189.04 0)
+			(at 181.8 123 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5046,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 260.54 191.58 0)
+			(at 181.8 125.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5013,7 +5058,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 260.54 194.12 0)
+			(at 181.8 128.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,11 +5088,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 375.92 68.58 0)
+		(at 269.24 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5057,7 +5108,7 @@
 		(dnp no)
 		(uuid "a8e2e05e-2060-4b22-b2e1-5c426e672ba4")
 		(property "Reference" "#PWR0281"
-			(at 375.92 72.39 0)
+			(at 269.24 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5068,7 +5119,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 375.92 65.024 0)
+			(at 269.24 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5078,7 +5129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.92 69.66 0)
+			(at 273.24 36.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.92 72.2 0)
+			(at 273.24 39.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5153,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 68.58 0)
+			(at 269.24 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5121,11 +5172,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 375.92 220.98 0)
+		(at 270.51 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5135,7 +5192,7 @@
 		(dnp no)
 		(uuid "af08e6c4-6b7a-4657-b246-0f4dc1d0fcae")
 		(property "Reference" "#PWR0305"
-			(at 375.92 224.79 0)
+			(at 270.51 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5146,7 +5203,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 375.92 217.424 0)
+			(at 270.51 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5156,7 +5213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.92 222.06 0)
+			(at 274.51 139.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5168,7 +5225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.92 224.6 0)
+			(at 274.51 142.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5237,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 220.98 0)
+			(at 270.51 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5199,11 +5256,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 78.74 0)
+		(at 220.98 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5213,7 +5276,7 @@
 		(dnp no)
 		(uuid "b4813fab-e31a-47b6-b53f-749f42d0b4e7")
 		(property "Reference" "#PWR0280"
-			(at 327.66 85.09 0)
+			(at 220.98 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +5287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 82.55 0)
+			(at 220.98 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5234,7 +5297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.66 79.82 0)
+			(at 224.98 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5246,7 +5309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.66 82.36 0)
+			(at 224.98 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 78.74 0)
+			(at 220.98 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5277,11 +5340,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0280")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 129.54 0)
+		(at 220.98 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5291,7 +5360,7 @@
 		(dnp no)
 		(uuid "b52d8bcd-3563-4208-ad59-afc0c912e35c")
 		(property "Reference" "#PWR0288"
-			(at 327.66 135.89 0)
+			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,7 +5371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 133.35 0)
+			(at 220.98 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5312,7 +5381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.66 130.62 0)
+			(at 224.98 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5324,7 +5393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.66 133.16 0)
+			(at 224.98 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5336,7 +5405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 129.54 0)
+			(at 220.98 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5355,11 +5424,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0288")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 351.79 124.46 0)
+		(at 245.11 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5369,7 +5444,7 @@
 		(dnp no)
 		(uuid "b8b02b4f-f0ed-4bb7-a95a-8527a2afd5a1")
 		(property "Reference" "SW8"
-			(at 336.79 109.46 0)
+			(at 230.11 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5380,7 +5455,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 351.79 139.46 0)
+			(at 245.11 88.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5390,7 +5465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 355.79 125.54 0)
+			(at 249.11 74.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5402,7 +5477,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 355.79 128.08 0)
+			(at 249.11 77.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 124.46 0)
+			(at 245.11 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5424,7 +5499,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 355.79 130.62 0)
+			(at 249.11 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5436,7 +5511,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 355.79 133.16 0)
+			(at 249.11 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +5523,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 355.79 135.7 0)
+			(at 249.11 84.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5535,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 355.79 138.24 0)
+			(at 249.11 87.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5472,7 +5547,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 355.79 140.78 0)
+			(at 249.11 89.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +5559,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 355.79 143.32 0)
+			(at 249.11 92.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5514,11 +5589,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 90.17 68.58 0)
+		(at 73.66 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5528,7 +5609,7 @@
 		(dnp no)
 		(uuid "bfd249d9-afc0-42b0-8d1a-775c9b003943")
 		(property "Reference" "#PWR0275"
-			(at 90.17 72.39 0)
+			(at 73.66 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5539,7 +5620,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 90.17 65.024 0)
+			(at 73.66 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5549,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.17 69.66 0)
+			(at 77.66 36.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5561,7 +5642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.17 72.2 0)
+			(at 77.66 39.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +5654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 68.58 0)
+			(at 73.66 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5592,11 +5673,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0275")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 375.92 119.38 0)
+		(at 269.24 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5606,7 +5693,7 @@
 		(dnp no)
 		(uuid "c0bd875d-ab27-4bfb-a7ca-c9dfbf1464c9")
 		(property "Reference" "#PWR0289"
-			(at 375.92 123.19 0)
+			(at 269.24 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5704,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 375.92 115.824 0)
+			(at 269.24 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5627,7 +5714,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 379.92 120.46 0)
+			(at 273.24 69.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +5726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.92 123 0)
+			(at 273.24 72.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5738,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 375.92 119.38 0)
+			(at 269.24 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5670,11 +5757,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0289")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 231.14 0)
+		(at 91.44 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5684,7 +5777,7 @@
 		(dnp no)
 		(uuid "c5a99c79-baf1-47bf-9a3a-86631980e76d")
 		(property "Reference" "#PWR0300"
-			(at 137.16 237.49 0)
+			(at 91.44 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +5788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 234.95 0)
+			(at 91.44 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5705,7 +5798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.16 232.22 0)
+			(at 95.44 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,7 +5810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.16 234.76 0)
+			(at 95.44 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5729,7 +5822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 231.14 0)
+			(at 91.44 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5748,11 +5841,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0300")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 185.42 119.38 0)
+		(at 138.43 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5762,7 +5861,7 @@
 		(dnp no)
 		(uuid "c774dd6a-5bea-463f-8742-25d4d2a44102")
 		(property "Reference" "#PWR0285"
-			(at 185.42 123.19 0)
+			(at 138.43 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,7 +5872,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 185.42 115.824 0)
+			(at 138.43 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5783,7 +5882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.42 120.46 0)
+			(at 142.43 69.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5795,7 +5894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.42 123 0)
+			(at 142.43 72.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5807,7 +5906,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 119.38 0)
+			(at 138.43 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5826,11 +5925,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0285")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 231.14 0)
+		(at 222.25 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5840,7 +5945,7 @@
 		(dnp no)
 		(uuid "c8f511c0-1b0b-401b-b4e7-05b1a9fb8e10")
 		(property "Reference" "#PWR0304"
-			(at 327.66 237.49 0)
+			(at 222.25 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 234.95 0)
+			(at 222.25 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5861,7 +5966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.66 232.22 0)
+			(at 226.25 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5873,7 +5978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.66 234.76 0)
+			(at 226.25 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 231.14 0)
+			(at 222.25 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5904,11 +6009,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 66.04 73.66 0)
+		(at 49.53 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5918,7 +6029,7 @@
 		(dnp no)
 		(uuid "cb8293ec-fd4c-44b3-bea8-c4af2b0f3c90")
 		(property "Reference" "SW1"
-			(at 51.04 58.66 0)
+			(at 34.53 25.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5929,7 +6040,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 66.04 88.66 0)
+			(at 49.53 55.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5939,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 70.04 74.74 0)
+			(at 53.53 41.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +6062,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 70.04 77.28 0)
+			(at 53.53 44.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5963,7 +6074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 73.66 0)
+			(at 49.53 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5973,7 +6084,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 70.04 79.82 0)
+			(at 53.53 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5985,7 +6096,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 70.04 82.36 0)
+			(at 53.53 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5997,7 +6108,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 70.04 84.9 0)
+			(at 53.53 51.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6009,7 +6120,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 70.04 87.44 0)
+			(at 53.53 54.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,7 +6132,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 70.04 89.98 0)
+			(at 53.53 56.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6033,7 +6144,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 70.04 92.52 0)
+			(at 53.53 59.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6063,11 +6174,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 161.29 226.06 0)
+		(at 115.57 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6077,7 +6194,7 @@
 		(dnp no)
 		(uuid "d281e4c7-c32f-4adc-bac7-d0655a4146de")
 		(property "Reference" "SW14"
-			(at 146.29 211.06 0)
+			(at 100.57 128.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6088,7 +6205,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 161.29 241.06 0)
+			(at 115.57 158.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6098,7 +6215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.29 227.14 0)
+			(at 119.57 144.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +6227,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 165.29 229.68 0)
+			(at 119.57 147.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,7 +6239,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 226.06 0)
+			(at 115.57 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6132,7 +6249,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 165.29 232.22 0)
+			(at 119.57 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6144,7 +6261,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 165.29 234.76 0)
+			(at 119.57 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6273,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 165.29 237.3 0)
+			(at 119.57 154.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +6285,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 165.29 239.84 0)
+			(at 119.57 157.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6180,7 +6297,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 165.29 242.38 0)
+			(at 119.57 159.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,7 +6309,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 165.29 244.92 0)
+			(at 119.57 162.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6222,11 +6339,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Arcade:Illuminated_Button")
-		(at 161.29 175.26 0)
+		(at 115.57 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6236,7 +6359,7 @@
 		(dnp no)
 		(uuid "d8575a09-6553-4171-8d11-694f4a8c9137")
 		(property "Reference" "SW10"
-			(at 146.29 160.26 0)
+			(at 100.57 94.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6247,7 +6370,7 @@
 			)
 		)
 		(property "Value" "1194 / 60mm blue"
-			(at 161.29 190.26 0)
+			(at 115.57 124.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6257,7 +6380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.29 176.34 0)
+			(at 119.57 110.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +6392,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.adafruit.com/product/1194"
-			(at 165.29 178.88 0)
+			(at 119.57 112.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6281,7 +6404,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 175.26 0)
+			(at 115.57 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6291,7 +6414,7 @@
 			)
 		)
 		(property "Manufacturer" "Adafruit Industries"
-			(at 165.29 181.42 0)
+			(at 119.57 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6303,7 +6426,7 @@
 			)
 		)
 		(property "MPN" "1194"
-			(at 165.29 183.96 0)
+			(at 119.57 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6315,7 +6438,7 @@
 			)
 		)
 		(property "DigiKey" "1528-1914-ND"
-			(at 165.29 186.5 0)
+			(at 119.57 120.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +6450,7 @@
 			)
 		)
 		(property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
-			(at 165.29 189.04 0)
+			(at 119.57 123 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +6462,7 @@
 			)
 		)
 		(property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
-			(at 165.29 191.58 0)
+			(at 119.57 125.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6351,7 +6474,7 @@
 			)
 		)
 		(property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
-			(at 165.29 194.12 0)
+			(at 119.57 128.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6381,11 +6504,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 180.34 0)
+		(at 26.67 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6395,7 +6524,7 @@
 		(dnp no)
 		(uuid "df7d6f6a-8b7e-4b77-9941-548c8ebcf7ab")
 		(property "Reference" "#PWR0290"
-			(at 41.91 186.69 0)
+			(at 26.67 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +6535,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 184.15 0)
+			(at 26.67 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6416,7 +6545,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.91 181.42 0)
+			(at 30.67 115.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6428,7 +6557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.91 183.96 0)
+			(at 30.67 117.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +6569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 180.34 0)
+			(at 26.67 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6459,11 +6588,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0290")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 78.74 0)
+		(at 90.17 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6473,7 +6608,7 @@
 		(dnp no)
 		(uuid "e5b91e89-bc7b-4a1f-8f74-66984f5fec78")
 		(property "Reference" "#PWR0276"
-			(at 137.16 85.09 0)
+			(at 90.17 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +6619,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 82.55 0)
+			(at 90.17 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6494,7 +6629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.16 79.82 0)
+			(at 94.17 46.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.16 82.36 0)
+			(at 94.17 49.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 78.74 0)
+			(at 90.17 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6537,11 +6672,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0276")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 231.14 0)
+		(at 26.67 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6551,7 +6692,7 @@
 		(dnp no)
 		(uuid "f3113d85-85da-4ba6-bfbb-dd98a7906d6d")
 		(property "Reference" "#PWR0298"
-			(at 41.91 237.49 0)
+			(at 26.67 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,7 +6703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 234.95 0)
+			(at 26.67 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6572,7 +6713,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.91 232.22 0)
+			(at 30.67 149.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.91 234.76 0)
+			(at 30.67 152.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 231.14 0)
+			(at 26.67 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6615,11 +6756,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0298")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 280.67 68.58 0)
+		(at 200.66 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6629,7 +6776,7 @@
 		(dnp no)
 		(uuid "f77bcad7-aaf2-46e7-8504-974561b74e8f")
 		(property "Reference" "#PWR0279"
-			(at 280.67 72.39 0)
+			(at 200.66 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,7 +6787,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 280.67 65.024 0)
+			(at 200.66 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6650,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.67 69.66 0)
+			(at 204.66 36.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.67 72.2 0)
+			(at 204.66 39.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6674,7 +6821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 68.58 0)
+			(at 200.66 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6693,11 +6840,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0279")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 129.54 0)
+		(at 25.4 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6707,7 +6860,7 @@
 		(dnp no)
 		(uuid "f92ba74b-f939-48f1-b8b6-34dfed628441")
 		(property "Reference" "#PWR0282"
-			(at 41.91 135.89 0)
+			(at 25.4 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6718,7 +6871,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 133.35 0)
+			(at 25.4 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6728,7 +6881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.91 130.62 0)
+			(at 29.4 79.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6740,7 +6893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.91 133.16 0)
+			(at 29.4 82.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6752,7 +6905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 129.54 0)
+			(at 25.4 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6771,11 +6924,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 280.67 220.98 0)
+		(at 201.93 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6785,7 +6944,7 @@
 		(dnp no)
 		(uuid "fe832c98-dbd3-4309-988b-49b94c95cfc9")
 		(property "Reference" "#PWR0303"
-			(at 280.67 224.79 0)
+			(at 201.93 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6955,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 280.67 217.424 0)
+			(at 201.93 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6806,7 +6965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 284.67 222.06 0)
+			(at 205.93 139.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 284.67 224.6 0)
+			(at 205.93 142.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6830,7 +6989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 220.98 0)
+			(at 201.93 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6849,6 +7008,17 @@
 					(unit 1)
 				)
 			)
+			(project "external_buttons_1"
+				(path "/6ba62cfc-eb66-4348-b58b-2900af27f9b6"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
