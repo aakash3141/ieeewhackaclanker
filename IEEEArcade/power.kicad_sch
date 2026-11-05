@@ -1,0 +1,4422 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (uuid "9869febf-4838-45f8-8c18-b9d4d880a088")
+  (paper "A3")
+  (title_block
+    (title "12 V input protection / 5 V supply")
+    (date "2026-11-04")
+    (rev "Schematic development")
+    (company "UW-Madison IEEE"))
+  (lib_symbols
+    (symbol "Connector:Barrel_Jack"
+      (pin_names
+        (offset 1.016))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "J"
+        (at 0 5.334 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Barrel_Jack"
+        (at 0 -5.08 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 1.27 -1.016 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 1.27 -1.016 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "DC Barrel Jack"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "DC power barrel jack connector"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "BarrelJack*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "Barrel_Jack_0_1"
+        (rectangle
+          (start -5.08 3.81)
+          (end 5.08 -3.81)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (polyline
+          (pts
+            (xy -3.81 -2.54)
+            (xy -2.54 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -2.54)
+            (xy 2.54 -2.54)
+            (xy 5.08 -2.54))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -3.302 1.905)
+          (mid -3.9343 2.54)
+          (end -3.302 3.175)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -3.302 1.905)
+          (mid -3.9343 2.54)
+          (end -3.302 3.175)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (rectangle
+          (start 3.683 3.175)
+          (end -3.302 1.905)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 3.81 2.54))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "Barrel_Jack_1_1"
+        (pin passive line
+          (at 7.62 2.54 180)
+          (length 2.54)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 7.62 -2.54 180)
+          (length 2.54)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Device:Fuse"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "F"
+        (at 2.032 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Fuse"
+        (at -1.905 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Fuse"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "fuse"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "*Fuse*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "Fuse_0_1"
+        (rectangle
+          (start -0.762 -2.54)
+          (end 0.762 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 -2.54))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "Fuse_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Arcade:DMP4015SSS"
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "Q"
+        (at 5.08 1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "Q_PMOS_GSD"
+        (at 5.08 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 5.08 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "P-MOSFET transistor, gate/source/drain"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "DMP4015SSS_0_1"
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.254 0)
+            (xy -2.54 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.762 2.286)
+            (xy 0.762 1.27))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.762 1.778)
+            (xy 3.302 1.778)
+            (xy 3.302 -1.778)
+            (xy 0.762 -1.778))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.762 0.508)
+            (xy 0.762 -0.508))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 0.762 -2.286))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 1.651 0)
+          (radius 2.794)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 2.286 0)
+            (xy 1.27 0.381)
+            (xy 1.27 -0.381)
+            (xy 2.286 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 2.54 1.778)
+          (radius 0.254)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline)))
+        (circle
+          (center 2.54 -1.778)
+          (radius 0.254)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 2.921 -0.381)
+            (xy 3.683 -0.381))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 3.302 -0.381)
+            (xy 2.921 0.254)
+            (xy 3.683 0.254)
+            (xy 3.302 -0.381))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "DMP4015SSS_1_1"
+        (pin input line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name "G"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 -5.08 90)
+          (length 2.54)
+          (name "S"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 5.08 270)
+          (length 2.54)
+          (name "D"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 -5.08 90)
+          (length 2.54)
+          (name "S"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 -5.08 90)
+          (length 2.54)
+          (name "S"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 5.08 270)
+          (length 2.54)
+          (name "D"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 5.08 270)
+          (length 2.54)
+          (name "D"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 5.08 270)
+          (length 2.54)
+          (name "D"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Device:R"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "R"
+        (at 0 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Resistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "R res resistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "R_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Device:C_Polarized"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C_Polarized"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Polarized capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "CP_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "C_Polarized_0_1"
+        (rectangle
+          (start -2.286 0.508)
+          (end 2.286 1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.778 2.286)
+            (xy -0.762 2.286))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.27 2.794)
+            (xy -1.27 1.778))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (rectangle
+          (start 2.286 -0.508)
+          (end -2.286 -1.016)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline))))
+      (symbol "C_Polarized_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Arcade:TPS54202H"
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (symbol "TPS54202H_0_1"
+        (rectangle
+          (start -7.62 5.08)
+          (end 7.62 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background))))
+      (symbol "TPS54202H_1_1"
+        (pin power_in line
+          (at 0 -7.62 90)
+          (length 2.54)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_out line
+          (at 10.16 0 180)
+          (length 2.54)
+          (name "SW"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin power_in line
+          (at -10.16 2.54 0)
+          (length 2.54)
+          (name "VIN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at 10.16 -2.54 180)
+          (length 2.54)
+          (name "FB"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin input line
+          (at -10.16 -2.54 0)
+          (length 2.54)
+          (name "EN"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 10.16 2.54 180)
+          (length 2.54)
+          (name "BOOT"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no)
+      (property "Reference" "U"
+        (at -7.62 6.35 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "TPS54202DDC"
+        (at 0 6.35 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+        (at 1.27 -8.89 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
+        (at -7.62 8.89 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "switching buck converter power-supply voltage regulator emi spread spectrum"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "SOT?23*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)))))
+    (symbol "Device:C"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "C_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Device:L"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "L"
+        (at -1.27 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "L"
+        (at 1.905 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Inductor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "inductor choke coil reactor magnetic"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "L_0_1"
+        (arc
+          (start 0 2.54)
+          (mid 0.6323 1.905)
+          (end 0 1.27)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start 0 1.27)
+          (mid 0.6323 0.635)
+          (end 0 0)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start 0 0)
+          (mid 0.6323 -0.635)
+          (end 0 -1.27)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start 0 -1.27)
+          (mid 0.6323 -1.905)
+          (end 0 -2.54)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "L_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "Device:D_Schottky"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "D"
+        (at 0 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "D_Schottky"
+        (at 0 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Schottky diode"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "diode Schottky"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "D_Schottky_0_1"
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "D_Schottky_1_1"
+        (pin passive line
+          (at -3.81 0 0)
+          (length 2.54)
+          (name "K"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 3.81 0 180)
+          (length 2.54)
+          (name "A"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "power:PWR_FLAG"
+      (power global)
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#FLG"
+        (at 0 1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "PWR_FLAG"
+        (at 0 3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Description" "Special symbol for telling ERC where power comes from"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "flag power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line
+          (at 0 0 90)
+          (length 0)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (embedded_fonts no)))
+  (text "POWER | regulated 12 V DC input, protected distribution, 5 V / 2 A buck"
+    (at 20 16 0)
+    (effects
+      (font
+        (size 2 2))
+      (justify left))
+    (uuid "8c2a0cce-3896-4d89-9e47-ea5cd4fa5a33"))
+  (text "J1: 5.5 x 2.1 mm barrel (PJ-063AH uses 2.0 mm center pin), CENTER POSITIVE.\nExisting adapter stated 12 V / 60 W = 5 A; exact plug and polarity must be checked.\nNo battery or AC input. F1 is a replaceable 5 A fuse supplied with its SMD holder."
+    (at 20 28 0)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "e691dc54-2c97-42ee-8929-0f2008004fdb"))
+  (symbol
+    (lib_id "Connector:Barrel_Jack")
+    (at 40.64 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b2b7661e-e339-4b6c-a29b-5d632a62b774")
+    (property "Reference" "J1"
+      (at 40.64 56.896 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "12VDC IN / center positive"
+      (at 40.64 67.31 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+      (at 44.64 63.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.sameskydevices.com/product/resource/pj-063ah.pdf"
+      (at 44.64 65.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Same Sky"
+      (at 44.64 68.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "PJ-063AH"
+      (at 44.64 70.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "CP-063AH-ND"
+      (at 44.64 73.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-063AH/2161208"
+      (at 44.64 76.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Jack package verified; actual adapter plug diameter/polarity still unverified"
+      (at 44.64 78.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 44.64 81.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "J1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 48.26 59.69)
+      (xy 55.88 59.69))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0afa6ff1-71a4-4f79-a758-74a990a7e40f"))
+  (global_label "VIN_RAW"
+    (shape bidirectional)
+    (at 55.88 59.69 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "e39c1a42-4710-4963-87ce-42bdcc9b33fe")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 55.88 59.69 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 48.26 64.77)
+      (xy 55.88 64.77))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "22044345-55ec-4717-809a-c6d46a5dd369"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 55.88 64.77 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "19f87060-2ae4-4272-adb2-df5c7b8580e2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 55.88 64.77 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:Fuse")
+    (at 106.68 62.23 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c66c1fdf-2464-41a1-bca5-7206785b6b32")
+    (property "Reference" "F1"
+      (at 106.68 58.73 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "5A / 125VDC fast"
+      (at 106.68 65.73 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" "Fuse:Fuseholder_Littelfuse_Nano2_154x"
+      (at 110.68 63.31 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-154-series-data-sheet?assetguid=a8a8a462-7295-481b-a91b-d770dabf005b"
+      (at 110.68 65.85 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Littelfuse"
+      (at 110.68 68.39 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "0154005.DR"
+      (at 110.68 70.93 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "F1228CT-ND"
+      (at 110.68 73.47 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/littelfuse-inc/0154005-DR/183358"
+      (at 110.68 76.01 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 110.68 78.55 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "Holder supplied preloaded with 5 A fuse"
+      (at 110.68 81.09 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "F1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 102.87 62.23)
+      (xy 99.06 62.23))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d40b891c-1906-4706-a5b0-b1091d3782b1"))
+  (global_label "VIN_RAW"
+    (shape bidirectional)
+    (at 99.06 62.23 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "66800399-45f8-4394-98de-f526301ccddc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 99.06 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 110.49 62.23)
+      (xy 114.3 62.23))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "03381d8e-5258-46ee-8dbb-aada7c1188e5"))
+  (global_label "VIN_FUSED"
+    (shape bidirectional)
+    (at 114.3 62.23 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "6e4df143-2be1-441e-9b8a-992097af9e21")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 114.3 62.23 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:DMP4015SSS")
+    (at 175.26 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "feca2d60-486c-4508-8966-d22fa0b62601")
+    (property "Reference" "Q33"
+      (at 180.34 60.325 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "DMP4015SSS-13"
+      (at 180.34 62.23 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+      (at 179.26 63.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP4015SSS.pdf"
+      (at 179.26 65.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Diodes Incorporated"
+      (at 179.26 68.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "DMP4015SSS-13"
+      (at 179.26 70.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "DMP4015SSS-13DICT-ND"
+      (at 179.26 73.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP4015SSS-13/4249945"
+      (at 179.26 76.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 179.26 78.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 179.26 81.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "Q33")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 177.8 67.31)
+      (xy 177.8 74.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f1f0f42a-b328-4e78-a929-14783b2f1c32"))
+  (wire
+    (pts
+      (xy 177.8 74.93)
+      (xy 173.99 74.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0cc84a6f-467b-40cf-8896-baa9d6be7f8e"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 173.99 74.93 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "4c0c7755-3f7e-4666-b9bd-3ca62c25f913")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 173.99 74.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 170.18 62.23)
+      (xy 162.56 62.23))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "985a457d-0b80-4fee-bf86-402e7fb7f210"))
+  (global_label "REVERSE_GATE"
+    (shape bidirectional)
+    (at 162.56 62.23 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "50d980d3-08c4-4f83-ab31-8a482ef1bd55")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 162.56 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 177.8 57.15)
+      (xy 177.8 49.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6f7d5ca3-4ca3-4aee-ac2b-c793c16ddcbd"))
+  (wire
+    (pts
+      (xy 177.8 49.53)
+      (xy 173.99 49.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "af3597c9-8d29-4f19-84c4-fac7bd7ad495"))
+  (global_label "VIN_FUSED"
+    (shape bidirectional)
+    (at 173.99 49.53 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "b692a53e-ce75-48bf-995b-1b0e40e7f476")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 173.99 49.53 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:R")
+    (at 224.79 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c62532f9-75f6-4a4b-a0a4-b60dd484135d")
+    (property "Reference" "R8"
+      (at 228.29 60.96 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "100k"
+      (at 228.29 63.5 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+      (at 228.79 63.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+      (at 228.79 65.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "YAGEO"
+      (at 228.79 68.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "RC1206FR-07100KL"
+      (at 228.79 70.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "311-100KFRCT-ND"
+      (at 228.79 73.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"
+      (at 228.79 76.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 228.79 78.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 228.79 81.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "R8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 224.79 58.42)
+      (xy 224.79 54.61))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5c63fc68-455f-4a8e-82a4-77be180e0af4"))
+  (wire
+    (pts
+      (xy 224.79 54.61)
+      (xy 220.98 54.61))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "520e338d-5530-404e-b00b-70ad773ec15d"))
+  (global_label "REVERSE_GATE"
+    (shape bidirectional)
+    (at 220.98 54.61 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "cccc8f47-4893-4deb-8c6e-b09036979ee8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 220.98 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 224.79 66.04)
+      (xy 224.79 69.85))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bd3d7c3b-4383-4337-8a85-6577e1383d74"))
+  (wire
+    (pts
+      (xy 224.79 69.85)
+      (xy 220.98 69.85))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "07d83128-0f80-430d-95a9-07a23b863b56"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 220.98 69.85 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "1b7ff846-b67b-4789-967c-a6ec1a9f2660")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 220.98 69.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C_Polarized")
+    (at 276.86 62.23 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e12490ca-6ee8-4dbe-a527-3c67d9b85f65")
+    (property "Reference" "C10"
+      (at 280.36 60.96 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "470u / 25V"
+      (at 280.36 63.5 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+      (at 280.86 63.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf"
+      (at 280.86 65.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Panasonic Industry"
+      (at 280.86 68.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "EEU-FR1E471"
+      (at 280.86 70.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "P14419-ND"
+      (at 280.86 73.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/panasonic-industry/EEU-FR1E471/2433553"
+      (at 280.86 76.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 280.86 78.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 280.86 81.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C10")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 276.86 58.42)
+      (xy 276.86 54.61))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a68f3f0f-a103-4e19-9648-02eb62c8d228"))
+  (wire
+    (pts
+      (xy 276.86 54.61)
+      (xy 273.05 54.61))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "429b3406-481b-4bcb-a79e-9d282291b38e"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 273.05 54.61 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9f41569c-302f-40a5-af41-15057774d785")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 273.05 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 66.04)
+      (xy 276.86 69.85))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "06424f7c-e8d5-4773-b08e-7f6823820c4c"))
+  (wire
+    (pts
+      (xy 276.86 69.85)
+      (xy 273.05 69.85))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ed6cbca3-a037-435a-9a2e-1820f1563477"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 273.05 69.85 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "a244cef4-5959-4f1c-86fd-9d852e41f356")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 273.05 69.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text "Q33 drain faces the input; source faces the protected +12 V rail.\nBody diode starts the rail; negative VGS then turns the P-channel MOSFET on.\nAt 4.1 A and 11mohm, nominal conduction loss is about 0.19 W (25 C rating)."
+    (at 20 92 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left))
+    (uuid "38756a8f-e06a-494d-9f86-86bc37d75f06"))
+  (symbol
+    (lib_id "Arcade:TPS54202H")
+    (at 110.49 139.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "3225810c-e1fb-41f5-a23c-9b60f5ebf25b")
+    (property "Reference" "U2"
+      (at 102.87 133.35 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "TPS54202HDDCR"
+      (at 110.49 133.35 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-6_Handsoldering"
+      (at 114.49 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54202h.pdf"
+      (at 114.49 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Texas Instruments"
+      (at 114.49 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "TPS54202HDDCR"
+      (at 114.49 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "296-44396-1-ND"
+      (at 114.49 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/texas-instruments/TPS54202HDDCR/6110664"
+      (at 114.49 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 114.49 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 114.49 158.56 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "U2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 110.49 147.32)
+      (xy 110.49 154.94))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b41a9a05-cec3-42d5-b811-80a60ac3c898"))
+  (wire
+    (pts
+      (xy 110.49 154.94)
+      (xy 106.68 154.94))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dddfc7eb-7866-4500-b9d2-3a3afc85374e"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 106.68 154.94 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "3671fc91-f5f5-4ecb-b927-fe9c6a78f067")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 106.68 154.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 120.65 139.7)
+      (xy 128.27 139.7))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1e275931-80e1-40c6-b97b-6c7413f34d8b"))
+  (global_label "BUCK_SW"
+    (shape bidirectional)
+    (at 128.27 139.7 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "a8ccc1ec-d0d9-4c21-92ad-a0c51582bcb2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 128.27 139.7 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 100.33 137.16)
+      (xy 92.71 137.16))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "630ef02e-700b-4475-b741-b705877ac5dc"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 92.71 137.16 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "8e8ad3d0-4ff8-4f3e-a248-f93b3da28411")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 92.71 137.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 120.65 142.24)
+      (xy 128.27 142.24))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a6335c19-30d5-410c-b281-66d7b6c5c57b"))
+  (global_label "BUCK_FB"
+    (shape bidirectional)
+    (at 128.27 142.24 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "d5b9e11d-dab2-461e-8f0b-9d3e8d3e93c0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 128.27 142.24 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 100.33 142.24)
+      (xy 92.71 142.24))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "84d44f35-ee78-4669-96d2-ef548743ce4e"))
+  (global_label "BUCK_EN"
+    (shape bidirectional)
+    (at 92.71 142.24 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "af3d9d43-f841-402c-af8b-575edc65d712")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 92.71 142.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 120.65 137.16)
+      (xy 128.27 137.16))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6209c207-c63e-4f5d-8c75-cf0a97f3cbf8"))
+  (global_label "BUCK_BOOT"
+    (shape bidirectional)
+    (at 128.27 137.16 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "8c3cf608-9d3f-4c67-aa1c-77cd2742dff0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 128.27 137.16 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 40.64 137.16 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "92f48969-5197-42d2-b416-e2f5d1698876")
+    (property "Reference" "C12"
+      (at 44.14 135.89 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 44.14 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 44.64 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 44.64 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 44.64 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 44.64 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 44.64 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 44.64 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 44.64 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 44.64 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C12")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 40.64 133.35)
+      (xy 40.64 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a4f2bccd-fc64-4456-9000-6eaf28868c5f"))
+  (wire
+    (pts
+      (xy 40.64 129.54)
+      (xy 36.83 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "56a1e25e-f77d-4551-83f8-fa80e98decda"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 36.83 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "72a70995-3a1a-4556-9e8a-42f873247d9a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 36.83 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 40.64 140.97)
+      (xy 40.64 144.78))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8c4b25c7-1f04-42fb-b3ad-320b56962107"))
+  (wire
+    (pts
+      (xy 40.64 144.78)
+      (xy 36.83 144.78))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2deae14b-045d-4c92-8226-5ea855ed83b4"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 36.83 144.78 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e556b358-4e70-4acb-8777-c58c012e0372")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 36.83 144.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 71.12 137.16 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "84cc0aa7-fca7-4175-97a6-0e684e163e60")
+    (property "Reference" "C13"
+      (at 74.62 135.89 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 74.62 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 75.12 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 75.12 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 75.12 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 75.12 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 75.12 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 75.12 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 75.12 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 75.12 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C13")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 71.12 133.35)
+      (xy 71.12 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7be867a7-f985-4fa1-bead-ab24e16601da"))
+  (wire
+    (pts
+      (xy 71.12 129.54)
+      (xy 67.31 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c87fe4d2-49b0-4f2e-8864-e43e187566fb"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 67.31 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "7bf9ae9c-08a6-47ce-9e93-d4875883f9f2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 71.12 140.97)
+      (xy 71.12 144.78))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "08b05b4e-12a6-462b-ac87-de9b0fce867b"))
+  (wire
+    (pts
+      (xy 71.12 144.78)
+      (xy 67.31 144.78))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0b704c43-95b2-40fc-9939-2e421fce26a0"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 67.31 144.78 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "0c5e231f-d9b9-45b9-8def-c2142676b6e9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 144.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 40.64 184.15 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "70efad4a-4b95-4b20-b195-b12aefb710af")
+    (property "Reference" "C14"
+      (at 44.14 182.88 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "100n / 50V"
+      (at 44.14 185.42 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 44.64 185.23 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU"
+      (at 44.64 187.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 44.64 190.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C104K5RACTU"
+      (at 44.64 192.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C104K5RACTUCT-ND"
+      (at 44.64 195.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411524"
+      (at 44.64 197.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 44.64 200.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 44.64 203.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C14")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 40.64 180.34)
+      (xy 40.64 176.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "fe535ba0-eb94-40f4-b4e5-f851842e3798"))
+  (wire
+    (pts
+      (xy 40.64 176.53)
+      (xy 36.83 176.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d3368e36-e140-4eed-93a6-078b9d249a73"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 36.83 176.53 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "dc995a51-a2b7-49d1-aabd-72164ff31536")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 36.83 176.53 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 40.64 187.96)
+      (xy 40.64 191.77))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a8f1f303-4a16-478f-b76a-44f9e76ee677"))
+  (wire
+    (pts
+      (xy 40.64 191.77)
+      (xy 36.83 191.77))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "84803c38-c84d-487a-81cd-71c655bc8b73"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 36.83 191.77 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e5f8d88a-7d82-4809-8b09-d53e4383ea1f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 36.83 191.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:R")
+    (at 71.12 184.15 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c73195df-042d-4b2e-adad-b1c3c649136b")
+    (property "Reference" "R9"
+      (at 74.62 182.88 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "511k"
+      (at 74.62 185.42 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+      (at 75.12 185.23 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+      (at 75.12 187.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "YAGEO"
+      (at 75.12 190.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "RC1206FR-07511KL"
+      (at 75.12 192.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "311-511KFRCT-ND"
+      (at 75.12 195.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07511KL/728980"
+      (at 75.12 197.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 75.12 200.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 75.12 203.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "R9")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 71.12 180.34)
+      (xy 71.12 176.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9223157c-e0b3-43c4-bc00-77481ed89767"))
+  (wire
+    (pts
+      (xy 71.12 176.53)
+      (xy 67.31 176.53))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "baee732b-5629-4451-b5f8-cc0e00d92b7c"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 67.31 176.53 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "5123d3d0-843c-450f-8f59-e8b830e90b6c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 176.53 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 71.12 187.96)
+      (xy 71.12 191.77))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eba4b405-6e6f-4017-9322-f8f67ba44d3e"))
+  (wire
+    (pts
+      (xy 71.12 191.77)
+      (xy 67.31 191.77))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bb949018-9b80-44e9-b04d-998397f96ae3"))
+  (global_label "BUCK_EN"
+    (shape bidirectional)
+    (at 67.31 191.77 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "741c11e0-ca97-4438-9af0-10f145e6bd1f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 67.31 191.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 165.1 118.11 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "84022629-638f-4234-bb98-6b5aed74745d")
+    (property "Reference" "C19"
+      (at 165.1 114.61 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "100n / 50V"
+      (at 165.1 121.61 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 169.1 119.19 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C104K5RACTU"
+      (at 169.1 121.73 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 169.1 124.27 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C104K5RACTU"
+      (at 169.1 126.81 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C104K5RACTUCT-ND"
+      (at 169.1 129.35 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C104K5RACTU/411524"
+      (at 169.1 131.89 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 169.1 134.43 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 169.1 136.97 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C19")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 161.29 118.11)
+      (xy 157.48 118.11))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "354e21b7-632d-4c00-87bd-08180d3c6847"))
+  (global_label "BUCK_BOOT"
+    (shape bidirectional)
+    (at 157.48 118.11 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "ef3b3525-b69b-43dd-b54a-fdbcb9a8ab54")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 157.48 118.11 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 168.91 118.11)
+      (xy 172.72 118.11))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0022a549-605b-47a8-b043-1be06396dede"))
+  (global_label "BUCK_SW"
+    (shape bidirectional)
+    (at 172.72 118.11 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "9fe891ea-a390-4d8e-9e1a-f05581c76e1f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 172.72 118.11 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:L")
+    (at 199.39 139.7 90)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c9b44ea1-1e5e-4e71-a6a1-b0159f44b4c9")
+    (property "Reference" "L1"
+      (at 199.39 136.2 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "15uH / 3.5A"
+      (at 199.39 143.2 90)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" "Arcade:L_Wurth_7447714150"
+      (at 203.39 140.78 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.we-online.com/components/products/datasheet/7447714150.pdf"
+      (at 203.39 143.32 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Wurth Elektronik"
+      (at 203.39 145.86 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "7447714150"
+      (at 203.39 148.4 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "732-2990-1-ND"
+      (at 203.39 150.94 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/7447714150/2626114"
+      (at 203.39 153.48 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 203.39 156.02 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 203.39 158.56 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "L1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 195.58 139.7)
+      (xy 191.77 139.7))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f8a83998-007e-4ae1-ad66-3b7b29b5ab36"))
+  (global_label "BUCK_SW"
+    (shape bidirectional)
+    (at 191.77 139.7 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "2d90d13b-1218-4c33-8dea-7cccf3173d58")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 191.77 139.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 203.2 139.7)
+      (xy 207.01 139.7))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8b2fc9a2-7844-487b-bdfa-efff8cc19e16"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 207.01 139.7 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "70cf1838-66e7-4b59-ae07-e9ab6e129e4a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 207.01 139.7 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:R")
+    (at 180.34 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4c53915e-5b9b-4a22-96a3-99ca60856472")
+    (property "Reference" "R10"
+      (at 183.84 173.99 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "100k"
+      (at 183.84 176.53 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+      (at 184.34 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+      (at 184.34 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "YAGEO"
+      (at 184.34 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "RC1206FR-07100KL"
+      (at 184.34 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "311-100KFRCT-ND"
+      (at 184.34 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07100KL/731439"
+      (at 184.34 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 184.34 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 184.34 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "R10")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 180.34 171.45)
+      (xy 180.34 167.64))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "03d021b4-2bb5-48e1-950a-f34e866023ee"))
+  (wire
+    (pts
+      (xy 180.34 167.64)
+      (xy 176.53 167.64))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5f4059ef-d34d-4811-ab65-c313ae76146b"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 176.53 167.64 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "fc079ff3-0e2e-4188-ace1-133f544f9742")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 176.53 167.64 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 180.34 179.07)
+      (xy 180.34 182.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1a8d0938-bb89-4f34-9855-24a03226f4da"))
+  (wire
+    (pts
+      (xy 180.34 182.88)
+      (xy 176.53 182.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "fc43e3d0-c6e9-4285-b4a1-1c1c8d0756e5"))
+  (global_label "BUCK_FB"
+    (shape bidirectional)
+    (at 176.53 182.88 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "499c2ebc-6b1c-49a4-9986-083ec3f07e41")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 176.53 182.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:R")
+    (at 180.34 209.55 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "22066607-6161-4677-b724-ff74d2862c02")
+    (property "Reference" "R11"
+      (at 183.84 208.28 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "13.3k"
+      (at 183.84 210.82 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+      (at 184.34 210.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+      (at 184.34 213.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "YAGEO"
+      (at 184.34 215.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "RC1206FR-0713K3L"
+      (at 184.34 218.25 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "311-13.3KFRCT-ND"
+      (at 184.34 220.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0713K3L/728534"
+      (at 184.34 223.33 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 184.34 225.87 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 184.34 228.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "R11")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 180.34 205.74)
+      (xy 180.34 201.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "697562c0-d204-416b-92ef-7904b5ba3919"))
+  (wire
+    (pts
+      (xy 180.34 201.93)
+      (xy 176.53 201.93))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6730bc67-4490-4959-90f3-ffab7e064e19"))
+  (global_label "BUCK_FB"
+    (shape bidirectional)
+    (at 176.53 201.93 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "67822efd-6ab6-4f3e-a33f-2b2aa132050c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 176.53 201.93 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 180.34 213.36)
+      (xy 180.34 217.17))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7016d998-5b13-434d-a2c6-a9e115643bd0"))
+  (wire
+    (pts
+      (xy 180.34 217.17)
+      (xy 176.53 217.17))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2fbc971f-637c-4fcc-bfaa-81dbe95a3701"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 176.53 217.17 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "547231f3-62e6-4474-87b4-629b610ac574")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 176.53 217.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 231.14 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ef12fd46-4f55-42a7-97c9-628b885aa6e4")
+    (property "Reference" "C18"
+      (at 234.64 173.99 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "75p / 50V"
+      (at 234.64 176.53 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 235.14 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C750J5GACTU"
+      (at 235.14 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 235.14 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C750J5GACTU"
+      (at 235.14 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-14710-1-ND"
+      (at 235.14 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C750J5GACTU/2216238"
+      (at 235.14 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 235.14 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 235.14 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C18")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 231.14 171.45)
+      (xy 231.14 167.64))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0b530084-5a31-4b4a-811f-3c329e442525"))
+  (wire
+    (pts
+      (xy 231.14 167.64)
+      (xy 227.33 167.64))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "626e34fc-e346-4957-9fe0-cc110cbeb714"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 227.33 167.64 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "bfb8c9bd-959d-426a-bbec-e041b200e437")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 227.33 167.64 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 231.14 179.07)
+      (xy 231.14 182.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "870bc637-6733-479f-b03a-f207a79756be"))
+  (wire
+    (pts
+      (xy 231.14 182.88)
+      (xy 227.33 182.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "50982c4d-bcd1-4e72-baf5-ce82c7db4451"))
+  (global_label "BUCK_FB"
+    (shape bidirectional)
+    (at 227.33 182.88 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "19f14b1f-4662-4304-ab59-cf8418838282")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 227.33 182.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 276.86 139.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4fce7ab4-77dc-4a06-8075-c71b7540dfce")
+    (property "Reference" "C20"
+      (at 280.36 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 280.36 140.97 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 280.86 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 280.86 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 280.86 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 280.86 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 280.86 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 280.86 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 280.86 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 280.86 158.56 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C20")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 276.86 135.89)
+      (xy 276.86 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "30b3aa5d-c159-413b-8644-2d12e20cb30b"))
+  (wire
+    (pts
+      (xy 276.86 132.08)
+      (xy 273.05 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b8eecb38-4649-410e-9cf5-b152bf959fe4"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 273.05 132.08 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "afc32986-0644-48ef-9637-228c28881e96")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 273.05 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 143.51)
+      (xy 276.86 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "98e27d47-1876-4aba-984f-0ffa3a231a95"))
+  (wire
+    (pts
+      (xy 276.86 147.32)
+      (xy 273.05 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "69a9d106-b5c5-4634-b50b-5b7b0da268b7"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 273.05 147.32 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "21fc1d50-5bb9-4ce3-81cc-bbc278c6aacf")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 273.05 147.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 309.88 139.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "8cb1f75e-ea88-4bb0-8f99-bbc66114b585")
+    (property "Reference" "C21"
+      (at 313.38 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 313.38 140.97 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 313.88 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 313.88 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 313.88 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 313.88 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 313.88 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 313.88 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 313.88 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 313.88 158.56 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C21")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 309.88 135.89)
+      (xy 309.88 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d0d3bac9-f1d3-40c3-a839-47c12927147e"))
+  (wire
+    (pts
+      (xy 309.88 132.08)
+      (xy 306.07 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a985848a-fbbf-41e9-960d-1457533e809e"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 306.07 132.08 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9c3966b1-083e-48aa-8a20-fda05eefcca7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 306.07 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 309.88 143.51)
+      (xy 309.88 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eecfd695-ad0d-468a-979c-57e15cc368d7"))
+  (wire
+    (pts
+      (xy 309.88 147.32)
+      (xy 306.07 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8eeb2215-74ad-4b2d-b261-90ebac68722c"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 306.07 147.32 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "6216d94c-99f1-4a97-a952-ce938bdf3309")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 306.07 147.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 342.9 139.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6ff56ad4-cb04-4fb6-a28c-e381defbdf29")
+    (property "Reference" "C22"
+      (at 346.4 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 346.4 140.97 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 346.9 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 346.9 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 346.9 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 346.9 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 346.9 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 346.9 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 346.9 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 346.9 158.56 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C22")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 342.9 135.89)
+      (xy 342.9 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ec40b21d-d412-4594-b020-30351bb7ce68"))
+  (wire
+    (pts
+      (xy 342.9 132.08)
+      (xy 339.09 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "62dec0ce-bce3-4856-9d9f-8a5ed4c67cf4"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 339.09 132.08 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "5b9cb408-24cf-4818-8aab-1d99eff16449")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 339.09 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 342.9 143.51)
+      (xy 342.9 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "46360080-5bb6-44f5-ac2a-0290b84fd662"))
+  (wire
+    (pts
+      (xy 342.9 147.32)
+      (xy 339.09 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e88d4059-4afa-430f-9312-2422008f35eb"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 339.09 147.32 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "4b446724-935a-4337-bfa8-ec6fc4737569")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 339.09 147.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:C")
+    (at 375.92 139.7 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f597fb24-3d27-4383-b9d2-7d59bbace922")
+    (property "Reference" "C23"
+      (at 379.42 138.43 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "10u / 25V"
+      (at 379.42 140.97 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+      (at 379.92 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://search.kemet.com/component-documentation/download/specsheet/C1206C106K3RACTU"
+      (at 379.92 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "KEMET"
+      (at 379.92 145.86 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "C1206C106K3RACTU"
+      (at 379.92 148.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "399-C1206C106K3RACTUCT-ND"
+      (at 379.92 150.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/kemet/C1206C106K3RACTU/3317648"
+      (at 379.92 153.48 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 379.92 156.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 379.92 158.56 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "C23")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 375.92 135.89)
+      (xy 375.92 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a50c6cc3-1328-4d21-9c37-e700bf0bf8ac"))
+  (wire
+    (pts
+      (xy 375.92 132.08)
+      (xy 372.11 132.08))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b0ff757e-8eaf-43d2-8373-5497063279f4"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 372.11 132.08 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "bcae1d63-0c20-4825-8589-3beef66eb0ac")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 372.11 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 375.92 143.51)
+      (xy 375.92 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0ce63d67-5d54-4287-8888-043b4e2ee6f4"))
+  (wire
+    (pts
+      (xy 375.92 147.32)
+      (xy 372.11 147.32))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b0797122-dd7a-42cf-87c2-1959b27aca41"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 372.11 147.32 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "946774db-90cc-4dfb-ad58-fd2472d9875f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 372.11 147.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Device:D_Schottky")
+    (at 309.88 204.47 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "79ad2154-a009-4300-bc88-24f6221592cf")
+    (property "Reference" "D1"
+      (at 313.38 203.2 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "SS14 / VSYS OR-ing"
+      (at 313.38 205.74 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Footprint" "Diode_SMD:D_SMA"
+      (at 313.88 205.55 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+      (at 313.88 208.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Vishay General Semiconductor"
+      (at 313.88 210.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "SS14-E3/61T"
+      (at 313.88 213.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "SS14-E3/61TGICT-ND"
+      (at 313.88 215.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/vishay-general-semiconductor-diodes-division/SS14-E3-61T/1091538"
+      (at 313.88 218.25 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "Datasheet pinout/package checked; DigiKey stock seen 2026-11-04"
+      (at 313.88 220.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "On PCB"
+      (at 313.88 223.33 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "D1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 306.07 204.47)
+      (xy 298.45 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "72dcf830-972e-4cb5-99c6-6f42ed0e9ca5"))
+  (global_label "PICO_VSYS"
+    (shape bidirectional)
+    (at 298.45 204.47 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "0245e096-5f60-4c48-ac35-30748685ced1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 298.45 204.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 313.69 204.47)
+      (xy 321.31 204.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c0a3e61c-6847-438f-8837-163330c20dc6"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 321.31 204.47 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "2f2f23ac-d977-4d19-938d-179a6fc063ad")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 321.31 204.47 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text "D1 isolates the 5 V buck from USB-powered VSYS.\nPico VBUS is unused externally. No USB-to-buck backfeed path."
+    (at 265 228 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left))
+    (uuid "4c7e7ea1-09d2-413a-9459-1e1b7185fa0b"))
+  (text "TPS54202H follows TI 5 V reference: 15uH, 100k / 13.3k feedback, 75pF feed-forward.\nNominal output 0.596 x (1 + 100 / 13.3) = 5.08 V. 2 A regulator; budget <=1.8 A.\nC20..C23: four 10uF / 25 V X7R; approx 34uF typical at 5 V bias, before tolerance.\nC10 damps input cable transients; C12/C13/C14 must be close to VIN/GND.\nKeep the BOOT/SW loop short; keep FB clear of SW and lamp-return currents."
+    (at 20 252 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left))
+    (uuid "0af08e2b-b4b4-4371-b385-22dba38ab7dd"))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 269.24 96.52 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "bd106640-d566-4bc0-99c8-8041eb5ae858")
+    (property "Reference" "#FLG01"
+      (at 269.24 94.615 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "PWR_FLAG"
+      (at 269.24 92.71 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 273.24 97.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" ""
+      (at 273.24 100.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "#FLG01")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 269.24 96.52)
+      (xy 269.24 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cd5826fd-b640-45ab-a179-ba505af485e1"))
+  (wire
+    (pts
+      (xy 269.24 104.14)
+      (xy 265.43 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0ebb20bb-3d24-45b7-b18b-445e3ae2be41"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 265.43 104.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "f9850234-56a1-44a2-b0ae-aad0bf6d1880")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 265.43 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 309.88 96.52 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "4dfc7b1b-795e-48cc-8b56-3aa9bff4e3d5")
+    (property "Reference" "#FLG02"
+      (at 309.88 94.615 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "PWR_FLAG"
+      (at 309.88 92.71 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 313.88 97.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" ""
+      (at 313.88 100.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "#FLG02")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 309.88 96.52)
+      (xy 309.88 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "78dcb6dc-6408-49d7-8b55-cb2a43f973a5"))
+  (wire
+    (pts
+      (xy 309.88 104.14)
+      (xy 306.07 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d11f97aa-06f3-4de2-92a0-c37da5e3787f"))
+  (global_label "+5V"
+    (shape bidirectional)
+    (at 306.07 104.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "2358d624-4a2e-478f-866f-bd6a31e0ef3b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 306.07 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 360.68 96.52 0)
+    (unit 1)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "47093411-47a7-4051-806c-a81e705885f4")
+    (property "Reference" "#FLG03"
+      (at 360.68 94.615 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Value" "PWR_FLAG"
+      (at 360.68 92.71 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 364.68 97.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" ""
+      (at 364.68 100.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/f6267654-482c-4487-9f71-aac6221ce43e"
+          (reference "#FLG03")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 360.68 96.52)
+      (xy 360.68 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "47b89f14-4c2c-4f0b-afc9-b9f9c9b18674"))
+  (wire
+    (pts
+      (xy 360.68 104.14)
+      (xy 356.87 104.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "13fb1bbf-dd3c-402e-9f4e-75f2e9b81ba3"))
+  (global_label "PICO_VSYS"
+    (shape bidirectional)
+    (at 356.87 104.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9224b5b3-65d5-40f3-9938-0d60952ae269")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 356.87 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text "Power flags indicate the external adapter / converter paths through passive protection parts."
+    (at 250 108 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "78269485-0900-40c8-bd7f-1df904b25b1b"))
+  (embedded_fonts no))

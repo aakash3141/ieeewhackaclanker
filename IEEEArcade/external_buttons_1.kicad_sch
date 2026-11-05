@@ -1,0 +1,2807 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (uuid "23e4a8c4-22d5-4b4f-a518-27ac6d705f56")
+  (paper "A3")
+  (title_block
+    (title "Off-board buttons 01..16")
+    (date "2026-11-04")
+    (rev "Schematic development")
+    (company "UW-Madison IEEE"))
+  (lib_symbols
+    (symbol "Arcade:Illuminated_Button"
+      (pin_names
+        (offset 1))
+      (in_bom yes)
+      (on_board no)
+      (property "Reference" "SW"
+        (at -15 15 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "Illuminated_Button"
+        (at 0 -15 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_fp_filters" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "Illuminated_Button_0_1"
+        (rectangle
+          (start -15 12)
+          (end 15 -12)
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type background)))
+        (text "NO SWITCH"
+          (at -6 0 0)
+          (effects
+            (font
+              (size 0.9 0.9))))
+        (text "LED + R"
+          (at 7 0 0)
+          (effects
+            (font
+              (size 0.9 0.9)))))
+      (symbol "Illuminated_Button_1_1"
+        (pin passive line
+          (at -20.32 5.08 0)
+          (length 5.08)
+          (name "NO"
+            (effects
+              (font
+                (size 0.9 0.9))))
+          (number "NO"
+            (effects
+              (font
+                (size 0.8 0.8)))))
+        (pin passive line
+          (at -20.32 -5.08 0)
+          (length 5.08)
+          (name "COM"
+            (effects
+              (font
+                (size 0.9 0.9))))
+          (number "COM"
+            (effects
+              (font
+                (size 0.8 0.8)))))
+        (pin passive line
+          (at 20.32 5.08 180)
+          (length 5.08)
+          (name "LED+"
+            (effects
+              (font
+                (size 0.9 0.9))))
+          (number "L+"
+            (effects
+              (font
+                (size 0.8 0.8)))))
+        (pin passive line
+          (at 20.32 -5.08 180)
+          (length 5.08)
+          (name "LED-"
+            (effects
+              (font
+                (size 0.9 0.9))))
+          (number "L-"
+            (effects
+              (font
+                (size 0.8 0.8))))))))
+  (text "OFF-BOARD BUTTONS | parts mounted in cabinet, not on PCB"
+    (at 20 16 0)
+    (effects
+      (font
+        (size 2 2))
+      (justify left))
+    (uuid "6722ac14-dabc-4f0f-9237-8afd33ea3a24"))
+  (text "Functional pin names identify the wires; they are NOT manufacturer terminal numbers.\nMicroswitch COM/NO closes when pressed. Lamp has two separate terminals; observe LED polarity.\nThe light and switch circuits must remain separate. Insulate unused NC contacts, if present.\nAdafruit 1194 includes a series LED resistor. Verify EG STARTS 12 V lamp module and current before use."
+    (at 20 30 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left))
+    (uuid "f8b07a9b-f18d-4dd4-9d07-9463448557cc"))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 66.04 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "98193b8a-1027-4865-9f47-948ff94c15fb")
+    (property "Reference" "SW1"
+      (at 51.04 58.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 66.04 88.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 70.04 74.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 70.04 77.28 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 70.04 79.82 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 70.04 82.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 70.04 84.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 70.04 87.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 70.04 89.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 70.04 92.52 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW1")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 45.72 68.58)
+      (xy 41.91 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "65689788-6cc0-4592-b75c-bdec3a6e08f1"))
+  (global_label "SW_01_RAW"
+    (shape bidirectional)
+    (at 41.91 68.58 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "875dde13-2307-4e53-aa0b-b95478f7d907")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 45.72 78.74)
+      (xy 41.91 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "55df1888-4b04-471e-ade3-f9197e0151a4"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 41.91 78.74 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "80cfc277-3295-43b4-af60-abe1ca934eac")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 68.58)
+      (xy 90.17 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "14eea7cd-4228-4254-b5be-2e791a736c7d"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 90.17 68.58 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "1879aeac-31af-48cb-8fcb-4d6716bbe5be")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 68.58 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 78.74)
+      (xy 90.17 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "61a5bead-601d-4d8e-a8d0-179ab0b6a543"))
+  (global_label "LAMP_01_K"
+    (shape bidirectional)
+    (at 90.17 78.74 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "2149bea3-7d4f-442c-88a7-c1577201034e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 78.74 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 161.29 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "b939ec01-c133-45a1-af4b-b3de9df84306")
+    (property "Reference" "SW2"
+      (at 146.29 58.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 161.29 88.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 165.29 74.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 165.29 77.28 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 165.29 79.82 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 165.29 82.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 165.29 84.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 165.29 87.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 165.29 89.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 165.29 92.52 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW2")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 140.97 68.58)
+      (xy 137.16 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4d0366d9-e4d5-4273-b74a-7ef0218e8b25"))
+  (global_label "SW_02_RAW"
+    (shape bidirectional)
+    (at 137.16 68.58 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "ab85fc19-76a2-459b-86b7-0880d98b3c4c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 140.97 78.74)
+      (xy 137.16 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d3faa68d-2e72-49d7-9cd8-98e56b599ece"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 137.16 78.74 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "5245c935-be7a-4ece-8ea6-bf58acc36c86")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 68.58)
+      (xy 185.42 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "015c3513-88f7-4596-99c4-5eb78484d909"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 185.42 68.58 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "d9f183c7-a64f-423d-81cb-a1fe545cefbb")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 68.58 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 78.74)
+      (xy 185.42 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "48a4aa81-1b63-4461-bae2-0f9d1324ea70"))
+  (global_label "LAMP_02_K"
+    (shape bidirectional)
+    (at 185.42 78.74 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "12f87827-e3f2-4be3-9a71-bf6d285b6971")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 78.74 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 256.54 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "5fd632a9-5e42-42b9-adf2-2cbf3d1a861d")
+    (property "Reference" "SW3"
+      (at 241.54 58.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 256.54 88.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 260.54 74.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 260.54 77.28 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 260.54 79.82 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 260.54 82.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 260.54 84.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 260.54 87.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 260.54 89.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 260.54 92.52 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW3")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 236.22 68.58)
+      (xy 232.41 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "77499134-965c-43ae-ba2f-b0ea976b248c"))
+  (global_label "SW_03_RAW"
+    (shape bidirectional)
+    (at 232.41 68.58 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9c1c1a97-ca0b-4bfc-bf3a-887511a60c08")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 236.22 78.74)
+      (xy 232.41 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b25e561a-06ac-4efc-b9e6-5b54ae6eb1a9"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 232.41 78.74 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e482f3b0-9509-4c27-9466-bac76a46c69e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 68.58)
+      (xy 280.67 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b76b8a12-0c8d-45fa-860a-6bcd845a9d2e"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 280.67 68.58 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "c04de801-fdbc-4a97-bf4b-059dd3beeae1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 68.58 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 78.74)
+      (xy 280.67 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2f5a5fd5-4a4d-4a02-94b8-c34b13b86660"))
+  (global_label "LAMP_03_K"
+    (shape bidirectional)
+    (at 280.67 78.74 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "a0792065-bee4-403e-86ab-c02519cd74f8")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 78.74 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 351.79 73.66 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "3adced7f-a18c-4fa8-8074-682fb615be32")
+    (property "Reference" "SW4"
+      (at 336.79 58.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 351.79 88.66 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 355.79 74.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 355.79 77.28 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 355.79 79.82 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 355.79 82.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 355.79 84.9 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 355.79 87.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 355.79 89.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 355.79 92.52 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW4")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 331.47 68.58)
+      (xy 327.66 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a07947ec-aa46-4326-8381-0f74729b4e17"))
+  (global_label "SW_04_RAW"
+    (shape bidirectional)
+    (at 327.66 68.58 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "c4492999-f039-47da-b1c4-a4b3743b670d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 331.47 78.74)
+      (xy 327.66 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d97ea9b5-0777-4c67-b19d-1b46179ddd17"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 78.74 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9526f71b-e3ad-4b52-baec-a1b1fdfe9e58")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 68.58)
+      (xy 375.92 68.58))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a9d65177-2451-43c3-ad1d-39979aa8f008"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 375.92 68.58 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "91f50e56-40ca-4be3-85ce-956950c7170a")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 68.58 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 78.74)
+      (xy 375.92 78.74))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2c6bfda0-8fe6-4f35-8f04-f3693fdf8476"))
+  (global_label "LAMP_04_K"
+    (shape bidirectional)
+    (at 375.92 78.74 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "90ada7d2-e9a0-4cb5-bcaf-21b36827bf8f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 78.74 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 66.04 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "a3bafee3-9dee-440a-867b-416ba195d9ab")
+    (property "Reference" "SW5"
+      (at 51.04 109.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 66.04 139.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 70.04 125.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 70.04 128.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 70.04 130.62 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 70.04 133.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 70.04 135.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 70.04 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 70.04 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 70.04 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW5")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 45.72 119.38)
+      (xy 41.91 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3c554a3e-c4d8-42ae-b8b8-6767f178fb7b"))
+  (global_label "SW_05_RAW"
+    (shape bidirectional)
+    (at 41.91 119.38 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "2d61435c-7f5c-4830-ba50-866bf9c6b8d7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 45.72 129.54)
+      (xy 41.91 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5c47c029-7cb1-424e-a14b-fad5aae4d435"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 41.91 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "abb9c678-b928-4466-8683-86128b9774e0")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 119.38)
+      (xy 90.17 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f7adeee5-7191-4784-8ef9-c3b27c40b15d"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 90.17 119.38 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "a4e059f3-c928-4ad2-a557-9c0f35929771")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 119.38 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 129.54)
+      (xy 90.17 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dd65bde2-e228-48f2-a859-86105f366644"))
+  (global_label "LAMP_05_K"
+    (shape bidirectional)
+    (at 90.17 129.54 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "b777a8b4-37c3-464b-aa14-aa9060ef27a2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 129.54 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 161.29 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "2662f2bc-961e-4c3f-8cdf-5c515b75ba74")
+    (property "Reference" "SW6"
+      (at 146.29 109.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 161.29 139.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 165.29 125.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 165.29 128.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 165.29 130.62 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 165.29 133.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 165.29 135.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 165.29 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 165.29 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 165.29 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW6")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 140.97 119.38)
+      (xy 137.16 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a55b1b5a-62b6-4664-bbe8-160d528a9105"))
+  (global_label "SW_06_RAW"
+    (shape bidirectional)
+    (at 137.16 119.38 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "749d7298-0c54-4041-b806-7f51d4afe665")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 140.97 129.54)
+      (xy 137.16 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b14d1d41-6f4b-405d-93ee-a5d35e193136"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 137.16 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "84fa4f52-fa1d-4ea2-a797-e91b8f317484")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 119.38)
+      (xy 185.42 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "fc9a1d9d-681e-44ea-93ab-39670521bb99"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 185.42 119.38 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "fd7bc42d-63a5-4377-a4ef-2196d6f68a23")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 119.38 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 129.54)
+      (xy 185.42 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "aee0d83c-f4f3-4583-aa68-da03102bfb82"))
+  (global_label "LAMP_06_K"
+    (shape bidirectional)
+    (at 185.42 129.54 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "925cc4af-45d1-4ce3-b57b-368e91232400")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 129.54 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 256.54 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "54229b60-1dd3-4d8c-b57c-fc94a5d44cb7")
+    (property "Reference" "SW7"
+      (at 241.54 109.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 256.54 139.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 260.54 125.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 260.54 128.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 260.54 130.62 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 260.54 133.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 260.54 135.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 260.54 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 260.54 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 260.54 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW7")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 236.22 119.38)
+      (xy 232.41 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e244b468-6f6e-41b6-b451-407a31d2a63e"))
+  (global_label "SW_07_RAW"
+    (shape bidirectional)
+    (at 232.41 119.38 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "584d1e04-c094-4509-8baf-ad5d442ca848")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 236.22 129.54)
+      (xy 232.41 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6fc84fbb-8982-43eb-acc0-0d037325202d"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 232.41 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "6d89ecbc-7320-4ea9-b36a-955f479bd0c7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 119.38)
+      (xy 280.67 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ddd72596-24e9-4b30-91d7-7a60a645c3ea"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 280.67 119.38 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "ff671ff3-165d-450e-bf98-534ac6625246")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 119.38 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 129.54)
+      (xy 280.67 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2dee667e-ae00-4f3b-b4eb-143ec305c2f5"))
+  (global_label "LAMP_07_K"
+    (shape bidirectional)
+    (at 280.67 129.54 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "868f6900-a049-4ac2-8e27-545beba058f5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 129.54 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 351.79 124.46 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "5252b915-7d5c-4ddd-9075-6e22707eaa0f")
+    (property "Reference" "SW8"
+      (at 336.79 109.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 351.79 139.46 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 355.79 125.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 355.79 128.08 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 355.79 130.62 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 355.79 133.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 355.79 135.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 355.79 138.24 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 355.79 140.78 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 355.79 143.32 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW8")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 331.47 119.38)
+      (xy 327.66 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d370b17d-c40c-4a26-8505-b55f28905bcc"))
+  (global_label "SW_08_RAW"
+    (shape bidirectional)
+    (at 327.66 119.38 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e0b71b24-0e11-43ba-ba29-c7b361e1d13e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 331.47 129.54)
+      (xy 327.66 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b68cd903-291b-45d6-878c-ba380d9274e6"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 129.54 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "538ab07e-d56b-4050-b116-23f09c618e35")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 119.38)
+      (xy 375.92 119.38))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f47cd635-f8cd-4bcd-b638-7b5d4575cefb"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 375.92 119.38 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "154b86f3-4233-4718-a3ec-a042144a18bd")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 119.38 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 129.54)
+      (xy 375.92 129.54))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1df5601b-8122-4746-b034-d89763a1e2d3"))
+  (global_label "LAMP_08_K"
+    (shape bidirectional)
+    (at 375.92 129.54 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "2e04e996-1a47-4854-99f5-bd5af6dda7f5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 129.54 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 66.04 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "ffdbfc65-ca3e-4761-bd15-a18eeea60107")
+    (property "Reference" "SW9"
+      (at 51.04 160.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 66.04 190.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 70.04 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 70.04 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 70.04 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 70.04 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 70.04 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 70.04 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 70.04 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 70.04 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW9")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 45.72 170.18)
+      (xy 41.91 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "c1406765-3a78-4aad-a895-fb174393e0e5"))
+  (global_label "SW_09_RAW"
+    (shape bidirectional)
+    (at 41.91 170.18 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "0811e5d4-f48d-4b52-a6fa-4b29c4add8fd")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 170.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 45.72 180.34)
+      (xy 41.91 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "dd8eb5d5-fb2f-4ec7-9953-1560cc402993"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 41.91 180.34 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "fbcab66b-5e2f-46cc-abb7-8410b17c97e1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 170.18)
+      (xy 90.17 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bf1c0a2b-9e85-45bc-828f-7fe562fc3254"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 90.17 170.18 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "6bcc7f4e-3a09-4963-8c6d-4203f54dd537")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 170.18 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 180.34)
+      (xy 90.17 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9d8c2ef7-9625-4c58-8006-49b890f72364"))
+  (global_label "LAMP_09_K"
+    (shape bidirectional)
+    (at 90.17 180.34 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "51bfd210-0019-4f99-850d-eb4d5929f691")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 180.34 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 161.29 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "97bcc551-dae5-4fa9-a2c5-1b66cfbde3fb")
+    (property "Reference" "SW10"
+      (at 146.29 160.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 161.29 190.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 165.29 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 165.29 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 165.29 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 165.29 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 165.29 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 165.29 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 165.29 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 165.29 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW10")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 140.97 170.18)
+      (xy 137.16 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f063d910-261f-4a0d-8188-e915b5ea719b"))
+  (global_label "SW_10_RAW"
+    (shape bidirectional)
+    (at 137.16 170.18 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "c95a30a9-6886-4e69-a3e7-d1f0073eab11")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 170.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 140.97 180.34)
+      (xy 137.16 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ab9d4134-904a-4018-8448-6ac87ad17e4c"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 137.16 180.34 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "45beb583-2bb9-45e9-9f1d-7bd945dc9392")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 170.18)
+      (xy 185.42 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1462a1c4-65c3-4705-8014-63b18f87228c"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 185.42 170.18 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "69d0a50b-4715-473e-909f-a823f61d2b27")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 170.18 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 180.34)
+      (xy 185.42 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ffa1fcc7-2e02-4ca6-ae70-60d100c91a32"))
+  (global_label "LAMP_10_K"
+    (shape bidirectional)
+    (at 185.42 180.34 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "d87d9745-81fc-4894-8c8c-ec1cbf93d782")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 180.34 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 256.54 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "0fa14319-6a9d-4fb0-bf63-9731d6e1ba6e")
+    (property "Reference" "SW11"
+      (at 241.54 160.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 256.54 190.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 260.54 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 260.54 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 260.54 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 260.54 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 260.54 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 260.54 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 260.54 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 260.54 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW11")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 236.22 170.18)
+      (xy 232.41 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1ab519b7-4a88-4599-96cb-0db379aefbfe"))
+  (global_label "SW_11_RAW"
+    (shape bidirectional)
+    (at 232.41 170.18 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "69435c56-8977-44df-9d64-d708c6f2904c")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 170.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 236.22 180.34)
+      (xy 232.41 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3cdb8d4c-8455-4d7f-b513-b97040265a66"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 232.41 180.34 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "14968dd8-ee41-469b-8c13-2ac451f7e584")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 170.18)
+      (xy 280.67 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3f5bdfbf-7f7b-4b21-ad21-fbaa055f551b"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 280.67 170.18 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "563e9c12-3a24-4451-9a8e-7ecfb211a042")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 170.18 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 180.34)
+      (xy 280.67 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9c343090-6c02-4789-add2-4ef87db7ccac"))
+  (global_label "LAMP_11_K"
+    (shape bidirectional)
+    (at 280.67 180.34 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "0fc0aa6f-68cf-4b93-a8d4-1395cc831c18")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 180.34 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 351.79 175.26 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "60d84130-cb98-4824-ab67-f59a5b3981d8")
+    (property "Reference" "SW12"
+      (at 336.79 160.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 351.79 190.26 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 355.79 176.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 355.79 178.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 355.79 181.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 355.79 183.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 355.79 186.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 355.79 189.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 355.79 191.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 355.79 194.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW12")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 331.47 170.18)
+      (xy 327.66 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b3dc12f8-7b39-4617-9914-2f1fd81085ab"))
+  (global_label "SW_12_RAW"
+    (shape bidirectional)
+    (at 327.66 170.18 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "d2a13d73-7211-4d8e-a3b0-0ab236c8a0bc")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 170.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 331.47 180.34)
+      (xy 327.66 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ca0e48f6-d530-4a1c-ba97-4205113282b5"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 180.34 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "76cc2b87-721e-458a-ae28-a30842ded6f9")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 180.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 170.18)
+      (xy 375.92 170.18))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "96d7e6fa-1c8e-4293-8820-3b7c2eafae65"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 375.92 170.18 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "7ef88032-7395-48bc-9c21-478288cd90ad")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 170.18 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 180.34)
+      (xy 375.92 180.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "241611d0-765f-4452-819f-7db34fdd4484"))
+  (global_label "LAMP_12_K"
+    (shape bidirectional)
+    (at 375.92 180.34 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "b5048dd0-3998-4af9-a966-09c9be0de313")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 180.34 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 66.04 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "0c04187c-c4f2-42a9-9b2c-9f045111b141")
+    (property "Reference" "SW13"
+      (at 51.04 211.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 66.04 241.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 70.04 227.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 70.04 229.68 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 70.04 232.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 70.04 234.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 70.04 237.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 70.04 239.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 70.04 242.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 70.04 244.92 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW13")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 45.72 220.98)
+      (xy 41.91 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "4e405efb-dfaa-4d54-b265-ee54bbc8ab53"))
+  (global_label "SW_13_RAW"
+    (shape bidirectional)
+    (at 41.91 220.98 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e93b3425-9efb-4172-bd9b-29a2074dbf53")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 220.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 45.72 231.14)
+      (xy 41.91 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a44f626f-d983-4fe7-a56b-62d9f70f3ef4"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 41.91 231.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "60ef873f-e100-42b7-85c9-994adeef0a1b")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 41.91 231.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 220.98)
+      (xy 90.17 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "565b5cca-7787-4ddc-9d5b-fc0c2bec33a8"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 90.17 220.98 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "1dd9bd8d-61f1-4883-bf79-88a224a935d1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 220.98 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 86.36 231.14)
+      (xy 90.17 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a0bd9a24-be9a-41c9-af8c-dc3ef72c6d2a"))
+  (global_label "LAMP_13_K"
+    (shape bidirectional)
+    (at 90.17 231.14 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "622a3974-1d5a-48f2-8298-0215a3086d00")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 90.17 231.14 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 161.29 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "690234e6-0e26-4671-b76d-95f9a83717cb")
+    (property "Reference" "SW14"
+      (at 146.29 211.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 161.29 241.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 165.29 227.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 165.29 229.68 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 165.29 232.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 165.29 234.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 165.29 237.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 165.29 239.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 165.29 242.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 165.29 244.92 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW14")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 140.97 220.98)
+      (xy 137.16 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6d044643-39ad-461b-a2e1-a9598665cca6"))
+  (global_label "SW_14_RAW"
+    (shape bidirectional)
+    (at 137.16 220.98 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "a57b65bf-341f-4b5a-9c80-5b081ff52d36")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 220.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 140.97 231.14)
+      (xy 137.16 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b465947f-fa13-47f4-82b1-e57004e1d600"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 137.16 231.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "e24d3439-311b-49de-8364-ca599e3efde5")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 137.16 231.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 220.98)
+      (xy 185.42 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5012476f-eadf-41fa-9039-d985e0f30013"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 185.42 220.98 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "696511ee-7512-4484-a47e-dc1919189894")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 220.98 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 181.61 231.14)
+      (xy 185.42 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "50320fc9-7ccf-4c24-becf-0a33f8e24629"))
+  (global_label "LAMP_14_K"
+    (shape bidirectional)
+    (at 185.42 231.14 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "0cc9316c-a404-4e23-a8d3-81d294e90fd7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 185.42 231.14 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 256.54 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "5ff9a918-af88-441b-b651-3ebe4441af91")
+    (property "Reference" "SW15"
+      (at 241.54 211.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 256.54 241.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 260.54 227.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 260.54 229.68 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 260.54 232.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 260.54 234.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 260.54 237.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 260.54 239.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 260.54 242.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 260.54 244.92 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW15")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 236.22 220.98)
+      (xy 232.41 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1bad262d-0251-491e-9f32-74b3bb11bf14"))
+  (global_label "SW_15_RAW"
+    (shape bidirectional)
+    (at 232.41 220.98 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "5b0e33aa-7f1f-4429-af68-eaa9f116b016")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 220.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 236.22 231.14)
+      (xy 232.41 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "7c51eb88-8558-4c4f-998b-0054dfec8d1f"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 232.41 231.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "8b9b313b-54de-4eda-bde3-6cf99199c331")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 232.41 231.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 220.98)
+      (xy 280.67 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f0855047-b90f-47d4-ad1f-5944c3bfa39a"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 280.67 220.98 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "ad715e2f-ad6c-4530-86af-d9f0d4b7101f")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 220.98 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 276.86 231.14)
+      (xy 280.67 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3bfce699-648c-4516-ab75-266f71942d33"))
+  (global_label "LAMP_15_K"
+    (shape bidirectional)
+    (at 280.67 231.14 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "37ea81a3-2f65-417b-8929-16f6cb87e3fe")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 280.67 231.14 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (symbol
+    (lib_id "Arcade:Illuminated_Button")
+    (at 351.79 226.06 0)
+    (unit 1)
+    (in_bom yes)
+    (on_board no)
+    (dnp no)
+    (uuid "70c14e87-648d-443d-bca0-f604f22a2cab")
+    (property "Reference" "SW16"
+      (at 336.79 211.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))
+        (justify left)))
+    (property "Value" "1194 / 60mm blue"
+      (at 351.79 241.06 0)
+      (effects
+        (font
+          (size 1.05 1.05))))
+    (property "Footprint" ""
+      (at 355.79 227.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Datasheet" "https://www.adafruit.com/product/1194"
+      (at 355.79 229.68 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Manufacturer" "Adafruit Industries"
+      (at 355.79 232.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "MPN" "1194"
+      (at 355.79 234.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey" "1528-1914-ND"
+      (at 355.79 237.3 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "DigiKey URL" "https://www.digikey.com/en/products/detail/adafruit-industries-llc/1194/6817199"
+      (at 355.79 239.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Verification" "5..12V resistor-equipped LED and NO switch verified; lamp current and terminal thickness unconfirmed; no manufacturer PDF available"
+      (at 355.79 242.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (property "Assembly" "OFF BOARD / panel-mounted; PCB footprint not applicable"
+      (at 355.79 244.92 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)
+        (justify left)))
+    (instances
+      (project "IEEEArcade"
+        (path "/caebd39c-3961-4ff0-8468-618c1200624c/fb9b4ca7-f4d4-4b0d-9f4d-35ae19232bbe"
+          (reference "SW16")
+          (unit 1)))))
+  (wire
+    (pts
+      (xy 331.47 220.98)
+      (xy 327.66 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5ec0dd43-9c35-4c30-b1f3-d8ce46a1d1c3"))
+  (global_label "SW_16_RAW"
+    (shape bidirectional)
+    (at 327.66 220.98 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "9a411e18-de86-4a7d-abd4-e37fa107e70e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 220.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 331.47 231.14)
+      (xy 327.66 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0dfc54f6-8ef5-41c7-89bc-60428e1194fe"))
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 231.14 0)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify right))
+    (uuid "a7e6050b-e512-4add-9e36-287fa5598895")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 327.66 231.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 220.98)
+      (xy 375.92 220.98))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f4a00211-94c9-47ab-812b-f201c6974573"))
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 375.92 220.98 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "13a1d90b-3e2b-425a-8ded-d8dfa8704a51")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 220.98 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (wire
+    (pts
+      (xy 372.11 231.14)
+      (xy 375.92 231.14))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "8c0b546e-abfc-4baf-af9c-e25f4fc7a67e"))
+  (global_label "LAMP_16_K"
+    (shape bidirectional)
+    (at 375.92 231.14 180)
+    (effects
+      (font
+        (size 1.05 1.05))
+      (justify left))
+    (uuid "0029b5b2-9a35-4759-b917-cedffb738839")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 375.92 231.14 180)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes))))
+  (text "PCB harnesses are J11..J42. SW1..SW30 playfield; SW31 START; SW32 BACK.\nNo PCB footprints are assigned to cabinet buttons. Board-side headers and mating housings are specified in BOM."
+    (at 20 258 0)
+    (effects
+      (font
+        (size 1.15 1.15))
+      (justify left))
+    (uuid "4798ca97-52e0-4d04-b936-706a59c49ec8"))
+  (embedded_fonts no))
