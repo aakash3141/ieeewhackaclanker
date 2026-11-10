@@ -1,4 +1,6 @@
-# IEEE Arcade — schematic review, 2026-11-05
+# IEEE Arcade — schematic review
+
+Current I/O revision: [IO_REVISION.md](IO_REVISION.md), 2026-11-10. It supersedes the original I/O allocation, 32-lamp budget, and historical ERC counts below. The board and manufacturing files require synchronization with the revised schematic.
 
 The saved design is a schematic for the 6-column by 5-row reaction arcade game described in Project Information. A Pico 2 W reads 30 playfield switches plus START/BACK, controls their individual 12 V lamps, drives a photo-matched HUB75 ABC scoreboard interface and stores high scores in EEPROM. Firmware implements timing/scoring/idle high score. Audio and battery operation are deferred as requested. No PCB placement, routing, outline changes or manufacturing files were made.
 
@@ -12,10 +14,10 @@ Original draft buck_converter.kicad_sch, buck_converter_max.kicad_sch and eeprom
 
 * A1 is Raspberry Pi Pico 2 W, SC1633, rather than the first-generation Pico W selected in yesterday's draft. The installed KiCad wireless Pico symbol and Module:RaspberryPi_Pico_W_SMD_HandSolder footprint explicitly support Pico 2 W. Standard 40-pin edge pinout and 51 x 21 mm module dimensions match. Solder the castellated edge pads; the assigned footprint includes the antenna keepout. USB is on the module; no extra USB connector is needed.
 * All logic/I2C operates at 3.3 V. GPIO14/15 use I2C1 (100 kHz); R1/R2 are the single 4.7k bus pull-ups. GPIO13 resets the expanders with a 10k pull-up. No external 5 V signals are applied to Pico GPIO.
-* Two MCP23018-E/SO devices provide 32 inputs at 7-bit addresses 0x20 and 0x27. ADDR tied to GND/VDD selects these addresses. This avoids the output-only GPA7/GPB7 restriction in the current MCP23017 datasheet. Two BOM-selected MCP23017T-E/SO devices provide 32 lamp outputs at 0x21/0x22; GPA7/GPB7 are used as outputs. NC/unused interrupt pins are intentionally left open.
+* Four MCP23017T-E/SO devices provide 32 inputs and 30 outputs using mixed directions at addresses U1=0x20, U4=0x23, U5=0x21 and U6=0x22. GPA7/GPB7 are outputs or unused. Exact pin map and firmware direction masks: [IO_REVISION.md](IO_REVISION.md).
 * U3 24LC256-I/SN uses address 0x50, A0/A1/A2 grounded and WP low. Save at round end or when a high score changes; do not write on every scan. Each IC has a local 100nF bypass capacitor; the 3.3 V rail also has 10uF bulk bypass. Estimated external 3.3 V consumption is well below the module's recommended 300 mA external-load ceiling.
 * SW1..SW30 are playfield positions in row-major order, six columns per row; SW31 START/SELECT, SW32 BACK/RESET GAME. All are external. Their symbol pin names NO/COM/L+/L− are FUNCTIONAL wire names, not invented physical terminal numbers.
-* J11..J42 are genuine JST XH 4-way PCB headers: pin1 +12V lamp, pin2 lamp cathode (MOSFET drain), pin3 normally-open switch, pin4 switch COM/GND. The cable-side housing is XHP-4 with four SXH-001T-P0.6 contacts. XH pitch is 2.50 mm, not 2.54 mm. Each lamp has AO3400A gate1/source2/drain3, 1k gate resistor and 100k gate pull-down. RDS(on) is specified at 2.5 V gate drive; a 3.3 V GPIO can drive this part for the allocated 100 mA lamps. It is not selected solely from threshold voltage.
+* J11..J42 are genuine JST XH 4-way PCB headers: pin1 +12V lamp, pin2 lamp cathode (MOSFET drain), pin3 normally-open switch, pin4 switch COM/GND. The cable-side housing is XHP-4 with four SXH-001T-P0.6 contacts. XH pitch is 2.50 mm, not 2.54 mm. J41/J42 are input-only menu headers: pins1/2 unused, pin3 NO, pin4 COM/GND. Each of the 30 playfield lamps has AO3400A gate1/source2/drain3, 1k gate resistor and 100k gate pull-down. RDS(on) is specified at 2.5 V gate drive; a 3.3 V GPIO can drive this part for the allocated 100 mA lamps. It is not selected solely from threshold voltage.
 * Each switch has a 4.7k external pull-up, 1k series resistor and 10nF to ground. Approximate RC rise/fall time constants are 57us/10us. These suppress edges/noise; firmware must still debounce (1–2 ms polling, require about 10 ms stable state). Never apply 12 V to a switch-input terminal.
 * At initialization, hold expander RESET low at least 10us, release, write lamp OLAT=0, THEN set IODIR to outputs. Gate pull-downs hold lamps off during reset. Use ordinary on/off updates, not high-frequency PWM over I2C.
 * U7/U8 SN74AHCT245N translate 3.3 V Pico outputs to 5 V HUB75 signals. They now use the separate external +5V_DISPLAY supply. Twelve signal paths retain 33-ohm damping resistors; pin12 is grounded. GP9 controls the buffer enables through Q34; R510 is now a 10k disable pull-up and new R514 keeps panel OE inactive during reset. See [DISPLAY_WIRING.md](DISPLAY_WIRING.md).
@@ -32,12 +34,12 @@ D1 SS14 has anode pin2 on +5V, cathode pin1 on Pico VSYS. This permits USB progr
 
 | Rail / load | Design allocation, not a measurement |
 |---|---:|
-| 32 lamps | 32 x 100mA = 3.2 A at 12 V |
+| 30 lamps | 30 x 100mA = 3.0 A at 12 V |
 | Pico including wireless activity | 0.5 A reserved at 5 V |
 | Other logic allowance | 0.1 A reserved at 5 V |
 | Display | Separate external supply; rating/current to be confirmed. No panel load on controller buck. |
 | Controller 5 V load | <=0.6 A reserved (2 A regulator); display supply separate |
-| 12 V adapter current at 85% buck efficiency | 3.2 + 3/(12*0.85) = 3.49 A (~42 W), excluding separate display supply |
+| 12 V adapter current at 85% buck efficiency | 3.0 + 3/(12*0.85) = 3.29 A (~40 W), excluding separate display supply |
 
 The stated BOM adapter is 12 V / 60 W (nominal 5 A). Lamp current and actual adapter ratings still require confirmation. The display is now powered by a separate external regulated supply, with a direct panel harness and common GND; the prior 1.2 A controller-buck display allowance is retired. Its supply capacity must be selected from the actual panel rating and measured load.
 
@@ -53,7 +55,7 @@ No additional I2C expander or separate display-driver IC is needed. Retained AHC
 |---|---|
 | 1206 YAGEO resistors | 1%, nominal quarter-watt standard parts; body about3.1x1.6mm; hand-solder 3216 footprint |
 | 1206 KEMET caps | Package/dielectric/voltage and individual manufacturer spec sheets; exact 3216 hand-solder footprint |
-| MCP23018 / MCP23017 | SOIC28 wide, 7.5x17.9mm body, 1.27mm pitch; actual pin maps checked |
+| MCP23017 | SOIC28 wide, 7.5x17.9mm body, 1.27mm pitch; actual pin maps checked |
 | EEPROM / reverse MOSFET | SOIC8 3.9x4.9mm, 1.27mm pitch; DMP S=1..3,G=4,D=5..8 explicitly represented |
 | TPS54202H | DDC TSOT23-6; exact six-pin mapping; hand-solder SOT23-6 assignment |
 | AO3400A / SS14 | SOT23 G1/S2/D3 / SMA cathode1 anode2 checked |

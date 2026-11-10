@@ -1,0 +1,27 @@
+{
+  "board_size_mm": [
+    200,
+    125
+  ],
+  "copper_layers": 4,
+  "schematic_components": 285,
+  "pcb_footprints": 292,
+  "pad_net_assignments_verified": 867,
+  "track_segments": 6234,
+  "vias": 668,
+  "dedicated_ground_stitch_vias": 65,
+  "native_teardrops": 1801,
+  "copper_pours": 9,
+  "unconnected_items": 0,
+  "physical_drc_errors": 0,
+  "physical_drc_warnings": 1,
+  "native_schematic_parity_warnings": 199,
+  "checks_passed": 1475,
+  "tracks_by_layer": {
+    "F.Cu": 3246,
+    "In2.Cu": 1861,
+    "B.Cu": 1127
+  },
+  "board_sha256": "9cb40ea860f469e6d79834fcee01b73d967acc3303da2beda604c7e9dd9c2334",
+  "display_supply": "External/source connection intentionally deferred by user; +5V_DISPLAY remains isolated"
+}

@@ -10,7 +10,7 @@
     "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
     "Footprint": "N/A - cable-side / cabinet assembly",
     "Assembly": "Cable-side / external assembly",
-    "Verification": "Verified XH series mate for J11-J42. Pin1 lamp +12V; pin2 lamp negative; pin3 switch NO; pin4 COM/GND."
+    "Verification": "XH mate for J11-J42. J11-J40: 1 lamp+12V, 2 cathode, 3 NO, 4 COM/GND. Menu J41/J42: only 3 NO and 4 COM; cavities1/2 empty."
   },
   {
     "Reference": "H33",
@@ -26,8 +26,8 @@
     "Verification": "Verified XH mate for J4, the low-current external 5V INPUT for AHCT buffers. Does not mate to the panel power header; direct panel power harness is separate."
   },
   {
-    "Reference": "T1-T130",
-    "Quantity": "130",
+    "Reference": "T1-T126",
+    "Quantity": "126",
     "Value": "XH female crimp contact",
     "Manufacturer": "JST",
     "MPN": "SXH-001T-P0.6",
@@ -36,7 +36,7 @@
     "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
     "Footprint": "N/A - cable-side / cabinet assembly",
     "Assembly": "Cable-side / external assembly",
-    "Verification": "128 button wires + 2 buffer-supply branch wires minimum. Order extras (e.g. 150-200) for crimp rejects. 22-28 AWG, insulation OD 0.9-1.9 mm. Use proper crimp tool and pull-test; contacts single-use."
+    "Verification": "Minimum: 30 illuminated playfield buttons x4 + 2 input-only menu buttons x2 + external display-supply branch x2 =126 contacts. Allow crimping spares."
   },
   {
     "Reference": "WH-SW1-WH-SW3",

@@ -1,0 +1,1519 @@
+PASS: All 285 current schematic references and seven mounting holes present exactly once
+PASS: Assigned footprint retained: A1
+PASS: Current component value retained: A1
+PASS: Assigned footprint retained: C1
+PASS: Current component value retained: C1
+PASS: Assigned footprint retained: C2
+PASS: Current component value retained: C2
+PASS: Assigned footprint retained: C3
+PASS: Current component value retained: C3
+PASS: Assigned footprint retained: C4
+PASS: Current component value retained: C4
+PASS: Assigned footprint retained: C5
+PASS: Current component value retained: C5
+PASS: Assigned footprint retained: C6
+PASS: Current component value retained: C6
+PASS: Assigned footprint retained: C7
+PASS: Current component value retained: C7
+PASS: Assigned footprint retained: C10
+PASS: Current component value retained: C10
+PASS: Assigned footprint retained: C12
+PASS: Current component value retained: C12
+PASS: Assigned footprint retained: C13
+PASS: Current component value retained: C13
+PASS: Assigned footprint retained: C14
+PASS: Current component value retained: C14
+PASS: Assigned footprint retained: C18
+PASS: Current component value retained: C18
+PASS: Assigned footprint retained: C19
+PASS: Current component value retained: C19
+PASS: Assigned footprint retained: C20
+PASS: Current component value retained: C20
+PASS: Assigned footprint retained: C21
+PASS: Current component value retained: C21
+PASS: Assigned footprint retained: C22
+PASS: Current component value retained: C22
+PASS: Assigned footprint retained: C23
+PASS: Current component value retained: C23
+PASS: Assigned footprint retained: D1
+PASS: Current component value retained: D1
+PASS: Assigned footprint retained: F1
+PASS: Current component value retained: F1
+PASS: Assigned footprint retained: J1
+PASS: Current component value retained: J1
+PASS: Assigned footprint retained: L1
+PASS: Current component value retained: L1
+PASS: Assigned footprint retained: R1
+PASS: Current component value retained: R1
+PASS: Assigned footprint retained: R2
+PASS: Current component value retained: R2
+PASS: Assigned footprint retained: R3
+PASS: Current component value retained: R3
+PASS: Assigned footprint retained: R9
+PASS: Current component value retained: R9
+PASS: Assigned footprint retained: R10
+PASS: Current component value retained: R10
+PASS: Assigned footprint retained: R11
+PASS: Current component value retained: R11
+PASS: Assigned footprint retained: U1
+PASS: Current component value retained: U1
+PASS: Assigned footprint retained: U2
+PASS: Current component value retained: U2
+PASS: Assigned footprint retained: U3
+PASS: Current component value retained: U3
+PASS: Assigned footprint retained: U4
+PASS: Current component value retained: U4
+PASS: Assigned footprint retained: U5
+PASS: Current component value retained: U5
+PASS: Assigned footprint retained: U6
+PASS: Current component value retained: U6
+PASS: Assigned footprint retained: C109
+PASS: Current component value retained: C109
+PASS: Assigned footprint retained: C110
+PASS: Current component value retained: C110
+PASS: Assigned footprint retained: C111
+PASS: Current component value retained: C111
+PASS: Assigned footprint retained: C112
+PASS: Current component value retained: C112
+PASS: Assigned footprint retained: C113
+PASS: Current component value retained: C113
+PASS: Assigned footprint retained: C114
+PASS: Current component value retained: C114
+PASS: Assigned footprint retained: C115
+PASS: Current component value retained: C115
+PASS: Assigned footprint retained: C116
+PASS: Current component value retained: C116
+PASS: Assigned footprint retained: J19
+PASS: Current component value retained: J19
+PASS: Assigned footprint retained: J20
+PASS: Current component value retained: J20
+PASS: Assigned footprint retained: J21
+PASS: Current component value retained: J21
+PASS: Assigned footprint retained: J22
+PASS: Current component value retained: J22
+PASS: Assigned footprint retained: J23
+PASS: Current component value retained: J23
+PASS: Assigned footprint retained: J24
+PASS: Current component value retained: J24
+PASS: Assigned footprint retained: J25
+PASS: Current component value retained: J25
+PASS: Assigned footprint retained: J26
+PASS: Current component value retained: J26
+PASS: Assigned footprint retained: Q9
+PASS: Current component value retained: Q9
+PASS: Assigned footprint retained: Q10
+PASS: Current component value retained: Q10
+PASS: Assigned footprint retained: Q11
+PASS: Current component value retained: Q11
+PASS: Assigned footprint retained: Q12
+PASS: Current component value retained: Q12
+PASS: Assigned footprint retained: Q13
+PASS: Current component value retained: Q13
+PASS: Assigned footprint retained: Q14
+PASS: Current component value retained: Q14
+PASS: Assigned footprint retained: Q15
+PASS: Current component value retained: Q15
+PASS: Assigned footprint retained: Q16
+PASS: Current component value retained: Q16
+PASS: Assigned footprint retained: R109
+PASS: Current component value retained: R109
+PASS: Assigned footprint retained: R110
+PASS: Current component value retained: R110
+PASS: Assigned footprint retained: R111
+PASS: Current component value retained: R111
+PASS: Assigned footprint retained: R112
+PASS: Current component value retained: R112
+PASS: Assigned footprint retained: R113
+PASS: Current component value retained: R113
+PASS: Assigned footprint retained: R114
+PASS: Current component value retained: R114
+PASS: Assigned footprint retained: R115
+PASS: Current component value retained: R115
+PASS: Assigned footprint retained: R116
+PASS: Current component value retained: R116
+PASS: Assigned footprint retained: R209
+PASS: Current component value retained: R209
+PASS: Assigned footprint retained: R210
+PASS: Current component value retained: R210
+PASS: Assigned footprint retained: R211
+PASS: Current component value retained: R211
+PASS: Assigned footprint retained: R212
+PASS: Current component value retained: R212
+PASS: Assigned footprint retained: R213
+PASS: Current component value retained: R213
+PASS: Assigned footprint retained: R214
+PASS: Current component value retained: R214
+PASS: Assigned footprint retained: R215
+PASS: Current component value retained: R215
+PASS: Assigned footprint retained: R216
+PASS: Current component value retained: R216
+PASS: Assigned footprint retained: R309
+PASS: Current component value retained: R309
+PASS: Assigned footprint retained: R310
+PASS: Current component value retained: R310
+PASS: Assigned footprint retained: R311
+PASS: Current component value retained: R311
+PASS: Assigned footprint retained: R312
+PASS: Current component value retained: R312
+PASS: Assigned footprint retained: R313
+PASS: Current component value retained: R313
+PASS: Assigned footprint retained: R314
+PASS: Current component value retained: R314
+PASS: Assigned footprint retained: R315
+PASS: Current component value retained: R315
+PASS: Assigned footprint retained: R316
+PASS: Current component value retained: R316
+PASS: Assigned footprint retained: R409
+PASS: Current component value retained: R409
+PASS: Assigned footprint retained: R410
+PASS: Current component value retained: R410
+PASS: Assigned footprint retained: R411
+PASS: Current component value retained: R411
+PASS: Assigned footprint retained: R412
+PASS: Current component value retained: R412
+PASS: Assigned footprint retained: R413
+PASS: Current component value retained: R413
+PASS: Assigned footprint retained: R414
+PASS: Current component value retained: R414
+PASS: Assigned footprint retained: R415
+PASS: Current component value retained: R415
+PASS: Assigned footprint retained: R416
+PASS: Current component value retained: R416
+PASS: Assigned footprint retained: C30
+PASS: Current component value retained: C30
+PASS: Assigned footprint retained: C31
+PASS: Current component value retained: C31
+PASS: Assigned footprint retained: J3
+PASS: Current component value retained: J3
+PASS: Assigned footprint retained: Q34
+PASS: Current component value retained: Q34
+PASS: Assigned footprint retained: R4
+PASS: Current component value retained: R4
+PASS: Assigned footprint retained: R501
+PASS: Current component value retained: R501
+PASS: Assigned footprint retained: R502
+PASS: Current component value retained: R502
+PASS: Assigned footprint retained: R503
+PASS: Current component value retained: R503
+PASS: Assigned footprint retained: R504
+PASS: Current component value retained: R504
+PASS: Assigned footprint retained: R505
+PASS: Current component value retained: R505
+PASS: Assigned footprint retained: R506
+PASS: Current component value retained: R506
+PASS: Assigned footprint retained: R507
+PASS: Current component value retained: R507
+PASS: Assigned footprint retained: R508
+PASS: Current component value retained: R508
+PASS: Assigned footprint retained: R509
+PASS: Current component value retained: R509
+PASS: Assigned footprint retained: R510
+PASS: Current component value retained: R510
+PASS: Assigned footprint retained: R511
+PASS: Current component value retained: R511
+PASS: Assigned footprint retained: R512
+PASS: Current component value retained: R512
+PASS: Assigned footprint retained: R513
+PASS: Current component value retained: R513
+PASS: Assigned footprint retained: R514
+PASS: Current component value retained: R514
+PASS: Assigned footprint retained: R601
+PASS: Current component value retained: R601
+PASS: Assigned footprint retained: R602
+PASS: Current component value retained: R602
+PASS: Assigned footprint retained: R603
+PASS: Current component value retained: R603
+PASS: Assigned footprint retained: R604
+PASS: Current component value retained: R604
+PASS: Assigned footprint retained: R605
+PASS: Current component value retained: R605
+PASS: Assigned footprint retained: R606
+PASS: Current component value retained: R606
+PASS: Assigned footprint retained: R607
+PASS: Current component value retained: R607
+PASS: Assigned footprint retained: R608
+PASS: Current component value retained: R608
+PASS: Assigned footprint retained: R609
+PASS: Current component value retained: R609
+PASS: Assigned footprint retained: R611
+PASS: Current component value retained: R611
+PASS: Assigned footprint retained: R612
+PASS: Current component value retained: R612
+PASS: Assigned footprint retained: R613
+PASS: Current component value retained: R613
+PASS: Assigned footprint retained: U7
+PASS: Current component value retained: U7
+PASS: Assigned footprint retained: U8
+PASS: Current component value retained: U8
+PASS: Assigned footprint retained: C101
+PASS: Current component value retained: C101
+PASS: Assigned footprint retained: C102
+PASS: Current component value retained: C102
+PASS: Assigned footprint retained: C103
+PASS: Current component value retained: C103
+PASS: Assigned footprint retained: C104
+PASS: Current component value retained: C104
+PASS: Assigned footprint retained: C105
+PASS: Current component value retained: C105
+PASS: Assigned footprint retained: C106
+PASS: Current component value retained: C106
+PASS: Assigned footprint retained: C107
+PASS: Current component value retained: C107
+PASS: Assigned footprint retained: C108
+PASS: Current component value retained: C108
+PASS: Assigned footprint retained: J11
+PASS: Current component value retained: J11
+PASS: Assigned footprint retained: J12
+PASS: Current component value retained: J12
+PASS: Assigned footprint retained: J13
+PASS: Current component value retained: J13
+PASS: Assigned footprint retained: J14
+PASS: Current component value retained: J14
+PASS: Assigned footprint retained: J15
+PASS: Current component value retained: J15
+PASS: Assigned footprint retained: J16
+PASS: Current component value retained: J16
+PASS: Assigned footprint retained: J17
+PASS: Current component value retained: J17
+PASS: Assigned footprint retained: J18
+PASS: Current component value retained: J18
+PASS: Assigned footprint retained: Q1
+PASS: Current component value retained: Q1
+PASS: Assigned footprint retained: Q2
+PASS: Current component value retained: Q2
+PASS: Assigned footprint retained: Q3
+PASS: Current component value retained: Q3
+PASS: Assigned footprint retained: Q4
+PASS: Current component value retained: Q4
+PASS: Assigned footprint retained: Q5
+PASS: Current component value retained: Q5
+PASS: Assigned footprint retained: Q6
+PASS: Current component value retained: Q6
+PASS: Assigned footprint retained: Q7
+PASS: Current component value retained: Q7
+PASS: Assigned footprint retained: Q8
+PASS: Current component value retained: Q8
+PASS: Assigned footprint retained: R101
+PASS: Current component value retained: R101
+PASS: Assigned footprint retained: R102
+PASS: Current component value retained: R102
+PASS: Assigned footprint retained: R103
+PASS: Current component value retained: R103
+PASS: Assigned footprint retained: R104
+PASS: Current component value retained: R104
+PASS: Assigned footprint retained: R105
+PASS: Current component value retained: R105
+PASS: Assigned footprint retained: R106
+PASS: Current component value retained: R106
+PASS: Assigned footprint retained: R107
+PASS: Current component value retained: R107
+PASS: Assigned footprint retained: R108
+PASS: Current component value retained: R108
+PASS: Assigned footprint retained: R201
+PASS: Current component value retained: R201
+PASS: Assigned footprint retained: R202
+PASS: Current component value retained: R202
+PASS: Assigned footprint retained: R203
+PASS: Current component value retained: R203
+PASS: Assigned footprint retained: R204
+PASS: Current component value retained: R204
+PASS: Assigned footprint retained: R205
+PASS: Current component value retained: R205
+PASS: Assigned footprint retained: R206
+PASS: Current component value retained: R206
+PASS: Assigned footprint retained: R207
+PASS: Current component value retained: R207
+PASS: Assigned footprint retained: R208
+PASS: Current component value retained: R208
+PASS: Assigned footprint retained: R301
+PASS: Current component value retained: R301
+PASS: Assigned footprint retained: R302
+PASS: Current component value retained: R302
+PASS: Assigned footprint retained: R303
+PASS: Current component value retained: R303
+PASS: Assigned footprint retained: R304
+PASS: Current component value retained: R304
+PASS: Assigned footprint retained: R305
+PASS: Current component value retained: R305
+PASS: Assigned footprint retained: R306
+PASS: Current component value retained: R306
+PASS: Assigned footprint retained: R307
+PASS: Current component value retained: R307
+PASS: Assigned footprint retained: R308
+PASS: Current component value retained: R308
+PASS: Assigned footprint retained: R401
+PASS: Current component value retained: R401
+PASS: Assigned footprint retained: R402
+PASS: Current component value retained: R402
+PASS: Assigned footprint retained: R403
+PASS: Current component value retained: R403
+PASS: Assigned footprint retained: R404
+PASS: Current component value retained: R404
+PASS: Assigned footprint retained: R405
+PASS: Current component value retained: R405
+PASS: Assigned footprint retained: R406
+PASS: Current component value retained: R406
+PASS: Assigned footprint retained: R407
+PASS: Current component value retained: R407
+PASS: Assigned footprint retained: R408
+PASS: Current component value retained: R408
+PASS: Assigned footprint retained: C117
+PASS: Current component value retained: C117
+PASS: Assigned footprint retained: C118
+PASS: Current component value retained: C118
+PASS: Assigned footprint retained: C119
+PASS: Current component value retained: C119
+PASS: Assigned footprint retained: C120
+PASS: Current component value retained: C120
+PASS: Assigned footprint retained: C121
+PASS: Current component value retained: C121
+PASS: Assigned footprint retained: C122
+PASS: Current component value retained: C122
+PASS: Assigned footprint retained: C123
+PASS: Current component value retained: C123
+PASS: Assigned footprint retained: C124
+PASS: Current component value retained: C124
+PASS: Assigned footprint retained: J27
+PASS: Current component value retained: J27
+PASS: Assigned footprint retained: J28
+PASS: Current component value retained: J28
+PASS: Assigned footprint retained: J29
+PASS: Current component value retained: J29
+PASS: Assigned footprint retained: J30
+PASS: Current component value retained: J30
+PASS: Assigned footprint retained: J31
+PASS: Current component value retained: J31
+PASS: Assigned footprint retained: J32
+PASS: Current component value retained: J32
+PASS: Assigned footprint retained: J33
+PASS: Current component value retained: J33
+PASS: Assigned footprint retained: J34
+PASS: Current component value retained: J34
+PASS: Assigned footprint retained: Q17
+PASS: Current component value retained: Q17
+PASS: Assigned footprint retained: Q18
+PASS: Current component value retained: Q18
+PASS: Assigned footprint retained: Q19
+PASS: Current component value retained: Q19
+PASS: Assigned footprint retained: Q20
+PASS: Current component value retained: Q20
+PASS: Assigned footprint retained: Q21
+PASS: Current component value retained: Q21
+PASS: Assigned footprint retained: Q22
+PASS: Current component value retained: Q22
+PASS: Assigned footprint retained: Q23
+PASS: Current component value retained: Q23
+PASS: Assigned footprint retained: Q24
+PASS: Current component value retained: Q24
+PASS: Assigned footprint retained: R117
+PASS: Current component value retained: R117
+PASS: Assigned footprint retained: R118
+PASS: Current component value retained: R118
+PASS: Assigned footprint retained: R119
+PASS: Current component value retained: R119
+PASS: Assigned footprint retained: R120
+PASS: Current component value retained: R120
+PASS: Assigned footprint retained: R121
+PASS: Current component value retained: R121
+PASS: Assigned footprint retained: R122
+PASS: Current component value retained: R122
+PASS: Assigned footprint retained: R123
+PASS: Current component value retained: R123
+PASS: Assigned footprint retained: R124
+PASS: Current component value retained: R124
+PASS: Assigned footprint retained: R217
+PASS: Current component value retained: R217
+PASS: Assigned footprint retained: R218
+PASS: Current component value retained: R218
+PASS: Assigned footprint retained: R219
+PASS: Current component value retained: R219
+PASS: Assigned footprint retained: R220
+PASS: Current component value retained: R220
+PASS: Assigned footprint retained: R221
+PASS: Current component value retained: R221
+PASS: Assigned footprint retained: R222
+PASS: Current component value retained: R222
+PASS: Assigned footprint retained: R223
+PASS: Current component value retained: R223
+PASS: Assigned footprint retained: R224
+PASS: Current component value retained: R224
+PASS: Assigned footprint retained: R317
+PASS: Current component value retained: R317
+PASS: Assigned footprint retained: R318
+PASS: Current component value retained: R318
+PASS: Assigned footprint retained: R319
+PASS: Current component value retained: R319
+PASS: Assigned footprint retained: R320
+PASS: Current component value retained: R320
+PASS: Assigned footprint retained: R321
+PASS: Current component value retained: R321
+PASS: Assigned footprint retained: R322
+PASS: Current component value retained: R322
+PASS: Assigned footprint retained: R323
+PASS: Current component value retained: R323
+PASS: Assigned footprint retained: R324
+PASS: Current component value retained: R324
+PASS: Assigned footprint retained: R417
+PASS: Current component value retained: R417
+PASS: Assigned footprint retained: R418
+PASS: Current component value retained: R418
+PASS: Assigned footprint retained: R419
+PASS: Current component value retained: R419
+PASS: Assigned footprint retained: R420
+PASS: Current component value retained: R420
+PASS: Assigned footprint retained: R421
+PASS: Current component value retained: R421
+PASS: Assigned footprint retained: R422
+PASS: Current component value retained: R422
+PASS: Assigned footprint retained: R423
+PASS: Current component value retained: R423
+PASS: Assigned footprint retained: R424
+PASS: Current component value retained: R424
+PASS: Assigned footprint retained: C125
+PASS: Current component value retained: C125
+PASS: Assigned footprint retained: C126
+PASS: Current component value retained: C126
+PASS: Assigned footprint retained: C127
+PASS: Current component value retained: C127
+PASS: Assigned footprint retained: C128
+PASS: Current component value retained: C128
+PASS: Assigned footprint retained: C129
+PASS: Current component value retained: C129
+PASS: Assigned footprint retained: C130
+PASS: Current component value retained: C130
+PASS: Assigned footprint retained: C131
+PASS: Current component value retained: C131
+PASS: Assigned footprint retained: C132
+PASS: Current component value retained: C132
+PASS: Assigned footprint retained: J35
+PASS: Current component value retained: J35
+PASS: Assigned footprint retained: J36
+PASS: Current component value retained: J36
+PASS: Assigned footprint retained: J37
+PASS: Current component value retained: J37
+PASS: Assigned footprint retained: J38
+PASS: Current component value retained: J38
+PASS: Assigned footprint retained: J39
+PASS: Current component value retained: J39
+PASS: Assigned footprint retained: J40
+PASS: Current component value retained: J40
+PASS: Assigned footprint retained: J41
+PASS: Current component value retained: J41
+PASS: Assigned footprint retained: J42
+PASS: Current component value retained: J42
+PASS: Assigned footprint retained: Q25
+PASS: Current component value retained: Q25
+PASS: Assigned footprint retained: Q26
+PASS: Current component value retained: Q26
+PASS: Assigned footprint retained: Q27
+PASS: Current component value retained: Q27
+PASS: Assigned footprint retained: Q28
+PASS: Current component value retained: Q28
+PASS: Assigned footprint retained: Q29
+PASS: Current component value retained: Q29
+PASS: Assigned footprint retained: Q30
+PASS: Current component value retained: Q30
+PASS: Assigned footprint retained: R125
+PASS: Current component value retained: R125
+PASS: Assigned footprint retained: R126
+PASS: Current component value retained: R126
+PASS: Assigned footprint retained: R127
+PASS: Current component value retained: R127
+PASS: Assigned footprint retained: R128
+PASS: Current component value retained: R128
+PASS: Assigned footprint retained: R129
+PASS: Current component value retained: R129
+PASS: Assigned footprint retained: R130
+PASS: Current component value retained: R130
+PASS: Assigned footprint retained: R225
+PASS: Current component value retained: R225
+PASS: Assigned footprint retained: R226
+PASS: Current component value retained: R226
+PASS: Assigned footprint retained: R227
+PASS: Current component value retained: R227
+PASS: Assigned footprint retained: R228
+PASS: Current component value retained: R228
+PASS: Assigned footprint retained: R229
+PASS: Current component value retained: R229
+PASS: Assigned footprint retained: R230
+PASS: Current component value retained: R230
+PASS: Assigned footprint retained: R325
+PASS: Current component value retained: R325
+PASS: Assigned footprint retained: R326
+PASS: Current component value retained: R326
+PASS: Assigned footprint retained: R327
+PASS: Current component value retained: R327
+PASS: Assigned footprint retained: R328
+PASS: Current component value retained: R328
+PASS: Assigned footprint retained: R329
+PASS: Current component value retained: R329
+PASS: Assigned footprint retained: R330
+PASS: Current component value retained: R330
+PASS: Assigned footprint retained: R331
+PASS: Current component value retained: R331
+PASS: Assigned footprint retained: R332
+PASS: Current component value retained: R332
+PASS: Assigned footprint retained: R425
+PASS: Current component value retained: R425
+PASS: Assigned footprint retained: R426
+PASS: Current component value retained: R426
+PASS: Assigned footprint retained: R427
+PASS: Current component value retained: R427
+PASS: Assigned footprint retained: R428
+PASS: Current component value retained: R428
+PASS: Assigned footprint retained: R429
+PASS: Current component value retained: R429
+PASS: Assigned footprint retained: R430
+PASS: Current component value retained: R430
+PASS: Assigned footprint retained: R431
+PASS: Current component value retained: R431
+PASS: Assigned footprint retained: R432
+PASS: Current component value retained: R432
+PASS: Schematic net retained: A1.36
+PASS: Schematic net retained: C1.1
+PASS: Schematic net retained: C2.1
+PASS: Schematic net retained: C3.1
+PASS: Schematic net retained: C4.1
+PASS: Schematic net retained: C5.1
+PASS: Schematic net retained: C6.1
+PASS: Schematic net retained: C7.1
+PASS: Schematic net retained: R1.1
+PASS: Schematic net retained: R2.1
+PASS: Schematic net retained: R3.1
+PASS: Schematic net retained: R301.1
+PASS: Schematic net retained: R302.1
+PASS: Schematic net retained: R303.1
+PASS: Schematic net retained: R304.1
+PASS: Schematic net retained: R305.1
+PASS: Schematic net retained: R306.1
+PASS: Schematic net retained: R307.1
+PASS: Schematic net retained: R308.1
+PASS: Schematic net retained: R309.1
+PASS: Schematic net retained: R310.1
+PASS: Schematic net retained: R311.1
+PASS: Schematic net retained: R312.1
+PASS: Schematic net retained: R313.1
+PASS: Schematic net retained: R314.1
+PASS: Schematic net retained: R315.1
+PASS: Schematic net retained: R316.1
+PASS: Schematic net retained: R317.1
+PASS: Schematic net retained: R318.1
+PASS: Schematic net retained: R319.1
+PASS: Schematic net retained: R320.1
+PASS: Schematic net retained: R321.1
+PASS: Schematic net retained: R322.1
+PASS: Schematic net retained: R323.1
+PASS: Schematic net retained: R324.1
+PASS: Schematic net retained: R325.1
+PASS: Schematic net retained: R326.1
+PASS: Schematic net retained: R327.1
+PASS: Schematic net retained: R328.1
+PASS: Schematic net retained: R329.1
+PASS: Schematic net retained: R330.1
+PASS: Schematic net retained: R331.1
+PASS: Schematic net retained: R332.1
+PASS: Schematic net retained: R4.2
+PASS: Schematic net retained: U1.15
+PASS: Schematic net retained: U1.9
+PASS: Schematic net retained: U3.8
+PASS: Schematic net retained: U4.15
+PASS: Schematic net retained: U4.16
+PASS: Schematic net retained: U4.9
+PASS: Schematic net retained: U5.16
+PASS: Schematic net retained: U5.9
+PASS: Schematic net retained: U6.17
+PASS: Schematic net retained: U6.9
+PASS: Schematic net retained: C18.1
+PASS: Schematic net retained: C20.1
+PASS: Schematic net retained: C21.1
+PASS: Schematic net retained: C22.1
+PASS: Schematic net retained: C23.1
+PASS: Schematic net retained: D1.2
+PASS: Schematic net retained: L1.2
+PASS: Schematic net retained: R10.1
+PASS: Schematic net retained: C30.1
+PASS: Schematic net retained: C31.1
+PASS: Schematic net retained: R510.1
+PASS: Schematic net retained: R514.1
+PASS: Schematic net retained: U7.1
+PASS: Schematic net retained: U7.20
+PASS: Schematic net retained: U8.1
+PASS: Schematic net retained: U8.20
+PASS: Schematic net retained: C10.1
+PASS: Schematic net retained: C12.1
+PASS: Schematic net retained: C13.1
+PASS: Schematic net retained: C14.1
+PASS: Schematic net retained: F1.2
+PASS: Schematic net retained: J11.1
+PASS: Schematic net retained: J12.1
+PASS: Schematic net retained: J13.1
+PASS: Schematic net retained: J14.1
+PASS: Schematic net retained: J15.1
+PASS: Schematic net retained: J16.1
+PASS: Schematic net retained: J17.1
+PASS: Schematic net retained: J18.1
+PASS: Schematic net retained: J19.1
+PASS: Schematic net retained: J20.1
+PASS: Schematic net retained: J21.1
+PASS: Schematic net retained: J22.1
+PASS: Schematic net retained: J23.1
+PASS: Schematic net retained: J24.1
+PASS: Schematic net retained: J25.1
+PASS: Schematic net retained: J26.1
+PASS: Schematic net retained: J27.1
+PASS: Schematic net retained: J28.1
+PASS: Schematic net retained: J29.1
+PASS: Schematic net retained: J30.1
+PASS: Schematic net retained: J31.1
+PASS: Schematic net retained: J32.1
+PASS: Schematic net retained: J33.1
+PASS: Schematic net retained: J34.1
+PASS: Schematic net retained: J35.1
+PASS: Schematic net retained: J36.1
+PASS: Schematic net retained: J37.1
+PASS: Schematic net retained: J38.1
+PASS: Schematic net retained: J39.1
+PASS: Schematic net retained: J40.1
+PASS: Schematic net retained: R9.1
+PASS: Schematic net retained: U2.3
+PASS: Schematic net retained: A1.20
+PASS: Schematic net retained: R2.2
+PASS: Schematic net retained: U1.12
+PASS: Schematic net retained: U3.6
+PASS: Schematic net retained: U4.12
+PASS: Schematic net retained: U5.12
+PASS: Schematic net retained: U6.12
+PASS: Schematic net retained: A1.19
+PASS: Schematic net retained: R1.2
+PASS: Schematic net retained: U1.13
+PASS: Schematic net retained: U3.5
+PASS: Schematic net retained: U4.13
+PASS: Schematic net retained: U5.13
+PASS: Schematic net retained: U6.13
+PASS: Schematic net retained: A1.17
+PASS: Schematic net retained: R3.2
+PASS: Schematic net retained: U1.18
+PASS: Schematic net retained: U4.18
+PASS: Schematic net retained: U5.18
+PASS: Schematic net retained: U6.18
+PASS: Schematic net retained: A1.9
+PASS: Schematic net retained: R607.1
+PASS: Schematic net retained: U7.8
+PASS: Schematic net retained: J3.9
+PASS: Schematic net retained: R507.2
+PASS: Schematic net retained: A1.10
+PASS: Schematic net retained: R608.1
+PASS: Schematic net retained: U7.9
+PASS: Schematic net retained: A1.4
+PASS: Schematic net retained: R603.1
+PASS: Schematic net retained: U7.4
+PASS: Schematic net retained: J3.3
+PASS: Schematic net retained: R503.2
+PASS: Schematic net retained: A1.7
+PASS: Schematic net retained: R606.1
+PASS: Schematic net retained: U7.7
+PASS: Schematic net retained: J3.7
+PASS: Schematic net retained: R506.2
+PASS: Schematic net retained: Q34.3
+PASS: Schematic net retained: R510.2
+PASS: Schematic net retained: U7.19
+PASS: Schematic net retained: U8.19
+PASS: Schematic net retained: J3.10
+PASS: Schematic net retained: R508.2
+PASS: Schematic net retained: A1.11
+PASS: Schematic net retained: R609.1
+PASS: Schematic net retained: U8.2
+PASS: Schematic net retained: A1.14
+PASS: Schematic net retained: R611.1
+PASS: Schematic net retained: U8.4
+PASS: Schematic net retained: J3.13
+PASS: Schematic net retained: R511.2
+PASS: Schematic net retained: J3.11
+PASS: Schematic net retained: R509.2
+PASS: Schematic net retained: A1.12
+PASS: Schematic net retained: Q34.1
+PASS: Schematic net retained: R613.1
+PASS: Schematic net retained: A1.2
+PASS: Schematic net retained: J3.2
+PASS: Schematic net retained: R502.2
+PASS: Schematic net retained: A1.6
+PASS: Schematic net retained: R605.1
+PASS: Schematic net retained: U7.6
+PASS: Schematic net retained: J3.6
+PASS: Schematic net retained: R505.2
+PASS: Schematic net retained: A1.15
+PASS: Schematic net retained: R612.1
+PASS: Schematic net retained: U8.5
+PASS: Schematic net retained: J3.14
+PASS: Schematic net retained: R512.2
+PASS: Schematic net retained: A1.16
+PASS: Schematic net retained: R4.1
+PASS: Schematic net retained: U8.6
+PASS: Schematic net retained: J3.15
+PASS: Schematic net retained: R513.2
+PASS: Schematic net retained: R514.2
+PASS: Schematic net retained: A1.1
+PASS: Schematic net retained: R601.1
+PASS: Schematic net retained: U7.2
+PASS: Schematic net retained: J3.1
+PASS: Schematic net retained: R501.2
+PASS: Schematic net retained: A1.5
+PASS: Schematic net retained: R604.1
+PASS: Schematic net retained: U7.5
+PASS: Schematic net retained: J3.5
+PASS: Schematic net retained: R504.2
+PASS: Schematic net retained: A1.13
+PASS: Schematic net retained: A1.18
+PASS: Schematic net retained: A1.23
+PASS: Schematic net retained: A1.28
+PASS: Schematic net retained: A1.3
+PASS: Schematic net retained: A1.38
+PASS: Schematic net retained: A1.8
+PASS: Schematic net retained: C1.2
+PASS: Schematic net retained: C10.2
+PASS: Schematic net retained: C101.2
+PASS: Schematic net retained: C102.2
+PASS: Schematic net retained: C103.2
+PASS: Schematic net retained: C104.2
+PASS: Schematic net retained: C105.2
+PASS: Schematic net retained: C106.2
+PASS: Schematic net retained: C107.2
+PASS: Schematic net retained: C108.2
+PASS: Schematic net retained: C109.2
+PASS: Schematic net retained: C110.2
+PASS: Schematic net retained: C111.2
+PASS: Schematic net retained: C112.2
+PASS: Schematic net retained: C113.2
+PASS: Schematic net retained: C114.2
+PASS: Schematic net retained: C115.2
+PASS: Schematic net retained: C116.2
+PASS: Schematic net retained: C117.2
+PASS: Schematic net retained: C118.2
+PASS: Schematic net retained: C119.2
+PASS: Schematic net retained: C12.2
+PASS: Schematic net retained: C120.2
+PASS: Schematic net retained: C121.2
+PASS: Schematic net retained: C122.2
+PASS: Schematic net retained: C123.2
+PASS: Schematic net retained: C124.2
+PASS: Schematic net retained: C125.2
+PASS: Schematic net retained: C126.2
+PASS: Schematic net retained: C127.2
+PASS: Schematic net retained: C128.2
+PASS: Schematic net retained: C129.2
+PASS: Schematic net retained: C13.2
+PASS: Schematic net retained: C130.2
+PASS: Schematic net retained: C131.2
+PASS: Schematic net retained: C132.2
+PASS: Schematic net retained: C14.2
+PASS: Schematic net retained: C2.2
+PASS: Schematic net retained: C20.2
+PASS: Schematic net retained: C21.2
+PASS: Schematic net retained: C22.2
+PASS: Schematic net retained: C23.2
+PASS: Schematic net retained: C3.2
+PASS: Schematic net retained: C30.2
+PASS: Schematic net retained: C31.2
+PASS: Schematic net retained: C4.2
+PASS: Schematic net retained: C5.2
+PASS: Schematic net retained: C6.2
+PASS: Schematic net retained: C7.2
+PASS: Schematic net retained: J1.2
+PASS: Schematic net retained: J11.4
+PASS: Schematic net retained: J12.4
+PASS: Schematic net retained: J13.4
+PASS: Schematic net retained: J14.4
+PASS: Schematic net retained: J15.4
+PASS: Schematic net retained: J16.4
+PASS: Schematic net retained: J17.4
+PASS: Schematic net retained: J18.4
+PASS: Schematic net retained: J19.4
+PASS: Schematic net retained: J20.4
+PASS: Schematic net retained: J21.4
+PASS: Schematic net retained: J22.4
+PASS: Schematic net retained: J23.4
+PASS: Schematic net retained: J24.4
+PASS: Schematic net retained: J25.4
+PASS: Schematic net retained: J26.4
+PASS: Schematic net retained: J27.4
+PASS: Schematic net retained: J28.4
+PASS: Schematic net retained: J29.4
+PASS: Schematic net retained: J3.12
+PASS: Schematic net retained: J3.16
+PASS: Schematic net retained: J3.4
+PASS: Schematic net retained: J3.8
+PASS: Schematic net retained: J30.4
+PASS: Schematic net retained: J31.4
+PASS: Schematic net retained: J32.4
+PASS: Schematic net retained: J33.4
+PASS: Schematic net retained: J34.4
+PASS: Schematic net retained: J35.4
+PASS: Schematic net retained: J36.4
+PASS: Schematic net retained: J37.4
+PASS: Schematic net retained: J38.4
+PASS: Schematic net retained: J39.4
+PASS: Schematic net retained: J40.4
+PASS: Schematic net retained: J41.4
+PASS: Schematic net retained: J42.4
+PASS: Schematic net retained: Q1.2
+PASS: Schematic net retained: Q10.2
+PASS: Schematic net retained: Q11.2
+PASS: Schematic net retained: Q12.2
+PASS: Schematic net retained: Q13.2
+PASS: Schematic net retained: Q14.2
+PASS: Schematic net retained: Q15.2
+PASS: Schematic net retained: Q16.2
+PASS: Schematic net retained: Q17.2
+PASS: Schematic net retained: Q18.2
+PASS: Schematic net retained: Q19.2
+PASS: Schematic net retained: Q2.2
+PASS: Schematic net retained: Q20.2
+PASS: Schematic net retained: Q21.2
+PASS: Schematic net retained: Q22.2
+PASS: Schematic net retained: Q23.2
+PASS: Schematic net retained: Q24.2
+PASS: Schematic net retained: Q25.2
+PASS: Schematic net retained: Q26.2
+PASS: Schematic net retained: Q27.2
+PASS: Schematic net retained: Q28.2
+PASS: Schematic net retained: Q29.2
+PASS: Schematic net retained: Q3.2
+PASS: Schematic net retained: Q30.2
+PASS: Schematic net retained: Q34.2
+PASS: Schematic net retained: Q4.2
+PASS: Schematic net retained: Q5.2
+PASS: Schematic net retained: Q6.2
+PASS: Schematic net retained: Q7.2
+PASS: Schematic net retained: Q8.2
+PASS: Schematic net retained: Q9.2
+PASS: Schematic net retained: R11.2
+PASS: Schematic net retained: R201.2
+PASS: Schematic net retained: R202.2
+PASS: Schematic net retained: R203.2
+PASS: Schematic net retained: R204.2
+PASS: Schematic net retained: R205.2
+PASS: Schematic net retained: R206.2
+PASS: Schematic net retained: R207.2
+PASS: Schematic net retained: R208.2
+PASS: Schematic net retained: R209.2
+PASS: Schematic net retained: R210.2
+PASS: Schematic net retained: R211.2
+PASS: Schematic net retained: R212.2
+PASS: Schematic net retained: R213.2
+PASS: Schematic net retained: R214.2
+PASS: Schematic net retained: R215.2
+PASS: Schematic net retained: R216.2
+PASS: Schematic net retained: R217.2
+PASS: Schematic net retained: R218.2
+PASS: Schematic net retained: R219.2
+PASS: Schematic net retained: R220.2
+PASS: Schematic net retained: R221.2
+PASS: Schematic net retained: R222.2
+PASS: Schematic net retained: R223.2
+PASS: Schematic net retained: R224.2
+PASS: Schematic net retained: R225.2
+PASS: Schematic net retained: R226.2
+PASS: Schematic net retained: R227.2
+PASS: Schematic net retained: R228.2
+PASS: Schematic net retained: R229.2
+PASS: Schematic net retained: R230.2
+PASS: Schematic net retained: R601.2
+PASS: Schematic net retained: R602.2
+PASS: Schematic net retained: R603.2
+PASS: Schematic net retained: R604.2
+PASS: Schematic net retained: R605.2
+PASS: Schematic net retained: R606.2
+PASS: Schematic net retained: R607.2
+PASS: Schematic net retained: R608.2
+PASS: Schematic net retained: R609.2
+PASS: Schematic net retained: R611.2
+PASS: Schematic net retained: R612.2
+PASS: Schematic net retained: R613.2
+PASS: Schematic net retained: U1.10
+PASS: Schematic net retained: U1.16
+PASS: Schematic net retained: U1.17
+PASS: Schematic net retained: U2.1
+PASS: Schematic net retained: U3.1
+PASS: Schematic net retained: U3.2
+PASS: Schematic net retained: U3.3
+PASS: Schematic net retained: U3.4
+PASS: Schematic net retained: U3.7
+PASS: Schematic net retained: U4.10
+PASS: Schematic net retained: U4.17
+PASS: Schematic net retained: U5.10
+PASS: Schematic net retained: U5.15
+PASS: Schematic net retained: U5.17
+PASS: Schematic net retained: U6.10
+PASS: Schematic net retained: U6.15
+PASS: Schematic net retained: U6.16
+PASS: Schematic net retained: U7.10
+PASS: Schematic net retained: U8.10
+PASS: Schematic net retained: U8.3
+PASS: Schematic net retained: U8.7
+PASS: Schematic net retained: U8.8
+PASS: Schematic net retained: U8.9
+PASS: Schematic net retained: R101.2
+PASS: Schematic net retained: U1.28
+PASS: Schematic net retained: R102.2
+PASS: Schematic net retained: U1.8
+PASS: Schematic net retained: R103.2
+PASS: Schematic net retained: U5.23
+PASS: Schematic net retained: R104.2
+PASS: Schematic net retained: U5.24
+PASS: Schematic net retained: R105.2
+PASS: Schematic net retained: U5.25
+PASS: Schematic net retained: R106.2
+PASS: Schematic net retained: U5.26
+PASS: Schematic net retained: R107.2
+PASS: Schematic net retained: U5.27
+PASS: Schematic net retained: R108.2
+PASS: Schematic net retained: U5.28
+PASS: Schematic net retained: R109.1
+PASS: Schematic net retained: U5.1
+PASS: Schematic net retained: R110.1
+PASS: Schematic net retained: U5.2
+PASS: Schematic net retained: R111.1
+PASS: Schematic net retained: U5.3
+PASS: Schematic net retained: R112.1
+PASS: Schematic net retained: U5.4
+PASS: Schematic net retained: R113.1
+PASS: Schematic net retained: U5.5
+PASS: Schematic net retained: R114.1
+PASS: Schematic net retained: U5.6
+PASS: Schematic net retained: R115.1
+PASS: Schematic net retained: U5.7
+PASS: Schematic net retained: R116.1
+PASS: Schematic net retained: U5.8
+PASS: Schematic net retained: R117.1
+PASS: Schematic net retained: U4.28
+PASS: Schematic net retained: R118.1
+PASS: Schematic net retained: U4.8
+PASS: Schematic net retained: R119.1
+PASS: Schematic net retained: U6.23
+PASS: Schematic net retained: R120.1
+PASS: Schematic net retained: U6.24
+PASS: Schematic net retained: R121.1
+PASS: Schematic net retained: U6.25
+PASS: Schematic net retained: R122.1
+PASS: Schematic net retained: U6.26
+PASS: Schematic net retained: R123.1
+PASS: Schematic net retained: U6.27
+PASS: Schematic net retained: R124.1
+PASS: Schematic net retained: U6.28
+PASS: Schematic net retained: R125.1
+PASS: Schematic net retained: U6.1
+PASS: Schematic net retained: R126.1
+PASS: Schematic net retained: U6.2
+PASS: Schematic net retained: R127.1
+PASS: Schematic net retained: U6.3
+PASS: Schematic net retained: R128.1
+PASS: Schematic net retained: U6.4
+PASS: Schematic net retained: R129.1
+PASS: Schematic net retained: U6.5
+PASS: Schematic net retained: R130.1
+PASS: Schematic net retained: U6.6
+PASS: Schematic net retained: A1.39
+PASS: Schematic net retained: D1.1
+PASS: Schematic net retained: F1.1
+PASS: Schematic net retained: J1.1
+PASS: Schematic net retained: J11.2
+PASS: Schematic net retained: Q1.3
+PASS: Schematic net retained: J11.3
+PASS: Schematic net retained: R301.2
+PASS: Schematic net retained: R401.2
+PASS: Schematic net retained: J12.2
+PASS: Schematic net retained: Q2.3
+PASS: Schematic net retained: J12.3
+PASS: Schematic net retained: R302.2
+PASS: Schematic net retained: R402.2
+PASS: Schematic net retained: J13.2
+PASS: Schematic net retained: Q3.3
+PASS: Schematic net retained: J13.3
+PASS: Schematic net retained: R303.2
+PASS: Schematic net retained: R403.2
+PASS: Schematic net retained: J14.2
+PASS: Schematic net retained: Q4.3
+PASS: Schematic net retained: J14.3
+PASS: Schematic net retained: R304.2
+PASS: Schematic net retained: R404.2
+PASS: Schematic net retained: J15.2
+PASS: Schematic net retained: Q5.3
+PASS: Schematic net retained: J15.3
+PASS: Schematic net retained: R305.2
+PASS: Schematic net retained: R405.2
+PASS: Schematic net retained: J16.2
+PASS: Schematic net retained: Q6.3
+PASS: Schematic net retained: J16.3
+PASS: Schematic net retained: R306.2
+PASS: Schematic net retained: R406.2
+PASS: Schematic net retained: J17.2
+PASS: Schematic net retained: Q7.3
+PASS: Schematic net retained: J17.3
+PASS: Schematic net retained: R307.2
+PASS: Schematic net retained: R407.2
+PASS: Schematic net retained: J18.2
+PASS: Schematic net retained: Q8.3
+PASS: Schematic net retained: J18.3
+PASS: Schematic net retained: R308.2
+PASS: Schematic net retained: R408.2
+PASS: Schematic net retained: J19.2
+PASS: Schematic net retained: Q9.3
+PASS: Schematic net retained: J19.3
+PASS: Schematic net retained: R309.2
+PASS: Schematic net retained: R409.1
+PASS: Schematic net retained: J20.2
+PASS: Schematic net retained: Q10.3
+PASS: Schematic net retained: J20.3
+PASS: Schematic net retained: R310.2
+PASS: Schematic net retained: R410.1
+PASS: Schematic net retained: J21.2
+PASS: Schematic net retained: Q11.3
+PASS: Schematic net retained: J21.3
+PASS: Schematic net retained: R311.2
+PASS: Schematic net retained: R411.1
+PASS: Schematic net retained: J22.2
+PASS: Schematic net retained: Q12.3
+PASS: Schematic net retained: J22.3
+PASS: Schematic net retained: R312.2
+PASS: Schematic net retained: R412.1
+PASS: Schematic net retained: J23.2
+PASS: Schematic net retained: Q13.3
+PASS: Schematic net retained: J23.3
+PASS: Schematic net retained: R313.2
+PASS: Schematic net retained: R413.1
+PASS: Schematic net retained: J24.2
+PASS: Schematic net retained: Q14.3
+PASS: Schematic net retained: J24.3
+PASS: Schematic net retained: R314.2
+PASS: Schematic net retained: R414.1
+PASS: Schematic net retained: J25.2
+PASS: Schematic net retained: Q15.3
+PASS: Schematic net retained: J25.3
+PASS: Schematic net retained: R315.2
+PASS: Schematic net retained: R415.1
+PASS: Schematic net retained: J26.2
+PASS: Schematic net retained: Q16.3
+PASS: Schematic net retained: J26.3
+PASS: Schematic net retained: R316.2
+PASS: Schematic net retained: R416.1
+PASS: Schematic net retained: J27.2
+PASS: Schematic net retained: Q17.3
+PASS: Schematic net retained: J27.3
+PASS: Schematic net retained: R317.2
+PASS: Schematic net retained: R417.1
+PASS: Schematic net retained: J28.2
+PASS: Schematic net retained: Q18.3
+PASS: Schematic net retained: J28.3
+PASS: Schematic net retained: R318.2
+PASS: Schematic net retained: R418.1
+PASS: Schematic net retained: J29.2
+PASS: Schematic net retained: Q19.3
+PASS: Schematic net retained: J29.3
+PASS: Schematic net retained: R319.2
+PASS: Schematic net retained: R419.1
+PASS: Schematic net retained: J30.2
+PASS: Schematic net retained: Q20.3
+PASS: Schematic net retained: J30.3
+PASS: Schematic net retained: R320.2
+PASS: Schematic net retained: R420.1
+PASS: Schematic net retained: J31.2
+PASS: Schematic net retained: Q21.3
+PASS: Schematic net retained: J31.3
+PASS: Schematic net retained: R321.2
+PASS: Schematic net retained: R421.1
+PASS: Schematic net retained: J32.2
+PASS: Schematic net retained: Q22.3
+PASS: Schematic net retained: J32.3
+PASS: Schematic net retained: R322.2
+PASS: Schematic net retained: R422.1
+PASS: Schematic net retained: J33.2
+PASS: Schematic net retained: Q23.3
+PASS: Schematic net retained: J33.3
+PASS: Schematic net retained: R323.2
+PASS: Schematic net retained: R423.1
+PASS: Schematic net retained: J34.2
+PASS: Schematic net retained: Q24.3
+PASS: Schematic net retained: J34.3
+PASS: Schematic net retained: R324.2
+PASS: Schematic net retained: R424.1
+PASS: Schematic net retained: J35.2
+PASS: Schematic net retained: Q25.3
+PASS: Schematic net retained: J35.3
+PASS: Schematic net retained: R325.2
+PASS: Schematic net retained: R425.1
+PASS: Schematic net retained: J36.2
+PASS: Schematic net retained: Q26.3
+PASS: Schematic net retained: J36.3
+PASS: Schematic net retained: R326.2
+PASS: Schematic net retained: R426.1
+PASS: Schematic net retained: J37.2
+PASS: Schematic net retained: Q27.3
+PASS: Schematic net retained: J37.3
+PASS: Schematic net retained: R327.2
+PASS: Schematic net retained: R427.1
+PASS: Schematic net retained: J38.2
+PASS: Schematic net retained: Q28.3
+PASS: Schematic net retained: J38.3
+PASS: Schematic net retained: R328.2
+PASS: Schematic net retained: R428.1
+PASS: Schematic net retained: J39.2
+PASS: Schematic net retained: Q29.3
+PASS: Schematic net retained: J39.3
+PASS: Schematic net retained: R329.2
+PASS: Schematic net retained: R429.1
+PASS: Schematic net retained: J40.2
+PASS: Schematic net retained: Q30.3
+PASS: Schematic net retained: J40.3
+PASS: Schematic net retained: R330.2
+PASS: Schematic net retained: R430.1
+PASS: Schematic net retained: J41.3
+PASS: Schematic net retained: R331.2
+PASS: Schematic net retained: R431.1
+PASS: Schematic net retained: J42.3
+PASS: Schematic net retained: R332.2
+PASS: Schematic net retained: R432.1
+PASS: Schematic net retained: Q1.1
+PASS: Schematic net retained: R101.1
+PASS: Schematic net retained: R201.1
+PASS: Schematic net retained: Q2.1
+PASS: Schematic net retained: R102.1
+PASS: Schematic net retained: R202.1
+PASS: Schematic net retained: Q3.1
+PASS: Schematic net retained: R103.1
+PASS: Schematic net retained: R203.1
+PASS: Schematic net retained: Q4.1
+PASS: Schematic net retained: R104.1
+PASS: Schematic net retained: R204.1
+PASS: Schematic net retained: Q5.1
+PASS: Schematic net retained: R105.1
+PASS: Schematic net retained: R205.1
+PASS: Schematic net retained: Q6.1
+PASS: Schematic net retained: R106.1
+PASS: Schematic net retained: R206.1
+PASS: Schematic net retained: Q7.1
+PASS: Schematic net retained: R107.1
+PASS: Schematic net retained: R207.1
+PASS: Schematic net retained: Q8.1
+PASS: Schematic net retained: R108.1
+PASS: Schematic net retained: R208.1
+PASS: Schematic net retained: Q9.1
+PASS: Schematic net retained: R109.2
+PASS: Schematic net retained: R209.1
+PASS: Schematic net retained: Q10.1
+PASS: Schematic net retained: R110.2
+PASS: Schematic net retained: R210.1
+PASS: Schematic net retained: Q11.1
+PASS: Schematic net retained: R111.2
+PASS: Schematic net retained: R211.1
+PASS: Schematic net retained: Q12.1
+PASS: Schematic net retained: R112.2
+PASS: Schematic net retained: R212.1
+PASS: Schematic net retained: Q13.1
+PASS: Schematic net retained: R113.2
+PASS: Schematic net retained: R213.1
+PASS: Schematic net retained: Q14.1
+PASS: Schematic net retained: R114.2
+PASS: Schematic net retained: R214.1
+PASS: Schematic net retained: Q15.1
+PASS: Schematic net retained: R115.2
+PASS: Schematic net retained: R215.1
+PASS: Schematic net retained: Q16.1
+PASS: Schematic net retained: R116.2
+PASS: Schematic net retained: R216.1
+PASS: Schematic net retained: Q17.1
+PASS: Schematic net retained: R117.2
+PASS: Schematic net retained: R217.1
+PASS: Schematic net retained: Q18.1
+PASS: Schematic net retained: R118.2
+PASS: Schematic net retained: R218.1
+PASS: Schematic net retained: Q19.1
+PASS: Schematic net retained: R119.2
+PASS: Schematic net retained: R219.1
+PASS: Schematic net retained: Q20.1
+PASS: Schematic net retained: R120.2
+PASS: Schematic net retained: R220.1
+PASS: Schematic net retained: Q21.1
+PASS: Schematic net retained: R121.2
+PASS: Schematic net retained: R221.1
+PASS: Schematic net retained: Q22.1
+PASS: Schematic net retained: R122.2
+PASS: Schematic net retained: R222.1
+PASS: Schematic net retained: Q23.1
+PASS: Schematic net retained: R123.2
+PASS: Schematic net retained: R223.1
+PASS: Schematic net retained: Q24.1
+PASS: Schematic net retained: R124.2
+PASS: Schematic net retained: R224.1
+PASS: Schematic net retained: Q25.1
+PASS: Schematic net retained: R125.2
+PASS: Schematic net retained: R225.1
+PASS: Schematic net retained: Q26.1
+PASS: Schematic net retained: R126.2
+PASS: Schematic net retained: R226.1
+PASS: Schematic net retained: Q27.1
+PASS: Schematic net retained: R127.2
+PASS: Schematic net retained: R227.1
+PASS: Schematic net retained: Q28.1
+PASS: Schematic net retained: R128.2
+PASS: Schematic net retained: R228.1
+PASS: Schematic net retained: Q29.1
+PASS: Schematic net retained: R129.2
+PASS: Schematic net retained: R229.1
+PASS: Schematic net retained: Q30.1
+PASS: Schematic net retained: R130.2
+PASS: Schematic net retained: R230.1
+PASS: Schematic net retained: C19.1
+PASS: Schematic net retained: U2.6
+PASS: Schematic net retained: R9.2
+PASS: Schematic net retained: U2.5
+PASS: Schematic net retained: C18.2
+PASS: Schematic net retained: R10.2
+PASS: Schematic net retained: R11.1
+PASS: Schematic net retained: U2.4
+PASS: Schematic net retained: C19.2
+PASS: Schematic net retained: L1.1
+PASS: Schematic net retained: U2.2
+PASS: Schematic net retained: R602.1
+PASS: Schematic net retained: U7.3
+PASS: Schematic net retained: R501.1
+PASS: Schematic net retained: U7.18
+PASS: Schematic net retained: R502.1
+PASS: Schematic net retained: U7.17
+PASS: Schematic net retained: R503.1
+PASS: Schematic net retained: U7.16
+PASS: Schematic net retained: R504.1
+PASS: Schematic net retained: U7.15
+PASS: Schematic net retained: R505.1
+PASS: Schematic net retained: U7.14
+PASS: Schematic net retained: R506.1
+PASS: Schematic net retained: U7.13
+PASS: Schematic net retained: R507.1
+PASS: Schematic net retained: U7.12
+PASS: Schematic net retained: R508.1
+PASS: Schematic net retained: U7.11
+PASS: Schematic net retained: R509.1
+PASS: Schematic net retained: U8.18
+PASS: Schematic net retained: R511.1
+PASS: Schematic net retained: U8.16
+PASS: Schematic net retained: R512.1
+PASS: Schematic net retained: U8.15
+PASS: Schematic net retained: R513.1
+PASS: Schematic net retained: U8.14
+PASS: Schematic net retained: C101.1
+PASS: Schematic net retained: R401.1
+PASS: Schematic net retained: U1.21
+PASS: Schematic net retained: C102.1
+PASS: Schematic net retained: R402.1
+PASS: Schematic net retained: U1.22
+PASS: Schematic net retained: C103.1
+PASS: Schematic net retained: R403.1
+PASS: Schematic net retained: U1.23
+PASS: Schematic net retained: C104.1
+PASS: Schematic net retained: R404.1
+PASS: Schematic net retained: U1.24
+PASS: Schematic net retained: C105.1
+PASS: Schematic net retained: R405.1
+PASS: Schematic net retained: U1.25
+PASS: Schematic net retained: C106.1
+PASS: Schematic net retained: R406.1
+PASS: Schematic net retained: U1.26
+PASS: Schematic net retained: C107.1
+PASS: Schematic net retained: R407.1
+PASS: Schematic net retained: U1.27
+PASS: Schematic net retained: C108.1
+PASS: Schematic net retained: R408.1
+PASS: Schematic net retained: U1.1
+PASS: Schematic net retained: C109.1
+PASS: Schematic net retained: R409.2
+PASS: Schematic net retained: U1.2
+PASS: Schematic net retained: C110.1
+PASS: Schematic net retained: R410.2
+PASS: Schematic net retained: U1.3
+PASS: Schematic net retained: C111.1
+PASS: Schematic net retained: R411.2
+PASS: Schematic net retained: U1.4
+PASS: Schematic net retained: C112.1
+PASS: Schematic net retained: R412.2
+PASS: Schematic net retained: U1.5
+PASS: Schematic net retained: C113.1
+PASS: Schematic net retained: R413.2
+PASS: Schematic net retained: U1.6
+PASS: Schematic net retained: C114.1
+PASS: Schematic net retained: R414.2
+PASS: Schematic net retained: U1.7
+PASS: Schematic net retained: C115.1
+PASS: Schematic net retained: R415.2
+PASS: Schematic net retained: U4.21
+PASS: Schematic net retained: C116.1
+PASS: Schematic net retained: R416.2
+PASS: Schematic net retained: U4.22
+PASS: Schematic net retained: C117.1
+PASS: Schematic net retained: R417.2
+PASS: Schematic net retained: U4.23
+PASS: Schematic net retained: C118.1
+PASS: Schematic net retained: R418.2
+PASS: Schematic net retained: U4.24
+PASS: Schematic net retained: C119.1
+PASS: Schematic net retained: R419.2
+PASS: Schematic net retained: U4.25
+PASS: Schematic net retained: C120.1
+PASS: Schematic net retained: R420.2
+PASS: Schematic net retained: U4.26
+PASS: Schematic net retained: C121.1
+PASS: Schematic net retained: R421.2
+PASS: Schematic net retained: U4.27
+PASS: Schematic net retained: C122.1
+PASS: Schematic net retained: R422.2
+PASS: Schematic net retained: U4.1
+PASS: Schematic net retained: C123.1
+PASS: Schematic net retained: R423.2
+PASS: Schematic net retained: U4.2
+PASS: Schematic net retained: C124.1
+PASS: Schematic net retained: R424.2
+PASS: Schematic net retained: U4.3
+PASS: Schematic net retained: C125.1
+PASS: Schematic net retained: R425.2
+PASS: Schematic net retained: U4.4
+PASS: Schematic net retained: C126.1
+PASS: Schematic net retained: R426.2
+PASS: Schematic net retained: U4.5
+PASS: Schematic net retained: C127.1
+PASS: Schematic net retained: R427.2
+PASS: Schematic net retained: U4.6
+PASS: Schematic net retained: C128.1
+PASS: Schematic net retained: R428.2
+PASS: Schematic net retained: U4.7
+PASS: Schematic net retained: C129.1
+PASS: Schematic net retained: R429.2
+PASS: Schematic net retained: U5.21
+PASS: Schematic net retained: C130.1
+PASS: Schematic net retained: R430.2
+PASS: Schematic net retained: U5.22
+PASS: Schematic net retained: C131.1
+PASS: Schematic net retained: R431.2
+PASS: Schematic net retained: U6.21
+PASS: Schematic net retained: C132.1
+PASS: Schematic net retained: R432.2
+PASS: Schematic net retained: U6.22
+PASS: Schematic net retained: A1.37
+PASS: Schematic net retained: A1.35
+PASS: Schematic net retained: A1.33
+PASS: Schematic net retained: A1.21
+PASS: Schematic net retained: A1.22
+PASS: Schematic net retained: A1.24
+PASS: Schematic net retained: A1.25
+PASS: Schematic net retained: A1.26
+PASS: Schematic net retained: A1.27
+PASS: Schematic net retained: A1.29
+PASS: Schematic net retained: A1.31
+PASS: Schematic net retained: A1.32
+PASS: Schematic net retained: A1.34
+PASS: Schematic net retained: A1.30
+PASS: Schematic net retained: A1.40
+PASS: Schematic net retained: J41.1
+PASS: Schematic net retained: J41.2
+PASS: Schematic net retained: J42.1
+PASS: Schematic net retained: J42.2
+PASS: Schematic net retained: U1.20
+PASS: Schematic net retained: U1.19
+PASS: Schematic net retained: U1.11
+PASS: Schematic net retained: U1.14
+PASS: Schematic net retained: U4.20
+PASS: Schematic net retained: U4.19
+PASS: Schematic net retained: U4.11
+PASS: Schematic net retained: U4.14
+PASS: Schematic net retained: U5.20
+PASS: Schematic net retained: U5.19
+PASS: Schematic net retained: U5.11
+PASS: Schematic net retained: U5.14
+PASS: Schematic net retained: U6.7
+PASS: Schematic net retained: U6.8
+PASS: Schematic net retained: U6.20
+PASS: Schematic net retained: U6.19
+PASS: Schematic net retained: U6.11
+PASS: Schematic net retained: U6.14
+PASS: Schematic net retained: U8.17
+PASS: Schematic net retained: U8.13
+PASS: Schematic net retained: U8.12
+PASS: Schematic net retained: U8.11
+PASS: Connector bank position: channel 1
+PASS: Connector faces outward with pin1 inboard: channel 1
+PASS: Connector bank position: channel 2
+PASS: Connector faces outward with pin1 inboard: channel 2
+PASS: Connector bank position: channel 3
+PASS: Connector faces outward with pin1 inboard: channel 3
+PASS: Connector bank position: channel 4
+PASS: Connector faces outward with pin1 inboard: channel 4
+PASS: Connector bank position: channel 5
+PASS: Connector faces outward with pin1 inboard: channel 5
+PASS: Connector bank position: channel 6
+PASS: Connector faces outward with pin1 inboard: channel 6
+PASS: Connector bank position: channel 7
+PASS: Connector faces outward with pin1 inboard: channel 7
+PASS: Connector bank position: channel 8
+PASS: Connector faces outward with pin1 inboard: channel 8
+PASS: Connector bank position: channel 9
+PASS: Connector faces outward with pin1 inboard: channel 9
+PASS: Connector bank position: channel 10
+PASS: Connector faces outward with pin1 inboard: channel 10
+PASS: Connector bank position: channel 11
+PASS: Connector faces outward with pin1 inboard: channel 11
+PASS: Connector bank position: channel 12
+PASS: Connector faces outward with pin1 inboard: channel 12
+PASS: Connector bank position: channel 13
+PASS: Connector faces outward with pin1 inboard: channel 13
+PASS: Connector bank position: channel 14
+PASS: Connector faces outward with pin1 inboard: channel 14
+PASS: Connector bank position: channel 15
+PASS: Connector faces outward with pin1 inboard: channel 15
+PASS: Connector bank position: channel 16
+PASS: Connector faces outward with pin1 inboard: channel 16
+PASS: Connector bank position: channel 17
+PASS: Connector faces outward with pin1 inboard: channel 17
+PASS: Connector bank position: channel 18
+PASS: Connector faces outward with pin1 inboard: channel 18
+PASS: Connector bank position: channel 19
+PASS: Connector faces outward with pin1 inboard: channel 19
+PASS: Connector bank position: channel 20
+PASS: Connector faces outward with pin1 inboard: channel 20
+PASS: Connector bank position: channel 21
+PASS: Connector faces outward with pin1 inboard: channel 21
+PASS: Connector bank position: channel 22
+PASS: Connector faces outward with pin1 inboard: channel 22
+PASS: Connector bank position: channel 23
+PASS: Connector faces outward with pin1 inboard: channel 23
+PASS: Connector bank position: channel 24
+PASS: Connector faces outward with pin1 inboard: channel 24
+PASS: Connector bank position: channel 25
+PASS: Connector faces outward with pin1 inboard: channel 25
+PASS: Connector bank position: channel 26
+PASS: Connector faces outward with pin1 inboard: channel 26
+PASS: Connector bank position: channel 27
+PASS: Connector faces outward with pin1 inboard: channel 27
+PASS: Connector bank position: channel 28
+PASS: Connector faces outward with pin1 inboard: channel 28
+PASS: Connector bank position: channel 29
+PASS: Connector faces outward with pin1 inboard: channel 29
+PASS: Connector bank position: channel 30
+PASS: Connector faces outward with pin1 inboard: channel 30
+PASS: Connector bank position: channel 31
+PASS: Connector faces outward with pin1 inboard: channel 31
+PASS: Connector bank position: channel 32
+PASS: Connector faces outward with pin1 inboard: channel 32
+PASS: Four segments form rectangular outline
+PASS: Outline is exactly 200 x 125 mm
+PASS: Four-layer stack preserved
+PASS: Placement-only scope: zero routing and copper zones before and after
+PASS: Pico antenna, copper, USB and underside keepout areas/rules preserved
+PASS: Schematic/project file unchanged: button_bank_1.kicad_sch
+PASS: Schematic/project file unchanged: button_bank_2.kicad_sch
+PASS: Schematic/project file unchanged: button_bank_3.kicad_sch
+PASS: Schematic/project file unchanged: button_bank_4.kicad_sch
+PASS: Schematic/project file unchanged: IEEEArcade.kicad_sch
+PASS: Schematic/project file unchanged: scoreboard.kicad_sch
+PASS: Schematic/project file unchanged: IEEEArcade.kicad_pro
+PASS: No new violations findings compared with current baseline
+PASS: No new schematic_parity findings compared with current baseline
+PASS: All visible reference labels placed with clearance
+PASS: Only two existing Pico paste/keepout errors and one existing footprint warning remain
+PASS: Eight obsolete-footprint warnings removed; 199 existing native parity warnings remain

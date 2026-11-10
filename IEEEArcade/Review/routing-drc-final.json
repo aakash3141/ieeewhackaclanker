@@ -1,0 +1,3038 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-10T15:41:15",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 21 [unconnected-(A1-GPIO16-Pad21)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 178.545,
+                        "y": 102.19
+                    },
+                    "uuid": "6a089585-f98c-4d94-8bb8-711b1b5028e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 22 [unconnected-(A1-GPIO17-Pad22)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 181.085,
+                        "y": 102.19
+                    },
+                    "uuid": "36d20c68-5261-4183-bed9-7bc3a764f348"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 24 [unconnected-(A1-GPIO18-Pad24)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 186.165,
+                        "y": 102.19
+                    },
+                    "uuid": "cd635ac3-d5fa-4e1a-8221-c4671577e921"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 25 [unconnected-(A1-GPIO19-Pad25)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 188.705,
+                        "y": 102.19
+                    },
+                    "uuid": "66e4793a-d5b5-427a-82b9-16216cf3d7ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 26 [unconnected-(A1-GPIO20-Pad26)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 191.245,
+                        "y": 102.19
+                    },
+                    "uuid": "07fd174c-59c6-416f-9d98-3d29df497183"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 27 [unconnected-(A1-GPIO21-Pad27)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 193.785,
+                        "y": 102.19
+                    },
+                    "uuid": "e5755c6f-9f60-4f17-8385-994739bb7d35"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 29 [unconnected-(A1-GPIO22-Pad29)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 198.865,
+                        "y": 102.19
+                    },
+                    "uuid": "b44e7db6-8e79-4b8b-b81d-bcc8e11ebd89"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 30 [unconnected-(A1-RUN-Pad30)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 201.405,
+                        "y": 102.19
+                    },
+                    "uuid": "baf55e37-ba82-49f6-978f-5d0453a8d1b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 31 [unconnected-(A1-GPIO26_ADC0-Pad31)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 203.945,
+                        "y": 102.19
+                    },
+                    "uuid": "979f620a-1b09-40fa-be04-d58260560ff0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 32 [unconnected-(A1-GPIO27_ADC1-Pad32)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 206.485,
+                        "y": 102.19
+                    },
+                    "uuid": "17531a91-d28e-4e03-9443-b28896c58016"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 33 [unconnected-(A1-AGND-Pad33)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 209.025,
+                        "y": 102.19
+                    },
+                    "uuid": "091f5b4d-6f8d-4a57-8202-aaab39e1eb11"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 34 [unconnected-(A1-GPIO28_ADC2-Pad34)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 211.565,
+                        "y": 102.19
+                    },
+                    "uuid": "8657f9ed-bd2c-4918-881d-dd97ca9cbcd1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 35 [unconnected-(A1-ADC_VREF-Pad35)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 214.105,
+                        "y": 102.19
+                    },
+                    "uuid": "d2d14bb5-f32a-4fcc-a01d-484d61e396e3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 37 [unconnected-(A1-3V3_EN-Pad37)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 219.185,
+                        "y": 102.19
+                    },
+                    "uuid": "eb8417c0-d0c8-4176-b1eb-6c787a117857"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 39 [Net-(A1-VSYS)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 224.265,
+                        "y": 102.19
+                    },
+                    "uuid": "d6889861-830f-40bd-9c40-a12fd651fcf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 40 [unconnected-(A1-VBUS-Pad40)] of A1 on F.Cu",
+                    "pos": {
+                        "x": 226.805,
+                        "y": 102.19
+                    },
+                    "uuid": "e0bd7a7d-9c6f-4037-a633-0a62739acabc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-FB)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 72.0,
+                        "y": 60.4375
+                    },
+                    "uuid": "ceb5fd93-ff48-4d88-b79a-558424b3480b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-BOOT)] of C19 on F.Cu",
+                    "pos": {
+                        "x": 62.9375,
+                        "y": 52.5
+                    },
+                    "uuid": "b7b75ae1-7920-4366-aaca-dfbedb70d6f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-SW)] of C19 on F.Cu",
+                    "pos": {
+                        "x": 66.0625,
+                        "y": 52.5
+                    },
+                    "uuid": "3b6f58e5-bdad-45b0-98ec-7682f1312514"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(A1-VSYS)] of D1 on F.Cu",
+                    "pos": {
+                        "x": 74.0,
+                        "y": 44.0
+                    },
+                    "uuid": "346f53d7-f421-481d-95b9-bc70885086cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(F1-Pad1)] of F1 on F.Cu",
+                    "pos": {
+                        "x": 55.0,
+                        "y": 75.185
+                    },
+                    "uuid": "81c2189a-bc5a-4649-8935-4442ebcf4f76"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(F1-Pad1)] of J1",
+                    "pos": {
+                        "x": 42.5,
+                        "y": 72.0
+                    },
+                    "uuid": "ee88b8d6-76f8-4fe6-aeca-a9ef10704224"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-SW)] of L1 on F.Cu",
+                    "pos": {
+                        "x": 56.0,
+                        "y": 52.3
+                    },
+                    "uuid": "2a1ffc0a-366c-4edb-997c-ff407bc561c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-EN)] of R9 on F.Cu",
+                    "pos": {
+                        "x": 68.0,
+                        "y": 55.45
+                    },
+                    "uuid": "2804de2a-53d1-439d-b0f4-794f363a921f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-FB)] of R10 on F.Cu",
+                    "pos": {
+                        "x": 68.0,
+                        "y": 60.45
+                    },
+                    "uuid": "299d6b6f-3fff-49e9-b69f-8164d0c83169"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U2-FB)] of R11 on F.Cu",
+                    "pos": {
+                        "x": 60.45,
+                        "y": 62.0
+                    },
+                    "uuid": "c7f9324c-7aa6-4e7f-a008-5a31a1580ab0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U1-NC-Pad11)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 96.945
+                    },
+                    "uuid": "7f2c4c08-a961-426f-bdf1-d430b2145155"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U1-NC-Pad14)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 83.35,
+                        "y": 100.755
+                    },
+                    "uuid": "e7c94127-66f0-419e-ac31-a4c4f2203ce9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 19 [unconnected-(U1-INTB-Pad19)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 92.65,
+                        "y": 95.675
+                    },
+                    "uuid": "c6639709-ea88-45e3-844a-ddc030313896"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 20 [unconnected-(U1-INTA-Pad20)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 92.65,
+                        "y": 94.405
+                    },
+                    "uuid": "536f6d4f-1f41-4def-88ac-c04ec1301c9a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U2-SW)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 60.65,
+                        "y": 57.0
+                    },
+                    "uuid": "d406b57e-97b5-4c7c-a2dd-80b5026d0207"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(U2-FB)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 63.35,
+                        "y": 57.95
+                    },
+                    "uuid": "cb125346-1dda-4079-ad12-6227319b578b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 5 [Net-(U2-EN)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 63.35,
+                        "y": 57.0
+                    },
+                    "uuid": "e281398b-9224-45a8-bb40-52fcfa4141cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 6 [Net-(U2-BOOT)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 63.35,
+                        "y": 56.05
+                    },
+                    "uuid": "13596001-5c0f-4671-8b03-a591888974e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U4-NC-Pad11)] of U4 on F.Cu",
+                    "pos": {
+                        "x": 127.35,
+                        "y": 96.945
+                    },
+                    "uuid": "feaf7bbb-dca4-4993-b00f-530d67b4ab92"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U4-NC-Pad14)] of U4 on F.Cu",
+                    "pos": {
+                        "x": 127.35,
+                        "y": 100.755
+                    },
+                    "uuid": "7a177f2d-6c2a-43d7-a72b-7583059c7892"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 19 [unconnected-(U4-INTB-Pad19)] of U4 on F.Cu",
+                    "pos": {
+                        "x": 136.65,
+                        "y": 95.675
+                    },
+                    "uuid": "e32e187e-8b2f-4674-88bf-b7b9e6d849cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 20 [unconnected-(U4-INTA-Pad20)] of U4 on F.Cu",
+                    "pos": {
+                        "x": 136.65,
+                        "y": 94.405
+                    },
+                    "uuid": "12df6a6b-0699-4957-858e-4de564347673"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U5-NC-Pad11)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 105.35,
+                        "y": 96.945
+                    },
+                    "uuid": "9196c7b0-2c63-4bbd-8cf3-f970dec14d0d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U5-NC-Pad14)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 105.35,
+                        "y": 100.755
+                    },
+                    "uuid": "e4ecffc7-885d-44ea-82fc-3b34576b86b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 19 [unconnected-(U5-INTB-Pad19)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 114.65,
+                        "y": 95.675
+                    },
+                    "uuid": "6fb29c3b-ca37-4248-b269-2ddfcad83e4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 20 [unconnected-(U5-INTA-Pad20)] of U5 on F.Cu",
+                    "pos": {
+                        "x": 114.65,
+                        "y": 94.405
+                    },
+                    "uuid": "fbbdab7f-45f3-45f7-b5f6-a59b0a4c2d03"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 7 [unconnected-(U6-GPB6-Pad7)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 149.35,
+                        "y": 91.865
+                    },
+                    "uuid": "94fa067b-475e-400c-8a1e-84b1ba6d1459"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 8 [unconnected-(U6-GPB7-Pad8)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 149.35,
+                        "y": 93.135
+                    },
+                    "uuid": "3bcc71c5-dd9d-42ab-9de0-9b85100024bb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 11 [unconnected-(U6-NC-Pad11)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 149.35,
+                        "y": 96.945
+                    },
+                    "uuid": "ce355fc4-e45d-4d63-adda-c5bdc2b04fe2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 14 [unconnected-(U6-NC-Pad14)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 149.35,
+                        "y": 100.755
+                    },
+                    "uuid": "5fbc7ddc-8ec3-4220-805c-8ab446dc7233"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 19 [unconnected-(U6-INTB-Pad19)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 158.65,
+                        "y": 95.675
+                    },
+                    "uuid": "5d9ad118-3a14-4431-8342-7b9f97874e81"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 20 [unconnected-(U6-INTA-Pad20)] of U6 on F.Cu",
+                    "pos": {
+                        "x": 158.65,
+                        "y": 94.405
+                    },
+                    "uuid": "87f1959b-bd85-4a2e-a6e9-1cc43ba06621"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J19-Pin_2)] of J19",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 40.5
+                    },
+                    "uuid": "6a780c43-d15d-4d8f-a1d3-bdb68e577f13"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J19-Pin_3)] of J19",
+                    "pos": {
+                        "x": 148.0,
+                        "y": 38.0
+                    },
+                    "uuid": "e04cb73e-c203-4b9e-9b6f-87bea751ffb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J20-Pin_2)] of J20",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 40.5
+                    },
+                    "uuid": "d025bff3-7851-4538-bd6c-8b07a7b8a756"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J20-Pin_3)] of J20",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 38.0
+                    },
+                    "uuid": "9ee72658-6b45-4c6c-b272-e65b775f6c0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J21-Pin_2)] of J21",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 40.5
+                    },
+                    "uuid": "45cd5af7-f476-4de7-8118-df7a1f5bdef6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J21-Pin_3)] of J21",
+                    "pos": {
+                        "x": 164.0,
+                        "y": 38.0
+                    },
+                    "uuid": "ed64b022-6b2b-4a55-a541-81cdbf050604"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J22-Pin_2)] of J22",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 40.5
+                    },
+                    "uuid": "af89d34f-fd51-4760-8767-09dfae6b741e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J22-Pin_3)] of J22",
+                    "pos": {
+                        "x": 172.0,
+                        "y": 38.0
+                    },
+                    "uuid": "489adafb-bd8e-4a11-bf17-c75a808d127b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J23-Pin_2)] of J23",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 40.5
+                    },
+                    "uuid": "35d05fb6-86fd-4c02-b042-824ccc0aa8ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J23-Pin_3)] of J23",
+                    "pos": {
+                        "x": 180.0,
+                        "y": 38.0
+                    },
+                    "uuid": "1095b369-798a-4835-9fa4-ba27402ff22e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J24-Pin_2)] of J24",
+                    "pos": {
+                        "x": 188.0,
+                        "y": 40.5
+                    },
+                    "uuid": "afdae0db-8b6e-4d55-adc1-e26c48093471"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J24-Pin_3)] of J24",
+                    "pos": {
+                        "x": 188.0,
+                        "y": 38.0
+                    },
+                    "uuid": "ebd1f2e9-d9ac-412f-97bc-7889646b663e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J25-Pin_2)] of J25",
+                    "pos": {
+                        "x": 196.0,
+                        "y": 40.5
+                    },
+                    "uuid": "00f92509-ed8e-4692-a3b9-315feb2338c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J25-Pin_3)] of J25",
+                    "pos": {
+                        "x": 196.0,
+                        "y": 38.0
+                    },
+                    "uuid": "493d9fb7-5393-4ae0-9fb3-1a7be8cb6b4c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J26-Pin_2)] of J26",
+                    "pos": {
+                        "x": 204.0,
+                        "y": 40.5
+                    },
+                    "uuid": "22b896ba-96ab-462d-a0e0-1ac3f01366e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J26-Pin_3)] of J26",
+                    "pos": {
+                        "x": 204.0,
+                        "y": 38.0
+                    },
+                    "uuid": "2f00ef7e-a283-4eee-99cb-2cfe1074845c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q9-G)] of Q9 on F.Cu",
+                    "pos": {
+                        "x": 146.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "61135035-274d-42b9-895b-c2b519c4fcb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J19-Pin_2)] of Q9 on F.Cu",
+                    "pos": {
+                        "x": 147.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "53d529b4-888f-4b6f-baaa-59be9e912923"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q10-G)] of Q10 on F.Cu",
+                    "pos": {
+                        "x": 154.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "f1c1481c-20b2-4073-89dc-fa8b44e7700e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J20-Pin_2)] of Q10 on F.Cu",
+                    "pos": {
+                        "x": 155.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "d1e6c734-59cc-4289-884a-638e0e62db8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q11-G)] of Q11 on F.Cu",
+                    "pos": {
+                        "x": 162.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "bfa54e86-2c5b-40aa-a405-cb77fbf4ea19"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J21-Pin_2)] of Q11 on F.Cu",
+                    "pos": {
+                        "x": 163.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "982f6423-5393-4a06-8610-8293f5dfac3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q12-G)] of Q12 on F.Cu",
+                    "pos": {
+                        "x": 170.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "dd1936fc-d761-48e6-8cbd-200a33e8e776"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J22-Pin_2)] of Q12 on F.Cu",
+                    "pos": {
+                        "x": 171.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "bf51f4d5-2cd6-4b57-b9f8-1bd00569b389"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q13-G)] of Q13 on F.Cu",
+                    "pos": {
+                        "x": 178.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "fe88a5b7-e8eb-499d-88fe-74deb51b47fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J23-Pin_2)] of Q13 on F.Cu",
+                    "pos": {
+                        "x": 179.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "0e1af6be-03c4-440e-bed4-62f981e1c9fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q14-G)] of Q14 on F.Cu",
+                    "pos": {
+                        "x": 186.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "cfcd066a-3678-41cd-8797-ba803f15dfce"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J24-Pin_2)] of Q14 on F.Cu",
+                    "pos": {
+                        "x": 187.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "651e841c-d308-4339-a825-d14ace3c9740"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q15-G)] of Q15 on F.Cu",
+                    "pos": {
+                        "x": 194.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "a0d74b22-2225-497f-912f-78c0bf44c153"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J25-Pin_2)] of Q15 on F.Cu",
+                    "pos": {
+                        "x": 195.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "e9c7448e-30cb-4e12-8d6b-a250aa030076"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q16-G)] of Q16 on F.Cu",
+                    "pos": {
+                        "x": 202.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "53f3f201-9c0a-46ad-9bee-62acd9dd11f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J26-Pin_2)] of Q16 on F.Cu",
+                    "pos": {
+                        "x": 203.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "8eb077a5-a1b6-4c1a-8885-27a3e96b174a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q9-G)] of R109 on F.Cu",
+                    "pos": {
+                        "x": 148.55,
+                        "y": 58.0
+                    },
+                    "uuid": "1a61b062-68c0-479b-a124-a66877922654"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q10-G)] of R110 on F.Cu",
+                    "pos": {
+                        "x": 156.55,
+                        "y": 58.0
+                    },
+                    "uuid": "adc55491-666b-4331-9e8e-47ca418fa79e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q11-G)] of R111 on F.Cu",
+                    "pos": {
+                        "x": 164.55,
+                        "y": 58.0
+                    },
+                    "uuid": "1a38dcb6-8355-42b1-9b00-4f196d1beabd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q12-G)] of R112 on F.Cu",
+                    "pos": {
+                        "x": 172.55,
+                        "y": 58.0
+                    },
+                    "uuid": "faf21553-198b-4e8c-b962-0f4d954c890e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q13-G)] of R113 on F.Cu",
+                    "pos": {
+                        "x": 180.55,
+                        "y": 58.0
+                    },
+                    "uuid": "dfb8c7ce-8141-45d1-8380-ce437ffa1a30"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q14-G)] of R114 on F.Cu",
+                    "pos": {
+                        "x": 188.55,
+                        "y": 58.0
+                    },
+                    "uuid": "b57aff14-0f82-48cd-9286-4af25844433f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q15-G)] of R115 on F.Cu",
+                    "pos": {
+                        "x": 196.55,
+                        "y": 58.0
+                    },
+                    "uuid": "5f98012e-72a9-4014-81c5-3ef884e334b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(Q16-G)] of R116 on F.Cu",
+                    "pos": {
+                        "x": 204.55,
+                        "y": 58.0
+                    },
+                    "uuid": "e563be94-3c5e-4ae4-bdc2-82f351bc6a5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q9-G)] of R209 on F.Cu",
+                    "pos": {
+                        "x": 145.45,
+                        "y": 63.0
+                    },
+                    "uuid": "36ae3a55-16c7-4bc8-bbe2-b2e67de34bff"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q10-G)] of R210 on F.Cu",
+                    "pos": {
+                        "x": 153.45,
+                        "y": 63.0
+                    },
+                    "uuid": "d525218c-3225-4973-a3bd-e9cb12933f90"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q11-G)] of R211 on F.Cu",
+                    "pos": {
+                        "x": 161.45,
+                        "y": 63.0
+                    },
+                    "uuid": "5cef9ac6-7869-4445-8d20-fc1989b3afc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q12-G)] of R212 on F.Cu",
+                    "pos": {
+                        "x": 169.45,
+                        "y": 63.0
+                    },
+                    "uuid": "6a4ef2d2-8952-4a18-aeac-f69dd05d5f3a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q13-G)] of R213 on F.Cu",
+                    "pos": {
+                        "x": 177.45,
+                        "y": 63.0
+                    },
+                    "uuid": "3c9ad762-d555-43e3-ae15-da7f683ede85"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q14-G)] of R214 on F.Cu",
+                    "pos": {
+                        "x": 185.45,
+                        "y": 63.0
+                    },
+                    "uuid": "a407f3cd-58fa-467e-b2f0-901e31024032"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q15-G)] of R215 on F.Cu",
+                    "pos": {
+                        "x": 193.45,
+                        "y": 63.0
+                    },
+                    "uuid": "852f292a-b955-4f29-8f7f-600e60d7dad2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q16-G)] of R216 on F.Cu",
+                    "pos": {
+                        "x": 201.45,
+                        "y": 63.0
+                    },
+                    "uuid": "1e9e83af-8a28-4ccc-b055-2d011ca80b75"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J19-Pin_3)] of R309 on F.Cu",
+                    "pos": {
+                        "x": 150.55,
+                        "y": 68.0
+                    },
+                    "uuid": "7662d333-9e52-4f92-9aa8-036cafa130ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J20-Pin_3)] of R310 on F.Cu",
+                    "pos": {
+                        "x": 158.55,
+                        "y": 68.0
+                    },
+                    "uuid": "041fa78d-b94f-4771-9c6d-1e01fbcd3902"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J21-Pin_3)] of R311 on F.Cu",
+                    "pos": {
+                        "x": 166.55,
+                        "y": 68.0
+                    },
+                    "uuid": "a4b015f6-7e5c-4f70-88ce-9113d8986cbc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J22-Pin_3)] of R312 on F.Cu",
+                    "pos": {
+                        "x": 174.55,
+                        "y": 68.0
+                    },
+                    "uuid": "d526e4fd-cfc6-458f-8655-0276ac4c0f14"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J23-Pin_3)] of R313 on F.Cu",
+                    "pos": {
+                        "x": 182.55,
+                        "y": 68.0
+                    },
+                    "uuid": "69f11e7d-fc35-4152-9a63-cf152c43e1cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J24-Pin_3)] of R314 on F.Cu",
+                    "pos": {
+                        "x": 190.55,
+                        "y": 68.0
+                    },
+                    "uuid": "bfe609da-001d-406c-bf5b-24d6d6573076"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J25-Pin_3)] of R315 on F.Cu",
+                    "pos": {
+                        "x": 198.55,
+                        "y": 68.0
+                    },
+                    "uuid": "508fa41b-c001-4710-9955-7c24d9a90664"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J26-Pin_3)] of R316 on F.Cu",
+                    "pos": {
+                        "x": 206.55,
+                        "y": 68.0
+                    },
+                    "uuid": "933ce89e-375d-4be2-b67e-ec303cfc04e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J19-Pin_3)] of R409 on F.Cu",
+                    "pos": {
+                        "x": 147.45,
+                        "y": 73.0
+                    },
+                    "uuid": "f159bca4-7a46-47c0-97db-8c507610441a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J20-Pin_3)] of R410 on F.Cu",
+                    "pos": {
+                        "x": 155.45,
+                        "y": 73.0
+                    },
+                    "uuid": "8605b424-2a3e-43d2-9f18-dc527707cb1d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J21-Pin_3)] of R411 on F.Cu",
+                    "pos": {
+                        "x": 163.45,
+                        "y": 73.0
+                    },
+                    "uuid": "e226cf85-dc00-4c91-a79f-2bab46221267"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J22-Pin_3)] of R412 on F.Cu",
+                    "pos": {
+                        "x": 216.45,
+                        "y": 73.0
+                    },
+                    "uuid": "ce435122-f117-445f-a201-60f071a933de"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J23-Pin_3)] of R413 on F.Cu",
+                    "pos": {
+                        "x": 179.45,
+                        "y": 73.0
+                    },
+                    "uuid": "de9b43fb-e29d-4764-bd52-b5b3841257e5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J24-Pin_3)] of R414 on F.Cu",
+                    "pos": {
+                        "x": 187.45,
+                        "y": 73.0
+                    },
+                    "uuid": "18d92e67-536b-486d-b735-540d34853337"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J25-Pin_3)] of R415 on F.Cu",
+                    "pos": {
+                        "x": 195.45,
+                        "y": 73.0
+                    },
+                    "uuid": "7c2285dc-80c2-4878-bfa2-3f58b8a722f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(J26-Pin_3)] of R416 on F.Cu",
+                    "pos": {
+                        "x": 203.45,
+                        "y": 73.0
+                    },
+                    "uuid": "af68ca9f-e8e0-46f0-bc2b-9a651130aa6c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B0)] of R501 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 105.65
+                    },
+                    "uuid": "046be77f-ec6b-4a32-b95d-90931e5b9395"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B1)] of R502 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 108.19
+                    },
+                    "uuid": "463540d6-4cd2-46b2-87d3-cae938e14a27"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B2)] of R503 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 110.73
+                    },
+                    "uuid": "d472e14a-4952-4e2b-ab80-21371cdffaab"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B3)] of R504 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 113.269999
+                    },
+                    "uuid": "902c09f8-b154-454d-a117-1990c457a7d7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B4)] of R505 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 115.81
+                    },
+                    "uuid": "00c38948-f714-4591-a699-54fd3b9e63e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B5)] of R506 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 118.35
+                    },
+                    "uuid": "d8aec17c-4312-49e1-bbe6-9dfd210fdbd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B6)] of R507 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 120.889999
+                    },
+                    "uuid": "f31c0caa-244f-4e0c-8d4a-abffc4411a4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-B7)] of R508 on F.Cu",
+                    "pos": {
+                        "x": 52.064999,
+                        "y": 123.43
+                    },
+                    "uuid": "0ec54ef8-ff39-45cc-a2b5-a405473279eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-B0)] of R509 on F.Cu",
+                    "pos": {
+                        "x": 77.064999,
+                        "y": 105.65
+                    },
+                    "uuid": "7ea38eba-38d8-4439-a42c-376be0637ba0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-B2)] of R511 on F.Cu",
+                    "pos": {
+                        "x": 77.064999,
+                        "y": 110.73
+                    },
+                    "uuid": "e0254884-b912-4c0f-beae-da7b6e830c33"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-B3)] of R512 on F.Cu",
+                    "pos": {
+                        "x": 77.064999,
+                        "y": 113.269999
+                    },
+                    "uuid": "951c2866-6251-4433-be2f-4534cc4ea70c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U8-B4)] of R513 on F.Cu",
+                    "pos": {
+                        "x": 77.064999,
+                        "y": 115.81
+                    },
+                    "uuid": "44a5c68b-275a-4fee-98ed-6434d2a1723a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U7-A1)] of R602 on F.Cu",
+                    "pos": {
+                        "x": 34.844998,
+                        "y": 104.5
+                    },
+                    "uuid": "68eb3756-f7d1-4e2d-b41c-e326cc31ec5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(U7-A1)] of U7",
+                    "pos": {
+                        "x": 41.194999,
+                        "y": 105.65
+                    },
+                    "uuid": "ed9f523e-0e9a-4823-9ecb-dc29ec6f7071"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 11 [Net-(U7-B7)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 123.43
+                    },
+                    "uuid": "a01ef0be-e7ac-4b5f-a02c-4dd836de5cdb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 12 [Net-(U7-B6)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 120.89
+                    },
+                    "uuid": "54d5afd7-0bc9-4d5a-8d60-7556bc0795b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 13 [Net-(U7-B5)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 118.35
+                    },
+                    "uuid": "de203522-2365-4ba6-9fc1-a46f134eb25a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 14 [Net-(U7-B4)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 115.81
+                    },
+                    "uuid": "1ca7e7df-f1c4-4e4f-80b0-d84896ff9034"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 15 [Net-(U7-B3)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 113.27
+                    },
+                    "uuid": "a9cf09b0-c2bf-4654-b906-c7bfa7e1942e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 16 [Net-(U7-B2)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 110.73
+                    },
+                    "uuid": "615c5653-c80f-4590-b500-faf8375e0136"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 17 [Net-(U7-B1)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 108.19
+                    },
+                    "uuid": "d2fce78c-c45e-46d1-bc6d-2f22d5684a07"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 18 [Net-(U7-B0)] of U7",
+                    "pos": {
+                        "x": 48.814999,
+                        "y": 105.65
+                    },
+                    "uuid": "40bcdc8b-1d52-4296-bbbe-e88eee34bc05"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 11 [unconnected-(U8-B7-Pad11)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 123.43
+                    },
+                    "uuid": "c7160353-e5bc-445d-bb7a-070d7f039029"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 12 [unconnected-(U8-B6-Pad12)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 120.89
+                    },
+                    "uuid": "659524da-1f7f-4133-8107-8fa2d7a01b15"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 13 [unconnected-(U8-B5-Pad13)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 118.35
+                    },
+                    "uuid": "dc67daee-8822-41af-9935-5fc61164b217"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 14 [Net-(U8-B4)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 115.81
+                    },
+                    "uuid": "737fa6ad-4297-4a6c-9ea9-df1a8c6e88ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 15 [Net-(U8-B3)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 113.27
+                    },
+                    "uuid": "026de166-93ff-4168-a4ba-630fae63f26b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 16 [Net-(U8-B2)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 110.73
+                    },
+                    "uuid": "613a5328-1f00-4d72-b279-bf8e5cdcae06"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 17 [unconnected-(U8-B1-Pad17)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 108.19
+                    },
+                    "uuid": "6bff2e9a-ad3d-4136-83f9-75739ed84f9e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 18 [Net-(U8-B0)] of U8",
+                    "pos": {
+                        "x": 73.814999,
+                        "y": 105.65
+                    },
+                    "uuid": "3c23ecf2-dafb-4d92-a425-45186a72165a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J11-Pin_2)] of J11",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 40.5
+                    },
+                    "uuid": "c819e509-4527-4fd4-af59-f7626c06d73f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J11-Pin_3)] of J11",
+                    "pos": {
+                        "x": 84.0,
+                        "y": 38.0
+                    },
+                    "uuid": "67d9cee6-6cd8-4bfe-971f-b96ae26646bd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J12-Pin_2)] of J12",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 40.5
+                    },
+                    "uuid": "d3e108e9-f3d5-409e-9c07-4a2cf66c1f54"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J12-Pin_3)] of J12",
+                    "pos": {
+                        "x": 92.0,
+                        "y": 38.0
+                    },
+                    "uuid": "8e69b8ad-e604-4698-b27d-caafaae26aba"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J13-Pin_2)] of J13",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 40.5
+                    },
+                    "uuid": "74d4c264-ac4f-4856-a949-077dc6bfdbd2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J13-Pin_3)] of J13",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 38.0
+                    },
+                    "uuid": "9d67ae05-7a35-4274-861f-6388a734ce20"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J14-Pin_2)] of J14",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 40.5
+                    },
+                    "uuid": "44f3c966-fe12-4318-af88-8b908b83a762"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J14-Pin_3)] of J14",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 38.0
+                    },
+                    "uuid": "5b8e4b55-2b25-46e4-97f4-a455d5d4e7f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J15-Pin_2)] of J15",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 40.5
+                    },
+                    "uuid": "243d6d7a-03e4-4099-835b-dc66145c6c29"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J15-Pin_3)] of J15",
+                    "pos": {
+                        "x": 116.0,
+                        "y": 38.0
+                    },
+                    "uuid": "fc2877f9-1b4e-4fba-b283-4906d38b3061"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J16-Pin_2)] of J16",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 40.5
+                    },
+                    "uuid": "97c7f58f-6e89-42d9-b46a-2fa598e8bf8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J16-Pin_3)] of J16",
+                    "pos": {
+                        "x": 124.0,
+                        "y": 38.0
+                    },
+                    "uuid": "f487bc26-f7ae-455a-998b-d714db39f6c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J17-Pin_2)] of J17",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 40.5
+                    },
+                    "uuid": "282f1869-9bf8-4f3d-a3e0-6e5117804c8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J17-Pin_3)] of J17",
+                    "pos": {
+                        "x": 132.0,
+                        "y": 38.0
+                    },
+                    "uuid": "26c3430d-a0cd-4318-ba96-c51a3872911c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 2 [Net-(J18-Pin_2)] of J18",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 40.5
+                    },
+                    "uuid": "5a7a595e-f816-4a13-bae3-35ef70cefcf3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "PTH pad 3 [Net-(J18-Pin_3)] of J18",
+                    "pos": {
+                        "x": 140.0,
+                        "y": 38.0
+                    },
+                    "uuid": "994e6824-d3af-4042-8a37-72ca9c3344fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q1-G)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 82.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "354087bf-02bb-4e62-898a-df07c47c98c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J11-Pin_2)] of Q1 on F.Cu",
+                    "pos": {
+                        "x": 83.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "70f8ac85-3227-4459-9e66-5da7d7363b86"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q2-G)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 90.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "d03eb9b7-6788-40ea-9f89-f3f1fada6da3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J12-Pin_2)] of Q2 on F.Cu",
+                    "pos": {
+                        "x": 91.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "f255cea4-3723-42e9-9b2f-5747d2890459"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q3-G)] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 98.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "f9fa1f64-e8bf-47ae-a3a4-b58865b2a64e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J13-Pin_2)] of Q3 on F.Cu",
+                    "pos": {
+                        "x": 99.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "36ffb5bf-d834-4653-b946-a69a5bd2c203"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q4-G)] of Q4 on F.Cu",
+                    "pos": {
+                        "x": 106.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "c0a9d0dd-4289-465c-ba92-8cc68a6f8e8b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J14-Pin_2)] of Q4 on F.Cu",
+                    "pos": {
+                        "x": 107.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "77ba6875-0730-41d6-a84f-8083dfb3fab9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q5-G)] of Q5 on F.Cu",
+                    "pos": {
+                        "x": 114.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "5b637261-0c29-46ed-bdbf-c3cae9a7713f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J15-Pin_2)] of Q5 on F.Cu",
+                    "pos": {
+                        "x": 115.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "f187dd8e-859d-410f-8b13-d5c6911d32ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q6-G)] of Q6 on F.Cu",
+                    "pos": {
+                        "x": 122.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "3fa30380-ffd0-4315-9072-01cd0adbda86"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J16-Pin_2)] of Q6 on F.Cu",
+                    "pos": {
+                        "x": 123.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "0f05b75a-9d34-4c36-9913-961481c07051"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q7-G)] of Q7 on F.Cu",
+                    "pos": {
+                        "x": 130.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "8e823f68-e0db-4741-aa5b-61d0e1d327c6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J17-Pin_2)] of Q7 on F.Cu",
+                    "pos": {
+                        "x": 131.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "a0000397-572a-4c02-9375-37a1157ac62b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q8-G)] of Q8 on F.Cu",
+                    "pos": {
+                        "x": 138.0625,
+                        "y": 51.05
+                    },
+                    "uuid": "7d2d1c65-c7d4-4228-98a0-a2eca3e2df02"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(J18-Pin_2)] of Q8 on F.Cu",
+                    "pos": {
+                        "x": 139.9375,
+                        "y": 52.0
+                    },
+                    "uuid": "a94dec44-9c47-415c-9a60-41085986b9c0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q1-G)] of R101 on F.Cu",
+                    "pos": {
+                        "x": 81.45,
+                        "y": 58.0
+                    },
+                    "uuid": "22aaedff-6cb7-4a85-81e2-aabbc10b6a6b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q2-G)] of R102 on F.Cu",
+                    "pos": {
+                        "x": 89.45,
+                        "y": 58.0
+                    },
+                    "uuid": "fb56b2b7-4440-4260-90d5-b912cfca22d5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q3-G)] of R103 on F.Cu",
+                    "pos": {
+                        "x": 97.45,
+                        "y": 58.0
+                    },
+                    "uuid": "f40dab4b-81a6-4f9a-8fe9-8d871453b02d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q4-G)] of R104 on F.Cu",
+                    "pos": {
+                        "x": 105.45,
+                        "y": 58.0
+                    },
+                    "uuid": "e044267d-1649-4885-ad22-dd78f422b33b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q5-G)] of R105 on F.Cu",
+                    "pos": {
+                        "x": 113.45,
+                        "y": 58.0
+                    },
+                    "uuid": "0dedd504-644b-474a-aa1d-2677ec03eaf8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q6-G)] of R106 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 58.0
+                    },
+                    "uuid": "610d05e4-1d5a-4276-a67b-3f87d13afd03"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q7-G)] of R107 on F.Cu",
+                    "pos": {
+                        "x": 129.45,
+                        "y": 58.0
+                    },
+                    "uuid": "3fd4b1fa-ac45-4ed3-b7e8-a8166a70f4e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q8-G)] of R108 on F.Cu",
+                    "pos": {
+                        "x": 137.45,
+                        "y": 58.0
+                    },
+                    "uuid": "91659e54-e77d-4033-9818-04e865b02c35"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q1-G)] of R201 on F.Cu",
+                    "pos": {
+                        "x": 81.45,
+                        "y": 63.0
+                    },
+                    "uuid": "c9974bdb-a8f2-46a5-af30-81acd0c35272"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q2-G)] of R202 on F.Cu",
+                    "pos": {
+                        "x": 89.45,
+                        "y": 63.0
+                    },
+                    "uuid": "d878a8ef-73e1-44e2-ada1-f32c6e0e2a8e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q3-G)] of R203 on F.Cu",
+                    "pos": {
+                        "x": 97.45,
+                        "y": 63.0
+                    },
+                    "uuid": "68db9c99-68b5-4273-937f-eba0e8f8ca7a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q4-G)] of R204 on F.Cu",
+                    "pos": {
+                        "x": 105.45,
+                        "y": 63.0
+                    },
+                    "uuid": "14313e4d-59a9-400b-a714-084b054c8f2b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q5-G)] of R205 on F.Cu",
+                    "pos": {
+                        "x": 113.45,
+                        "y": 63.0
+                    },
+                    "uuid": "4efb6540-0a0d-4841-8ee8-9a8515cbf325"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q6-G)] of R206 on F.Cu",
+                    "pos": {
+                        "x": 121.45,
+                        "y": 63.0
+                    },
+                    "uuid": "11902518-bb00-46ee-b9bf-d87d65e74a7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q7-G)] of R207 on F.Cu",
+                    "pos": {
+                        "x": 129.45,
+                        "y": 63.0
+                    },
+                    "uuid": "5196e0f6-bf00-4d43-8932-4c66df07be4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(Q8-G)] of R208 on F.Cu",
+                    "pos": {
+                        "x": 137.45,
+                        "y": 63.0
+                    },
+                    "uuid": "10f08305-614a-4d05-ba10-25e864de6dc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J11-Pin_3)] of R301 on F.Cu",
+                    "pos": {
+                        "x": 86.55,
+                        "y": 68.0
+                    },
+                    "uuid": "027e9212-574a-4784-976e-25ddbe1e58b3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J12-Pin_3)] of R302 on F.Cu",
+                    "pos": {
+                        "x": 94.55,
+                        "y": 68.0
+                    },
+                    "uuid": "31f4f104-7f65-4571-a42b-cf97a0acd1c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J13-Pin_3)] of R303 on F.Cu",
+                    "pos": {
+                        "x": 102.55,
+                        "y": 68.0
+                    },
+                    "uuid": "b0958af1-7000-4acf-8448-7c77b23a3b34"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J14-Pin_3)] of R304 on F.Cu",
+                    "pos": {
+                        "x": 110.55,
+                        "y": 68.0
+                    },
+                    "uuid": "828a5b21-59f2-47c6-97cd-e7a152d472fd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J15-Pin_3)] of R305 on F.Cu",
+                    "pos": {
+                        "x": 118.55,
+                        "y": 68.0
+                    },
+                    "uuid": "d0dae5b1-d465-4d98-826b-da6242464808"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J16-Pin_3)] of R306 on F.Cu",
+                    "pos": {
+                        "x": 126.55,
+                        "y": 68.0
+                    },
+                    "uuid": "81e17044-6998-4167-bcdc-fd5f7cbc6f62"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J17-Pin_3)] of R307 on F.Cu",
+                    "pos": {
+                        "x": 134.55,
+                        "y": 68.0
+                    },
+                    "uuid": "fb0fe53d-c1c1-4f20-abc6-45b2af8f824b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J18-Pin_3)] of R308 on F.Cu",
+                    "pos": {
+                        "x": 142.55,
+                        "y": 68.0
+                    },
+                    "uuid": "988fb6c3-5412-4e9d-89b8-0d763ce304f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "No corresponding pin found in schematic",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J11-Pin_3)] of R401 on F.Cu",
+                    "pos": {
+                        "x": 86.55,
+                        "y": 73.0
+                    },
+                    "uuid": "0f2dedc5-15ed-4bb1-bca6-8db36458ba71"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        }
+    ],
+    "source": "IEEEArcade.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'RaspberryPi_Pico_W_SMD_HandSolder' does not match copy in library 'Module'",
+            "items": [
+                {
+                    "description": "Footprint A1",
+                    "pos": {
+                        "x": 202.675,
+                        "y": 92.5
+                    },
+                    "uuid": "40d667c5-6048-40a4-81e7-67f32d1ea1e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

@@ -5,7 +5,7 @@
 	(uuid "ccf243c9-ecbf-4eb4-9e8b-24d452e3710d")
 	(paper "A4")
 	(title_block
-		(title "Button harness / channels 09..16")
+		(title "Button harness: Buttons 09-16")
 		(date "2026-11-05")
 		(company "UW-Madison IEEE")
 	)
@@ -3094,7 +3094,7 @@
 		)
 		(uuid "fcd25f43-8e1b-41f7-8a77-79cd858790af")
 	)
-	(global_label "SW_12_FILT"
+	(global_label "SW_12"
 		(shape bidirectional)
 		(at 271.78 80.01 0)
 		(effects
@@ -3116,7 +3116,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_15_EN"
+	(global_label "LAMP_15"
 		(shape bidirectional)
 		(at 165.1 123.19 180)
 		(effects
@@ -3138,7 +3138,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_12_EN"
+	(global_label "LAMP_12"
 		(shape bidirectional)
 		(at 233.68 54.61 180)
 		(effects
@@ -3160,7 +3160,7 @@
 			)
 		)
 	)
-	(global_label "SW_14_FILT"
+	(global_label "SW_14"
 		(shape bidirectional)
 		(at 132.08 147.32 0)
 		(effects
@@ -3182,7 +3182,7 @@
 			)
 		)
 	)
-	(global_label "SW_13_FILT"
+	(global_label "SW_13"
 		(shape bidirectional)
 		(at 64.77 147.32 0)
 		(effects
@@ -3204,7 +3204,7 @@
 			)
 		)
 	)
-	(global_label "SW_09_FILT"
+	(global_label "SW_09"
 		(shape bidirectional)
 		(at 63.5 82.55 0)
 		(effects
@@ -3226,7 +3226,7 @@
 			)
 		)
 	)
-	(global_label "SW_10_FILT"
+	(global_label "SW_10"
 		(shape bidirectional)
 		(at 132.08 81.28 0)
 		(effects
@@ -3248,7 +3248,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_11_EN"
+	(global_label "LAMP_11"
 		(shape bidirectional)
 		(at 165.1 54.61 180)
 		(effects
@@ -3270,7 +3270,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_10_EN"
+	(global_label "LAMP_10"
 		(shape bidirectional)
 		(at 93.98 55.88 180)
 		(effects
@@ -3292,7 +3292,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_13_EN"
+	(global_label "LAMP_13"
 		(shape bidirectional)
 		(at 26.67 121.92 180)
 		(effects
@@ -3314,7 +3314,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_16_EN"
+	(global_label "LAMP_16"
 		(shape bidirectional)
 		(at 233.68 123.19 180)
 		(effects
@@ -3336,7 +3336,7 @@
 			)
 		)
 	)
-	(global_label "SW_16_FILT"
+	(global_label "SW_16"
 		(shape bidirectional)
 		(at 271.78 148.59 0)
 		(effects
@@ -3358,7 +3358,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_09_EN"
+	(global_label "LAMP_09"
 		(shape bidirectional)
 		(at 25.4 57.15 180)
 		(effects
@@ -3380,7 +3380,7 @@
 			)
 		)
 	)
-	(global_label "SW_15_FILT"
+	(global_label "SW_15"
 		(shape bidirectional)
 		(at 203.2 148.59 0)
 		(effects
@@ -3402,7 +3402,7 @@
 			)
 		)
 	)
-	(global_label "LAMP_14_EN"
+	(global_label "LAMP_14"
 		(shape bidirectional)
 		(at 93.98 121.92 180)
 		(effects
@@ -3424,7 +3424,7 @@
 			)
 		)
 	)
-	(global_label "SW_11_FILT"
+	(global_label "SW_11"
 		(shape bidirectional)
 		(at 203.2 80.01 0)
 		(effects

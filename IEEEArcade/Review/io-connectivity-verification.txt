@@ -1,0 +1,593 @@
+PASS: U1 is MCP23017T-E/SO
+PASS: U1 pin9 = +3V3
+PASS: U1 pin10 = GND
+PASS: U1 pin12 = /I2C_SCL
+PASS: U1 pin13 = /I2C_SDA
+PASS: U1 pin18 = /IO_RESET_N
+PASS: U1 A2:A0 produce unique address 0x20
+PASS: U1 NC/unused interrupt pin11 intentionally open
+PASS: U1 NC/unused interrupt pin14 intentionally open
+PASS: U1 NC/unused interrupt pin19 intentionally open
+PASS: U1 NC/unused interrupt pin20 intentionally open
+PASS: U4 is MCP23017T-E/SO
+PASS: U4 pin9 = +3V3
+PASS: U4 pin10 = GND
+PASS: U4 pin12 = /I2C_SCL
+PASS: U4 pin13 = /I2C_SDA
+PASS: U4 pin18 = /IO_RESET_N
+PASS: U4 A2:A0 produce unique address 0x23
+PASS: U4 NC/unused interrupt pin11 intentionally open
+PASS: U4 NC/unused interrupt pin14 intentionally open
+PASS: U4 NC/unused interrupt pin19 intentionally open
+PASS: U4 NC/unused interrupt pin20 intentionally open
+PASS: U5 is MCP23017T-E/SO
+PASS: U5 pin9 = +3V3
+PASS: U5 pin10 = GND
+PASS: U5 pin12 = /I2C_SCL
+PASS: U5 pin13 = /I2C_SDA
+PASS: U5 pin18 = /IO_RESET_N
+PASS: U5 A2:A0 produce unique address 0x21
+PASS: U5 NC/unused interrupt pin11 intentionally open
+PASS: U5 NC/unused interrupt pin14 intentionally open
+PASS: U5 NC/unused interrupt pin19 intentionally open
+PASS: U5 NC/unused interrupt pin20 intentionally open
+PASS: U6 is MCP23017T-E/SO
+PASS: U6 pin9 = +3V3
+PASS: U6 pin10 = GND
+PASS: U6 pin12 = /I2C_SCL
+PASS: U6 pin13 = /I2C_SDA
+PASS: U6 pin18 = /IO_RESET_N
+PASS: U6 A2:A0 produce unique address 0x22
+PASS: U6 NC/unused interrupt pin11 intentionally open
+PASS: U6 NC/unused interrupt pin14 intentionally open
+PASS: U6 NC/unused interrupt pin19 intentionally open
+PASS: U6 NC/unused interrupt pin20 intentionally open
+PASS: SW_01 has one input-capable MCP23017 pin
+PASS: SW_01 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_01 RC values retained
+PASS: SW_01 connector NO has dedicated pull-up and series filter
+PASS: SW_01 COM grounded, pull-up to 3.3V
+PASS: SW_02 has one input-capable MCP23017 pin
+PASS: SW_02 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_02 RC values retained
+PASS: SW_02 connector NO has dedicated pull-up and series filter
+PASS: SW_02 COM grounded, pull-up to 3.3V
+PASS: SW_03 has one input-capable MCP23017 pin
+PASS: SW_03 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_03 RC values retained
+PASS: SW_03 connector NO has dedicated pull-up and series filter
+PASS: SW_03 COM grounded, pull-up to 3.3V
+PASS: SW_04 has one input-capable MCP23017 pin
+PASS: SW_04 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_04 RC values retained
+PASS: SW_04 connector NO has dedicated pull-up and series filter
+PASS: SW_04 COM grounded, pull-up to 3.3V
+PASS: SW_05 has one input-capable MCP23017 pin
+PASS: SW_05 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_05 RC values retained
+PASS: SW_05 connector NO has dedicated pull-up and series filter
+PASS: SW_05 COM grounded, pull-up to 3.3V
+PASS: SW_06 has one input-capable MCP23017 pin
+PASS: SW_06 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_06 RC values retained
+PASS: SW_06 connector NO has dedicated pull-up and series filter
+PASS: SW_06 COM grounded, pull-up to 3.3V
+PASS: SW_07 has one input-capable MCP23017 pin
+PASS: SW_07 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_07 RC values retained
+PASS: SW_07 connector NO has dedicated pull-up and series filter
+PASS: SW_07 COM grounded, pull-up to 3.3V
+PASS: SW_08 has one input-capable MCP23017 pin
+PASS: SW_08 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_08 RC values retained
+PASS: SW_08 connector NO has dedicated pull-up and series filter
+PASS: SW_08 COM grounded, pull-up to 3.3V
+PASS: SW_09 has one input-capable MCP23017 pin
+PASS: SW_09 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_09 RC values retained
+PASS: SW_09 connector NO has dedicated pull-up and series filter
+PASS: SW_09 COM grounded, pull-up to 3.3V
+PASS: SW_10 has one input-capable MCP23017 pin
+PASS: SW_10 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_10 RC values retained
+PASS: SW_10 connector NO has dedicated pull-up and series filter
+PASS: SW_10 COM grounded, pull-up to 3.3V
+PASS: SW_11 has one input-capable MCP23017 pin
+PASS: SW_11 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_11 RC values retained
+PASS: SW_11 connector NO has dedicated pull-up and series filter
+PASS: SW_11 COM grounded, pull-up to 3.3V
+PASS: SW_12 has one input-capable MCP23017 pin
+PASS: SW_12 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_12 RC values retained
+PASS: SW_12 connector NO has dedicated pull-up and series filter
+PASS: SW_12 COM grounded, pull-up to 3.3V
+PASS: SW_13 has one input-capable MCP23017 pin
+PASS: SW_13 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_13 RC values retained
+PASS: SW_13 connector NO has dedicated pull-up and series filter
+PASS: SW_13 COM grounded, pull-up to 3.3V
+PASS: SW_14 has one input-capable MCP23017 pin
+PASS: SW_14 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_14 RC values retained
+PASS: SW_14 connector NO has dedicated pull-up and series filter
+PASS: SW_14 COM grounded, pull-up to 3.3V
+PASS: SW_15 has one input-capable MCP23017 pin
+PASS: SW_15 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_15 RC values retained
+PASS: SW_15 connector NO has dedicated pull-up and series filter
+PASS: SW_15 COM grounded, pull-up to 3.3V
+PASS: SW_16 has one input-capable MCP23017 pin
+PASS: SW_16 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_16 RC values retained
+PASS: SW_16 connector NO has dedicated pull-up and series filter
+PASS: SW_16 COM grounded, pull-up to 3.3V
+PASS: SW_17 has one input-capable MCP23017 pin
+PASS: SW_17 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_17 RC values retained
+PASS: SW_17 connector NO has dedicated pull-up and series filter
+PASS: SW_17 COM grounded, pull-up to 3.3V
+PASS: SW_18 has one input-capable MCP23017 pin
+PASS: SW_18 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_18 RC values retained
+PASS: SW_18 connector NO has dedicated pull-up and series filter
+PASS: SW_18 COM grounded, pull-up to 3.3V
+PASS: SW_19 has one input-capable MCP23017 pin
+PASS: SW_19 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_19 RC values retained
+PASS: SW_19 connector NO has dedicated pull-up and series filter
+PASS: SW_19 COM grounded, pull-up to 3.3V
+PASS: SW_20 has one input-capable MCP23017 pin
+PASS: SW_20 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_20 RC values retained
+PASS: SW_20 connector NO has dedicated pull-up and series filter
+PASS: SW_20 COM grounded, pull-up to 3.3V
+PASS: SW_21 has one input-capable MCP23017 pin
+PASS: SW_21 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_21 RC values retained
+PASS: SW_21 connector NO has dedicated pull-up and series filter
+PASS: SW_21 COM grounded, pull-up to 3.3V
+PASS: SW_22 has one input-capable MCP23017 pin
+PASS: SW_22 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_22 RC values retained
+PASS: SW_22 connector NO has dedicated pull-up and series filter
+PASS: SW_22 COM grounded, pull-up to 3.3V
+PASS: SW_23 has one input-capable MCP23017 pin
+PASS: SW_23 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_23 RC values retained
+PASS: SW_23 connector NO has dedicated pull-up and series filter
+PASS: SW_23 COM grounded, pull-up to 3.3V
+PASS: SW_24 has one input-capable MCP23017 pin
+PASS: SW_24 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_24 RC values retained
+PASS: SW_24 connector NO has dedicated pull-up and series filter
+PASS: SW_24 COM grounded, pull-up to 3.3V
+PASS: SW_25 has one input-capable MCP23017 pin
+PASS: SW_25 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_25 RC values retained
+PASS: SW_25 connector NO has dedicated pull-up and series filter
+PASS: SW_25 COM grounded, pull-up to 3.3V
+PASS: SW_26 has one input-capable MCP23017 pin
+PASS: SW_26 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_26 RC values retained
+PASS: SW_26 connector NO has dedicated pull-up and series filter
+PASS: SW_26 COM grounded, pull-up to 3.3V
+PASS: SW_27 has one input-capable MCP23017 pin
+PASS: SW_27 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_27 RC values retained
+PASS: SW_27 connector NO has dedicated pull-up and series filter
+PASS: SW_27 COM grounded, pull-up to 3.3V
+PASS: SW_28 has one input-capable MCP23017 pin
+PASS: SW_28 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_28 RC values retained
+PASS: SW_28 connector NO has dedicated pull-up and series filter
+PASS: SW_28 COM grounded, pull-up to 3.3V
+PASS: SW_29 has one input-capable MCP23017 pin
+PASS: SW_29 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_29 RC values retained
+PASS: SW_29 connector NO has dedicated pull-up and series filter
+PASS: SW_29 COM grounded, pull-up to 3.3V
+PASS: SW_30 has one input-capable MCP23017 pin
+PASS: SW_30 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_30 RC values retained
+PASS: SW_30 connector NO has dedicated pull-up and series filter
+PASS: SW_30 COM grounded, pull-up to 3.3V
+PASS: SW_31 has one input-capable MCP23017 pin
+PASS: SW_31 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_31 RC values retained
+PASS: SW_31 connector NO has dedicated pull-up and series filter
+PASS: SW_31 COM grounded, pull-up to 3.3V
+PASS: SW_32 has one input-capable MCP23017 pin
+PASS: SW_32 connects only expander, 1k series resistor and 10nF filter
+PASS: SW_32 RC values retained
+PASS: SW_32 connector NO has dedicated pull-up and series filter
+PASS: SW_32 COM grounded, pull-up to 3.3V
+PASS: LAMP_01 has one expander output and one gate resistor
+PASS: LAMP_01 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_01 MOSFET source grounded
+PASS: LAMP_02 has one expander output and one gate resistor
+PASS: LAMP_02 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_02 MOSFET source grounded
+PASS: LAMP_03 has one expander output and one gate resistor
+PASS: LAMP_03 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_03 MOSFET source grounded
+PASS: LAMP_04 has one expander output and one gate resistor
+PASS: LAMP_04 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_04 MOSFET source grounded
+PASS: LAMP_05 has one expander output and one gate resistor
+PASS: LAMP_05 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_05 MOSFET source grounded
+PASS: LAMP_06 has one expander output and one gate resistor
+PASS: LAMP_06 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_06 MOSFET source grounded
+PASS: LAMP_07 has one expander output and one gate resistor
+PASS: LAMP_07 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_07 MOSFET source grounded
+PASS: LAMP_08 has one expander output and one gate resistor
+PASS: LAMP_08 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_08 MOSFET source grounded
+PASS: LAMP_09 has one expander output and one gate resistor
+PASS: LAMP_09 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_09 MOSFET source grounded
+PASS: LAMP_10 has one expander output and one gate resistor
+PASS: LAMP_10 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_10 MOSFET source grounded
+PASS: LAMP_11 has one expander output and one gate resistor
+PASS: LAMP_11 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_11 MOSFET source grounded
+PASS: LAMP_12 has one expander output and one gate resistor
+PASS: LAMP_12 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_12 MOSFET source grounded
+PASS: LAMP_13 has one expander output and one gate resistor
+PASS: LAMP_13 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_13 MOSFET source grounded
+PASS: LAMP_14 has one expander output and one gate resistor
+PASS: LAMP_14 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_14 MOSFET source grounded
+PASS: LAMP_15 has one expander output and one gate resistor
+PASS: LAMP_15 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_15 MOSFET source grounded
+PASS: LAMP_16 has one expander output and one gate resistor
+PASS: LAMP_16 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_16 MOSFET source grounded
+PASS: LAMP_17 has one expander output and one gate resistor
+PASS: LAMP_17 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_17 MOSFET source grounded
+PASS: LAMP_18 has one expander output and one gate resistor
+PASS: LAMP_18 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_18 MOSFET source grounded
+PASS: LAMP_19 has one expander output and one gate resistor
+PASS: LAMP_19 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_19 MOSFET source grounded
+PASS: LAMP_20 has one expander output and one gate resistor
+PASS: LAMP_20 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_20 MOSFET source grounded
+PASS: LAMP_21 has one expander output and one gate resistor
+PASS: LAMP_21 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_21 MOSFET source grounded
+PASS: LAMP_22 has one expander output and one gate resistor
+PASS: LAMP_22 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_22 MOSFET source grounded
+PASS: LAMP_23 has one expander output and one gate resistor
+PASS: LAMP_23 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_23 MOSFET source grounded
+PASS: LAMP_24 has one expander output and one gate resistor
+PASS: LAMP_24 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_24 MOSFET source grounded
+PASS: LAMP_25 has one expander output and one gate resistor
+PASS: LAMP_25 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_25 MOSFET source grounded
+PASS: LAMP_26 has one expander output and one gate resistor
+PASS: LAMP_26 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_26 MOSFET source grounded
+PASS: LAMP_27 has one expander output and one gate resistor
+PASS: LAMP_27 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_27 MOSFET source grounded
+PASS: LAMP_28 has one expander output and one gate resistor
+PASS: LAMP_28 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_28 MOSFET source grounded
+PASS: LAMP_29 has one expander output and one gate resistor
+PASS: LAMP_29 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_29 MOSFET source grounded
+PASS: LAMP_30 has one expander output and one gate resistor
+PASS: LAMP_30 harness has 12V anode / MOSFET drain cathode
+PASS: LAMP_30 MOSFET source grounded
+PASS: No obsolete channel label on +3V3
+PASS: No obsolete channel label on +5V
+PASS: No obsolete channel label on +5V_DISPLAY
+PASS: No obsolete channel label on +12V
+PASS: No obsolete channel label on /I2C_SCL
+PASS: No obsolete channel label on /I2C_SDA
+PASS: No obsolete channel label on /IO_RESET_N
+PASS: No obsolete channel label on DISP_A
+PASS: No obsolete channel label on DISP_A_5V
+PASS: No obsolete channel label on DISP_B
+PASS: No obsolete channel label on DISP_B1
+PASS: No obsolete channel label on DISP_B1_5V
+PASS: No obsolete channel label on DISP_B2
+PASS: No obsolete channel label on DISP_B2_5V
+PASS: No obsolete channel label on DISP_BUF_OE_N
+PASS: No obsolete channel label on DISP_B_5V
+PASS: No obsolete channel label on DISP_C
+PASS: No obsolete channel label on DISP_CLK
+PASS: No obsolete channel label on DISP_CLK_5V
+PASS: No obsolete channel label on DISP_C_5V
+PASS: No obsolete channel label on DISP_ENABLE
+PASS: No obsolete channel label on DISP_G1
+PASS: No obsolete channel label on DISP_G1_5V
+PASS: No obsolete channel label on DISP_G2
+PASS: No obsolete channel label on DISP_G2_5V
+PASS: No obsolete channel label on DISP_LAT
+PASS: No obsolete channel label on DISP_LAT_5V
+PASS: No obsolete channel label on DISP_OE_N
+PASS: No obsolete channel label on DISP_OE_N_5V
+PASS: No obsolete channel label on DISP_R1
+PASS: No obsolete channel label on DISP_R1_5V
+PASS: No obsolete channel label on DISP_R2
+PASS: No obsolete channel label on DISP_R2_5V
+PASS: No obsolete channel label on GND
+PASS: No obsolete channel label on LAMP_01
+PASS: No obsolete channel label on LAMP_02
+PASS: No obsolete channel label on LAMP_03
+PASS: No obsolete channel label on LAMP_04
+PASS: No obsolete channel label on LAMP_05
+PASS: No obsolete channel label on LAMP_06
+PASS: No obsolete channel label on LAMP_07
+PASS: No obsolete channel label on LAMP_08
+PASS: No obsolete channel label on LAMP_09
+PASS: No obsolete channel label on LAMP_10
+PASS: No obsolete channel label on LAMP_11
+PASS: No obsolete channel label on LAMP_12
+PASS: No obsolete channel label on LAMP_13
+PASS: No obsolete channel label on LAMP_14
+PASS: No obsolete channel label on LAMP_15
+PASS: No obsolete channel label on LAMP_16
+PASS: No obsolete channel label on LAMP_17
+PASS: No obsolete channel label on LAMP_18
+PASS: No obsolete channel label on LAMP_19
+PASS: No obsolete channel label on LAMP_20
+PASS: No obsolete channel label on LAMP_21
+PASS: No obsolete channel label on LAMP_22
+PASS: No obsolete channel label on LAMP_23
+PASS: No obsolete channel label on LAMP_24
+PASS: No obsolete channel label on LAMP_25
+PASS: No obsolete channel label on LAMP_26
+PASS: No obsolete channel label on LAMP_27
+PASS: No obsolete channel label on LAMP_28
+PASS: No obsolete channel label on LAMP_29
+PASS: No obsolete channel label on LAMP_30
+PASS: No obsolete channel label on Net-(A1-VSYS)
+PASS: No obsolete channel label on Net-(F1-Pad1)
+PASS: No obsolete channel label on Net-(J11-Pin_2)
+PASS: No obsolete channel label on Net-(J11-Pin_3)
+PASS: No obsolete channel label on Net-(J12-Pin_2)
+PASS: No obsolete channel label on Net-(J12-Pin_3)
+PASS: No obsolete channel label on Net-(J13-Pin_2)
+PASS: No obsolete channel label on Net-(J13-Pin_3)
+PASS: No obsolete channel label on Net-(J14-Pin_2)
+PASS: No obsolete channel label on Net-(J14-Pin_3)
+PASS: No obsolete channel label on Net-(J15-Pin_2)
+PASS: No obsolete channel label on Net-(J15-Pin_3)
+PASS: No obsolete channel label on Net-(J16-Pin_2)
+PASS: No obsolete channel label on Net-(J16-Pin_3)
+PASS: No obsolete channel label on Net-(J17-Pin_2)
+PASS: No obsolete channel label on Net-(J17-Pin_3)
+PASS: No obsolete channel label on Net-(J18-Pin_2)
+PASS: No obsolete channel label on Net-(J18-Pin_3)
+PASS: No obsolete channel label on Net-(J19-Pin_2)
+PASS: No obsolete channel label on Net-(J19-Pin_3)
+PASS: No obsolete channel label on Net-(J20-Pin_2)
+PASS: No obsolete channel label on Net-(J20-Pin_3)
+PASS: No obsolete channel label on Net-(J21-Pin_2)
+PASS: No obsolete channel label on Net-(J21-Pin_3)
+PASS: No obsolete channel label on Net-(J22-Pin_2)
+PASS: No obsolete channel label on Net-(J22-Pin_3)
+PASS: No obsolete channel label on Net-(J23-Pin_2)
+PASS: No obsolete channel label on Net-(J23-Pin_3)
+PASS: No obsolete channel label on Net-(J24-Pin_2)
+PASS: No obsolete channel label on Net-(J24-Pin_3)
+PASS: No obsolete channel label on Net-(J25-Pin_2)
+PASS: No obsolete channel label on Net-(J25-Pin_3)
+PASS: No obsolete channel label on Net-(J26-Pin_2)
+PASS: No obsolete channel label on Net-(J26-Pin_3)
+PASS: No obsolete channel label on Net-(J27-Pin_2)
+PASS: No obsolete channel label on Net-(J27-Pin_3)
+PASS: No obsolete channel label on Net-(J28-Pin_2)
+PASS: No obsolete channel label on Net-(J28-Pin_3)
+PASS: No obsolete channel label on Net-(J29-Pin_2)
+PASS: No obsolete channel label on Net-(J29-Pin_3)
+PASS: No obsolete channel label on Net-(J30-Pin_2)
+PASS: No obsolete channel label on Net-(J30-Pin_3)
+PASS: No obsolete channel label on Net-(J31-Pin_2)
+PASS: No obsolete channel label on Net-(J31-Pin_3)
+PASS: No obsolete channel label on Net-(J32-Pin_2)
+PASS: No obsolete channel label on Net-(J32-Pin_3)
+PASS: No obsolete channel label on Net-(J33-Pin_2)
+PASS: No obsolete channel label on Net-(J33-Pin_3)
+PASS: No obsolete channel label on Net-(J34-Pin_2)
+PASS: No obsolete channel label on Net-(J34-Pin_3)
+PASS: No obsolete channel label on Net-(J35-Pin_2)
+PASS: No obsolete channel label on Net-(J35-Pin_3)
+PASS: No obsolete channel label on Net-(J36-Pin_2)
+PASS: No obsolete channel label on Net-(J36-Pin_3)
+PASS: No obsolete channel label on Net-(J37-Pin_2)
+PASS: No obsolete channel label on Net-(J37-Pin_3)
+PASS: No obsolete channel label on Net-(J38-Pin_2)
+PASS: No obsolete channel label on Net-(J38-Pin_3)
+PASS: No obsolete channel label on Net-(J39-Pin_2)
+PASS: No obsolete channel label on Net-(J39-Pin_3)
+PASS: No obsolete channel label on Net-(J40-Pin_2)
+PASS: No obsolete channel label on Net-(J40-Pin_3)
+PASS: No obsolete channel label on Net-(J41-Pin_3)
+PASS: No obsolete channel label on Net-(J42-Pin_3)
+PASS: No obsolete channel label on Net-(Q1-G)
+PASS: No obsolete channel label on Net-(Q2-G)
+PASS: No obsolete channel label on Net-(Q3-G)
+PASS: No obsolete channel label on Net-(Q4-G)
+PASS: No obsolete channel label on Net-(Q5-G)
+PASS: No obsolete channel label on Net-(Q6-G)
+PASS: No obsolete channel label on Net-(Q7-G)
+PASS: No obsolete channel label on Net-(Q8-G)
+PASS: No obsolete channel label on Net-(Q9-G)
+PASS: No obsolete channel label on Net-(Q10-G)
+PASS: No obsolete channel label on Net-(Q11-G)
+PASS: No obsolete channel label on Net-(Q12-G)
+PASS: No obsolete channel label on Net-(Q13-G)
+PASS: No obsolete channel label on Net-(Q14-G)
+PASS: No obsolete channel label on Net-(Q15-G)
+PASS: No obsolete channel label on Net-(Q16-G)
+PASS: No obsolete channel label on Net-(Q17-G)
+PASS: No obsolete channel label on Net-(Q18-G)
+PASS: No obsolete channel label on Net-(Q19-G)
+PASS: No obsolete channel label on Net-(Q20-G)
+PASS: No obsolete channel label on Net-(Q21-G)
+PASS: No obsolete channel label on Net-(Q22-G)
+PASS: No obsolete channel label on Net-(Q23-G)
+PASS: No obsolete channel label on Net-(Q24-G)
+PASS: No obsolete channel label on Net-(Q25-G)
+PASS: No obsolete channel label on Net-(Q26-G)
+PASS: No obsolete channel label on Net-(Q27-G)
+PASS: No obsolete channel label on Net-(Q28-G)
+PASS: No obsolete channel label on Net-(Q29-G)
+PASS: No obsolete channel label on Net-(Q30-G)
+PASS: No obsolete channel label on Net-(U2-BOOT)
+PASS: No obsolete channel label on Net-(U2-EN)
+PASS: No obsolete channel label on Net-(U2-FB)
+PASS: No obsolete channel label on Net-(U2-SW)
+PASS: No obsolete channel label on Net-(U7-B0)
+PASS: No obsolete channel label on Net-(U7-B1)
+PASS: No obsolete channel label on Net-(U7-B2)
+PASS: No obsolete channel label on Net-(U7-B3)
+PASS: No obsolete channel label on Net-(U7-B4)
+PASS: No obsolete channel label on Net-(U7-B5)
+PASS: No obsolete channel label on Net-(U7-B6)
+PASS: No obsolete channel label on Net-(U7-B7)
+PASS: No obsolete channel label on Net-(U8-B0)
+PASS: No obsolete channel label on Net-(U8-B2)
+PASS: No obsolete channel label on Net-(U8-B3)
+PASS: No obsolete channel label on Net-(U8-B4)
+PASS: No obsolete channel label on SW_01
+PASS: No obsolete channel label on SW_02
+PASS: No obsolete channel label on SW_03
+PASS: No obsolete channel label on SW_04
+PASS: No obsolete channel label on SW_05
+PASS: No obsolete channel label on SW_06
+PASS: No obsolete channel label on SW_07
+PASS: No obsolete channel label on SW_08
+PASS: No obsolete channel label on SW_09
+PASS: No obsolete channel label on SW_10
+PASS: No obsolete channel label on SW_11
+PASS: No obsolete channel label on SW_12
+PASS: No obsolete channel label on SW_13
+PASS: No obsolete channel label on SW_14
+PASS: No obsolete channel label on SW_15
+PASS: No obsolete channel label on SW_16
+PASS: No obsolete channel label on SW_17
+PASS: No obsolete channel label on SW_18
+PASS: No obsolete channel label on SW_19
+PASS: No obsolete channel label on SW_20
+PASS: No obsolete channel label on SW_21
+PASS: No obsolete channel label on SW_22
+PASS: No obsolete channel label on SW_23
+PASS: No obsolete channel label on SW_24
+PASS: No obsolete channel label on SW_25
+PASS: No obsolete channel label on SW_26
+PASS: No obsolete channel label on SW_27
+PASS: No obsolete channel label on SW_28
+PASS: No obsolete channel label on SW_29
+PASS: No obsolete channel label on SW_30
+PASS: No obsolete channel label on SW_31
+PASS: No obsolete channel label on SW_32
+PASS: No obsolete channel label on unconnected-(A1-3V3_EN-Pad37)
+PASS: No obsolete channel label on unconnected-(A1-ADC_VREF-Pad35)
+PASS: No obsolete channel label on unconnected-(A1-AGND-Pad33)
+PASS: No obsolete channel label on unconnected-(A1-GPIO16-Pad21)
+PASS: No obsolete channel label on unconnected-(A1-GPIO17-Pad22)
+PASS: No obsolete channel label on unconnected-(A1-GPIO18-Pad24)
+PASS: No obsolete channel label on unconnected-(A1-GPIO19-Pad25)
+PASS: No obsolete channel label on unconnected-(A1-GPIO20-Pad26)
+PASS: No obsolete channel label on unconnected-(A1-GPIO21-Pad27)
+PASS: No obsolete channel label on unconnected-(A1-GPIO22-Pad29)
+PASS: No obsolete channel label on unconnected-(A1-GPIO26_ADC0-Pad31)
+PASS: No obsolete channel label on unconnected-(A1-GPIO27_ADC1-Pad32)
+PASS: No obsolete channel label on unconnected-(A1-GPIO28_ADC2-Pad34)
+PASS: No obsolete channel label on unconnected-(A1-RUN-Pad30)
+PASS: No obsolete channel label on unconnected-(A1-VBUS-Pad40)
+PASS: No obsolete channel label on unconnected-(J41-Pin_1-Pad1)
+PASS: No obsolete channel label on unconnected-(J41-Pin_2-Pad2)
+PASS: No obsolete channel label on unconnected-(J42-Pin_1-Pad1)
+PASS: No obsolete channel label on unconnected-(J42-Pin_2-Pad2)
+PASS: No obsolete channel label on unconnected-(U1-INTA-Pad20)
+PASS: No obsolete channel label on unconnected-(U1-INTB-Pad19)
+PASS: No obsolete channel label on unconnected-(U1-NC-Pad11)
+PASS: No obsolete channel label on unconnected-(U1-NC-Pad14)
+PASS: No obsolete channel label on unconnected-(U4-INTA-Pad20)
+PASS: No obsolete channel label on unconnected-(U4-INTB-Pad19)
+PASS: No obsolete channel label on unconnected-(U4-NC-Pad11)
+PASS: No obsolete channel label on unconnected-(U4-NC-Pad14)
+PASS: No obsolete channel label on unconnected-(U5-INTA-Pad20)
+PASS: No obsolete channel label on unconnected-(U5-INTB-Pad19)
+PASS: No obsolete channel label on unconnected-(U5-NC-Pad11)
+PASS: No obsolete channel label on unconnected-(U5-NC-Pad14)
+PASS: No obsolete channel label on unconnected-(U6-GPB6-Pad7)
+PASS: No obsolete channel label on unconnected-(U6-GPB7-Pad8)
+PASS: No obsolete channel label on unconnected-(U6-INTA-Pad20)
+PASS: No obsolete channel label on unconnected-(U6-INTB-Pad19)
+PASS: No obsolete channel label on unconnected-(U6-NC-Pad11)
+PASS: No obsolete channel label on unconnected-(U6-NC-Pad14)
+PASS: No obsolete channel label on unconnected-(U8-B1-Pad17)
+PASS: No obsolete channel label on unconnected-(U8-B5-Pad13)
+PASS: No obsolete channel label on unconnected-(U8-B6-Pad12)
+PASS: No obsolete channel label on unconnected-(U8-B7-Pad11)
+PASS: J41 menu lamp pin1 disconnected
+PASS: J41 menu lamp pin2 disconnected
+PASS: J42 menu lamp pin1 disconnected
+PASS: J42 menu lamp pin2 disconnected
+PASS: Q31 surplus menu lamp component removed
+PASS: Q32 surplus menu lamp component removed
+PASS: R131 surplus menu lamp component removed
+PASS: R132 surplus menu lamp component removed
+PASS: R231 surplus menu lamp component removed
+PASS: R232 surplus menu lamp component removed
+PASS: U6 spare pin7 intentionally unused
+PASS: U6 spare pin8 intentionally unused
+PASS: 24LC256 U3 pin1 = GND
+PASS: 24LC256 U3 pin2 = GND
+PASS: 24LC256 U3 pin3 = GND
+PASS: 24LC256 U3 pin4 = GND
+PASS: 24LC256 U3 pin5 = /I2C_SDA
+PASS: 24LC256 U3 pin6 = /I2C_SCL
+PASS: 24LC256 U3 pin7 = GND
+PASS: 24LC256 U3 pin8 = +3V3
+PASS: R1 pin1 +3V3
+PASS: R1 pin2 /I2C_SDA
+PASS: R2 pin1 +3V3
+PASS: R2 pin2 /I2C_SCL
+PASS: R3 pin1 +3V3
+PASS: R3 pin2 /IO_RESET_N
+PASS: I2C has one 4.7k pull-up per line
+PASS: Reset has 10k pull-up
+PASS: C3 IC bypass 100nF across 3.3V and GND
+PASS: C4 IC bypass 100nF across 3.3V and GND
+PASS: C5 IC bypass 100nF across 3.3V and GND
+PASS: C6 IC bypass 100nF across 3.3V and GND
+PASS: C7 IC bypass 100nF across 3.3V and GND
+PASS: Every retained non-expander pin has exactly the same connectivity as before (excluding menu lamp pins)
+PASS: Memory_EEPROM:24LC256 complete symbol pin functions match datasheet SOIC pinout
+PASS: Interface_Expansion:MCP23017x-x-SO complete symbol pin functions match datasheet SOIC pinout
+PASS: MCP23017 GPB7/GPA7 are output-type pins in symbol
+PASS: U3 assigned correct SOIC package footprint
+PASS: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm pad numbering matches symbol
+PASS: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm pad1 location matches SOIC orientation/pitch
+PASS: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm pad8 location matches SOIC orientation/pitch
+PASS: U1 assigned correct SOIC package footprint
+PASS: Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm pad numbering matches symbol
+PASS: Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm pad1 location matches SOIC orientation/pitch
+PASS: Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm pad28 location matches SOIC orientation/pitch
+PASS: U1 uses verified wide SOIC-28 footprint
+PASS: U4 uses verified wide SOIC-28 footprint
+PASS: U5 uses verified wide SOIC-28 footprint
+PASS: U6 uses verified wide SOIC-28 footprint
+PASS: ERC contains no new findings relative to pre-edit baseline
+ERC baseline: Counter({('lib_symbol_mismatch', 'warning'): 312, ('four_way_junction', 'warning'): 4, ('power_pin_not_driven', 'error'): 3})
+ERC revised: Counter({('lib_symbol_mismatch', 'warning'): 300, ('four_way_junction', 'warning'): 4, ('power_pin_not_driven', 'error'): 3})
