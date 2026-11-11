@@ -5,7 +5,7 @@
 	(uuid "80667439-1028-4ad9-9c29-b647394b7198")
 	(paper "A4")
 	(title_block
-		(title "Photo-matched HUB75 scoreboard / A-B-C scan")
+		(title "Scoreboard")
 		(date "2026-11-05")
 		(rev "Schematic review")
 		(company "UW-Madison IEEE")
