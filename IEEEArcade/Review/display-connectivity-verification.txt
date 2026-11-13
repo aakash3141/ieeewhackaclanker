@@ -1,9 +1,0 @@
-Display revision verification (2026-11-05)
-PASS: All 16 J3 pins match photographed ABC HUB75 assignment; pin12 GND.
-PASS: Six RGB, A/B/C, CLK, LAT/STB and active-low OE routes retained through AHCT/33R.
-PASS: Display supply J4 isolated from controller +5V buck; both AHCT VCC/DIR and bypass caps on +5V_DISPLAY.
-PASS: Q34/R510/R610 buffer enable and R514 output-OE pull-up match reset-safe design.
-PASS: Only the 16 expected existing component-pin net assignments changed. All other pins, including button banks, expanders and reverse-protection Q33, unchanged.
-PASS: Only Q34 and R514 added; R510 changes 33R to 10k; all retained symbol identities/footprints preserved.
-PASS: ERC diagnostic counts unchanged from current project before revision: 1 existing power-pin error (A1 VSYS), 4 four-way-junction warnings, 312 library-symbol mismatch warnings. No additional diagnostics.
-NOT VERIFIED: Panel rated voltage/current, physical connector mate/pin-1 orientation, scan mapping, pixel dimensions, refresh timing or operation on hardware.

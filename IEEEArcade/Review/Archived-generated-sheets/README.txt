@@ -1,1 +1,0 @@
-Superseded generated sheets from November 4. Their circuitry is consolidated into the root IEEEArcade.kicad_sch. These files are not linked to the active project. Do not add them as duplicate child sheets. Original user drafts are preserved separately in the project root and the dated backup archives.

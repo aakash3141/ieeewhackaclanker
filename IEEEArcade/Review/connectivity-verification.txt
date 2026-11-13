@@ -1,9 +1,0 @@
-Historical verification from the earlier schematic revision. Current display revision: see display-connectivity-verification.txt, ERC-display.rpt and DISPLAY_WIRING.md.
-
-PASS: All 32 button connectors, MOSFET G/S/D pins, gate resistors, pull-downs and input filters match channel numbers.
-PASS: Four expanders have unique addresses 0x20/0x27/0x21/0x22 and complete, ordered 32-input / 32-output mapping.
-PASS: Pico I2C1 GPIO14/15, EEPROM 0x50, write-enable and shared active-low reset verified from exported netlist.
-PASS: TPS54202H pinout, feedback network, reverse-FET orientation, inductor path and USB isolation diode polarity verified.
-PASS: All 13 provisional HUB75 signals, 3.3V-to-5V buffers, damping resistors, blanking pull-up and header grounds verified. Panel compatibility remains UNVERIFIED.
-PASS: All 324 schematic BOM references contain procurement fields; every connected PCB pin maps to an existing pad in its assigned footprint.
-PASS: PCB SHA256 unchanged: 11AEA2C4FE51607D5259807815A89546BF4C9B34B4513FD16C769A6FC3B8C48B
